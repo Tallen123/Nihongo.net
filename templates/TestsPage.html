@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{{ url_for('static',    filename='css/TestsPage.css') }}">
+<title>
+    Nihongo.net
+</title>
+<header>
+    <h1 class="Name" style="font-size: 1.5rem;">Nihongo.net</h1>
+</header>
+<div style="text-align: center;">
+    <h2 class="Score" id="Score">Score: 0/46</h2>
+</div>
+
+<body>
+    <h3 class="Info" id="Test_Name"></h3>
+</body>
+<div id="div">
+</div>
+<script>
+    function shuffle(array) {
+        array.sort(() => Math.random() - 0.5);
+    }
+
+    function randomize(number) {
+        return Math.floor(Math.random() * 46)
+    }
+    const indexs = [];
+    var div = document.getElementById("div");
+    var h2 = document.createElement("h2");
+    var score = document.getElementById("Score");
+    var button1 = document.createElement("button");
+    var button2 = document.createElement("button");
+    var button3 = document.createElement("button");
+    var button4 = document.createElement("button");
+
+    var table = document.createElement("table");
+    var tbody = document.createElement("tbody");
+    var tr1 = document.createElement("tr");
+    var tr = document.createElement("tr");
+    var td = document.createElement("td");
+    var td1 = document.createElement("td");
+    var br = document.createElement("br");
+    var Score = 0;
+
+    function Hiragana() {
+        var Questions = [
+            "a", "e", "o", "u", "i",
+            "ka", "ke", "ko", "ku", "ki",
+            "sa", "se", "so", "su", "shi",
+            "ta", "te", "to", "tsu", "chi",
+            "na", "ne", "no", "nu", "ni",
+            "ha", "he", "ho", "fu", "hi",
+            "ma", "me", "mo", "mu", "mi",
+            "ya", "yo", "yu",
+            "ra", "re", "ro", "ru", "ri",
+            "wa", "n", "wo"
+        ];
+        var answers = [
+            a = "あ",
+            e = "え",
+            o = "お",
+            u = "う",
+            i = "い",
+            ka = "か",
+            ke = "け",
+            ko = "こ",
+            ku = "く",
+            ki = "き",
+            sa = "さ",
+            se = "せ",
+            so = "そ",
+            su = "す",
+            shi = "し",
+            ta = "た",
+            te = "て",
+            to = "と",
+            tsu = "つ",
+            chi = "ち",
+            na = "な",
+            ne = "ね",
+            no = "の",
+            nu = "ぬ",
+            ni = "に",
+            ha = "は",
+            he = "へ",
+            ho = "ほ",
+            fu = "ふ",
+            hi = "ひ",
+            ma = "ま",
+            me = "め",
+            mo = "も",
+            mu = "む",
+            mi = "み",
+            ya = "や",
+            yo = "よ",
+            yu = "ゆ",
+            ra = "ら",
+            re = "れ",
+            ro = "ろ",
+            ru = "る",
+            ri = "り",
+            wa = "わ",
+            n = "ん",
+            wo = "を"
+        ];
+
+        //shuffle(Multi_question)
+
+
+
+
+        var name = document.getElementById("name");
+        var rand_num = randomize();
+        if (indexs.includes(rand_num)) {
+            rand_num = randomize();
+            Hiragana();
+        }
+        if (indexs.length == 46) {
+            div.hidden = true;
+        }
+        indexs.push(rand_num);
+        console.log(indexs)
+
+        var question = Questions[rand_num]
+        console.log(question)
+        h2.className = "Info"
+        h2.style.paddingTop = "2%"
+        h2.innerHTML = question;
+        h2.style.fontSize = "xxx-large"
+        div.appendChild(h2);
+        div.appendChild(br);
+
+
+        var correct = answers[rand_num]
+        var one = randomize();
+        var two = randomize();
+        var three = randomize();
+        var Multi_question = [correct, answers[one], answers[two], answers[three]];
+        shuffle(Multi_question)
+
+        table.style.width = "100%"
+        tr.style.width = "50%"
+        div.style.textAlign = "center"
+        div.appendChild(table)
+        table.appendChild(tbody);
+        tbody.appendChild(tr);
+        tr.appendChild(td);
+        td.appendChild(button1)
+        button1.innerHTML = Multi_question[0]
+        button2.innerHTML = Multi_question[1]
+        button3.innerHTML = Multi_question[2]
+        button4.innerHTML = Multi_question[3]
+
+        button1.onclick = function() {
+            if (button1.innerText == correct) {
+                Score++
+                score.innerHTML = "score: " + Score + "/46";
+                Hiragana();
+            } else {
+                Hiragana();
+            }
+        }
+        button2.onclick = function() {
+            if (button2.innerText == correct) {
+                Score++
+                score.innerHTML = "score: " + Score + "/46";
+                Hiragana();
+            } else {
+                Hiragana();
+            }
+        }
+        button3.onclick = function() {
+            if (button3.innerText == correct) {
+                Score++
+                score.innerHTML = "score: " + Score + "/46";
+                Hiragana();
+            } else {
+                Hiragana();
+            }
+        }
+        button4.onclick = function() {
+            if (button4.innerText == correct) {
+                Score++
+                score.innerHTML = "score: " + Score + "/46";
+                Hiragana();
+            } else {
+                Hiragana();
+            }
+        }
+
+
+
+        td.appendChild(button2)
+
+        tbody.appendChild(tr1);
+        tr1.appendChild(td1);
+        td1.appendChild(button3)
+        td1.appendChild(button4)
+
+    }
+</script>
+<script>
+    var loc = document.location.toString();
+    var pos1 = loc.indexOf("?");
+    var test = loc.slice(pos1 + 1, loc.length);
+    var Test_Name = document.getElementById("Test_Name");
+    console.log(test);
+    Test_Name.innerHTML = test + " Test";
+    if (test == "Hirigana") {
+        Hiragana();
+    }
+</script>
+
+</html>

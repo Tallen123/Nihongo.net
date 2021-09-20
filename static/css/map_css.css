@@ -1,0 +1,78 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background-image: url("map_background.jpg");
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Map {
+    height: 25rem;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    list-style: none;
+    position: relative;
+}
+
+.Desc,
+li {
+    text-align: center;
+    background-color: #434343;
+    color: #f0f0ff;
+    list-style: none;
+    margin-left: 8%;
+    margin-right: 8%;
+    user-select: none;
+}
+
+.title {
+    color: white;
+    text-align: left;
+    font-size: auto;
+    user-select: none;
+}
+
+.SubTitle {
+    text-align: center;
+    user-select: none;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: 0;
+    text-decoration: none;
+    padding: 10px;
+    width: 5rem;
+    color: white;
+    background: black;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: -1px 10px 100px black;
+}
+
+button:hover {
+    color: black;
+    background: white;
+}
+
+:-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

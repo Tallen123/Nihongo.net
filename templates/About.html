@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{{ url_for('static',    filename='css/About.css') }}">
+<title>
+    Nihongo.net
+</title>
+<header>
+    <h1 class="Name" style="font-size: 2.6rem;">Nihongo.net</h1>
+</header>
+
+<body>
+    <div style="text-align: center;">
+        <button id="Back" style=" position:relative;top: 8.5rem; font-size: x-large;">Back</button>
+    </div>
+    <br><br><br>
+    <script>
+        var Back = document.getElementById("Back");
+        Back.onclick = function() {
+            document.location = "/"
+        }
+    </script>
+    <div class="Info">
+        <h2>Developers of Nihongo.net:</h2>
+        <br>
+        <h3>T.Thompson and Sam L.Westman</h3>
+        <br>
+        <br>
+        <h2>Voice Actress:</h2>
+        <br>
+        <h3>itsrikareok</h3>
+        <br>
+        <br>
+        <h2>Thanks to all the authors of the images used on the site: </h2>
+        <br>
+        <h3>
+            <a href="https://www.pexels.com/@evgeny-tchebotarev-1058775" style="color: white;">E.Tchebotarev</a>
+        </h3>
+        <br>
+        <h2>And a special thanks to all the photographers that uploaded images to the public domain. You saved us time and money. Mainly money.</h2>
+    </div>
+</body>
+<html>
+
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<script src="/js/leaflet.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/js/leaflet.css" />
+<script src="/path/to/leaflet.js"></script>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{{ url_for('static',    filename='css/map_css.css') }}">
+</head>
+<title>
+    Places in Japan
+</title>
+<header>
+    <div class="title">
+        <h1 class="Name">Nihongo.net</h1>
+        <div style="text-align: center;">
+            <button id="Back" style="font-size: x-large;">Back</button>
+            <script>
+                var Back = document.getElementById("Back");
+                Back.onclick = function() {
+                    document.location = "/"
+                }
+            </script>
+        </div>
+        <h2 class="SubTitle">Map of Japan and Prefectures</h2>
+    </div>
+    <div id="Map" class="Map">
+
+    </div>
+    <script type="text/javascript">
+        var map = L.map('Map').setView([36.2048, 138.2529], 7);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([35.1815, 136.9066]).addTo(map)
+            .bindPopup('Nagoya')
+
+        L.marker([39.7200, 140.1035]).addTo(map)
+            .bindPopup('Akita')
+
+        L.marker([40.8222, 140.7474]).addTo(map)
+            .bindPopup('Aomori')
+
+        L.marker([35.6074, 140.1065]).addTo(map)
+            .bindPopup('Chiba')
+
+        L.marker([33.8394, 132.7653]).addTo(map)
+            .bindPopup('Matsuyama')
+
+        L.marker([36.0641, 136.2196]).addTo(map)
+            .bindPopup('Fukui')
+
+        L.marker([33.5902, 130.4017]).addTo(map)
+            .bindPopup('Fukuoka')
+
+        L.marker([35.4234, 136.7606]).addTo(map)
+            .bindPopup('Gifu')
+
+        L.marker([36.3895, 139.0634]).addTo(map)
+            .bindPopup('Maebashi')
+
+        L.marker([34.3853, 132.4553]).addTo(map)
+            .bindPopup('Hiroshima')
+
+        L.marker([43.0618, 141.3545]).addTo(map)
+            .bindPopup('Sapporo')
+
+        L.marker([34.6901, 135.1956]).addTo(map)
+            .bindPopup('Kōbe')
+
+        L.marker([36.3659, 140.4714]).addTo(map)
+            .bindPopup('Mito')
+
+        L.marker([36.5610, 136.6566]).addTo(map)
+            .bindPopup('Kanazawa')
+
+        L.marker([39.7020, 141.1543]).addTo(map)
+            .bindPopup('Morioka')
+
+        L.marker([34.3425, 134.0465]).addTo(map)
+            .bindPopup('Takamatsu')
+
+        L.marker([31.5969, 130.5571]).addTo(map)
+            .bindPopup('Kagoshima')
+
+        L.marker([35.4437, 139.6380]).addTo(map)
+            .bindPopup('Yokohama')
+
+        L.marker([33.5481, 133.2522]).addTo(map)
+            .bindPopup('Kōchi')
+
+        L.marker([32.8032, 130.7079]).addTo(map)
+            .bindPopup('Kumamoto')
+
+        L.marker([35.0116, 135.7681]).addTo(map)
+            .bindPopup('Kyoto')
+
+        L.marker([34.7186, 136.5052]).addTo(map)
+            .bindPopup('Tsu')
+
+        L.marker([38.2682, 140.8694]).addTo(map)
+            .bindPopup('Sendai')
+
+        L.marker([31.9077, 131.4202]).addTo(map)
+            .bindPopup('Miyazaki')
+
+        L.marker([36.6485, 138.1950]).addTo(map)
+            .bindPopup('Nagano')
+
+        L.marker([32.7503, 129.8119]).addTo(map)
+            .bindPopup('Nagasaki')
+
+        L.marker([34.6851, 135.8048]).addTo(map)
+            .bindPopup('Nara')
+
+        L.marker([37.9161, 139.0364]).addTo(map)
+            .bindPopup('Niigata')
+
+        L.marker([33.2396, 131.6095]).addTo(map)
+            .bindPopup('Ōita')
+
+        L.marker([34.6555, 133.9198]).addTo(map)
+            .bindPopup('Okayama')
+
+        L.marker([26.2126, 127.6790]).addTo(map)
+            .bindPopup('Naha')
+
+        L.marker([34.6937, 135.5023]).addTo(map)
+            .bindPopup('Ōsaka')
+
+        L.marker([33.2631, 130.3009]).addTo(map)
+            .bindPopup('Saga')
+
+        L.marker([35.8616, 139.6455]).addTo(map)
+            .bindPopup('Saitama')
+
+        L.marker([35.0178, 135.8552]).addTo(map)
+            .bindPopup('Ōtsu')
+
+        L.marker([35.4682, 133.0484]).addTo(map)
+            .bindPopup('Matsue')
+
+        L.marker([34.9756, 138.3827]).addTo(map)
+            .bindPopup('Shizuoka')
+
+        L.marker([36.5551, 139.8826]).addTo(map)
+            .bindPopup('Utsonomiya')
+
+        L.marker([34.0704, 134.5550]).addTo(map)
+            .bindPopup('Tokushima')
+
+        L.marker([35.6762, 139.6503]).addTo(map)
+            .bindPopup('Tokyo')
+
+        L.marker([35.5011, 134.2351]).addTo(map)
+            .bindPopup('Tottori')
+
+        L.marker([36.6958, 137.2137]).addTo(map)
+            .bindPopup('Toyama')
+
+        L.marker([34.2304, 135.1707]).addTo(map)
+            .bindPopup('Wakayama')
+
+        L.marker([38.2554, 140.3396]).addTo(map)
+            .bindPopup('Yamagata')
+
+        L.marker([34.1783, 131.4738]).addTo(map)
+            .bindPopup('Yamaguchi')
+
+        L.marker([35.6621, 138.5683]).addTo(map)
+            .bindPopup('Kōfu')
+    </script>
+
+
+</header>
+
+<head>
+</head>
+
+<body>
+    <div class="Desc">
+        <h2 style="text-align: center;">Recommended Locations in Japan:</h2>
+        <ul>
+            <li>
+                <h2>The Kiso Valley</h2>
+                <p style="font-size:large;">
+                    In the Nagano Prefecture, the Kiso Valley is along the mountains of the Central Alps. The Valley got its name in ancient times for being a trade route called, Kisoji, which proved to be a vital to the business in the area.
+                </p>
+            </li>
+            <li>
+                <h2>Arashiyama</h2>
+                <p style="font-size:large;">
+                    On the Western outskirts of Kyoto. This location is most popular during the cherry blossom and fall seasons. The word 'Arashiyama'refers to the mountains on the southern bank of the river but it's also used to the name the entire district.
+                </p>
+            </li>
+            <li>
+                <h2>Nara Park</h2>
+                <p style="font-size: large;">
+                    A large park in central Nara, which the main attraction however it is home to hundreds of free roaming deer. You can even feed them, although they don't like to be teased with food, so definitely don't do that.
+                </p>
+            </li>
+        </ul>
+    </div>
+</body>
+<footer style="text-align: center; user-select: none; text-decoration: none; color: white;">Made By T.Thompson, S.Westman and <a href="https://www.youtube.com/channel/UCXXxunBSIz-4-Z1FpppDOVA" style="color: white;">itsrikareok</a>. Thank you <a href="https://www.pexels.com/@evgeny-tchebotarev-1058775" style="color: white;">E.Tchebotarev</a>    for the amazing image of japan
+    <br> <a href="/About" style="color: white;"> About</a>
+</footer>
+
+</html>

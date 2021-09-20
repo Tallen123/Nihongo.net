@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #000066 0%, #9900ff 100%);
+    padding-bottom: 2.5rem;
+    position: relative;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px, 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 1%;
+}
+
+header .Name {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: default;
+    user-select: none;
+    display: flex;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.Menu_Bar {
+    top: 0%;
+    right: 0%;
+    position: fixed;
+    z-index: 1;
+    user-select: none;
+}
+
+.Side_Bar {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    opacity: 0%;
+    padding-top: 10%;
+    box-shadow: -1px 1px 50px black;
+    user-select: none;
+}
+
+@keyframes Side_Bar_anim {
+    0% {
+        opacity: 0%;
+        transform: scale(.5)
+    }
+    100% {
+        opacity: 100%;
+        transform: scale(1)
+    }
+}
+
+@keyframes Side_Bar_anim_rev {
+    0% {
+        opacity: 100%;
+        transform: scale(1)
+    }
+    100% {
+        opacity: 0%;
+        transform: scale(.5)
+    }
+}
+
+.List {
+    outline: none;
+    background: none;
+    text-decoration: none;
+    padding: 6px;
+    color: #fff;
+    cursor: pointer;
+    list-style: none;
+}
+
+.List li {
+    padding: 6px;
+}
+
+.Active {
+    background: #fff;
+    color: black;
+}
+
+header ul li button:hover {
+    background: #fff;
+    color: black;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: 0;
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    color: #2b1055;
+    cursor: pointer;
+    background: #fff;
+    z-index: 2;
+}
+
+#Alphabet_page button {
+    width: 10rem;
+}
+
+#Vocabulary_Page button {
+    width: 10rem;
+}
+
+.Sudo_body {
+    width: auto;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+.Formal-Greatings {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: large;
+}
+
+body button {
+    background: none;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-size: medium;
+}
+
+body button:hover {
+    background: #fff;
+    color: #2b1055;
+}
+
+table {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#Hiragana table tbody tr td p {
+    background-color: black;
+    cursor: pointer;
+}
+
+.Hirigana_test_button:hover {
+    background-color: black;
+    color: white;
+}
+
+.Hirigana_test_button {
+    background-color: white;
+    color: black;
+}
+
+#Kanji table tbody tr td p {
+    background-color: black;
+    cursor: pointer;
+}
+
+#Katakana table tbody tr td p {
+    background-color: black;
+    cursor: pointer;
+}
+
+:-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

@@ -1,0 +1,114 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #000066 0%, #9900ff 100%);
+    padding-bottom: 2.5rem;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yakitori_img {
+    background-image: url(/static/css/yakitori.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.yakitori_table {
+    height: 30rem;
+    background-color: teal;
+    box-shadow: -1px 1px 50px black;
+}
+
+.yakitori {
+    user-select: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.Udon {
+    user-select: none;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.Udon_table {
+    height: 30rem;
+    background-color: teal;
+    box-shadow: -1px 1px 50px black;
+}
+
+.Udon_img {
+    background-image: url(/static/css/Udon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: 0;
+    text-decoration: none;
+    padding: 10px;
+    width: 5rem;
+    color: white;
+    background: black;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: -1px 10px 100px black;
+}
+
+button:hover {
+    color: black;
+    background: white;
+}
+
+.Sushi {
+    user-select: none;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.Sushi_table {
+    height: 30rem;
+    background-color: teal;
+    box-shadow: -1px 1px 50px black;
+}
+
+.Sushi_img {
+    background-image: url(/static/css/sushi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tempura {
+    user-select: none;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.tempura_table {
+    height: 30rem;
+    background-color: teal;
+    box-shadow: -1px 1px 50px black;
+}
+
+.tempura_img {
+    background-image: url(/static/css/tempura.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
