@@ -1045,45 +1045,43 @@
             <h2>Grammar</h2>
         </div>
         <div id="Vocabulary_Page" hidden>
-
             <h2>Vocabulary</h2>
             <br>
-            <h3 hidden id="moduleTitle">Module 1 - Greatings and Farewells</h3>
-            <div hidden id="Module_1">
+            <h3 id="moduleTitle">Module 1 - Greatings and Farewells</h3>
+            <div id="Module_1">
                 <br>
                 <div id="Greatings-Farewellls">
                     <h2>Formal Greatings and Farewells</h2>
                     <br>
-
                     <table width=100% class="Formal-Greatings">
                         <tbody>
                             <tr>
-                                <td width=33% style="background: black;">
+                                <td width=16% style="background: black;">
                                     <p>Good Morning</p>
                                     <p>Ohayō gozaimasu</p>
                                     <p>(おはようございます)</p>
                                 </td>
-                                <td width=33% style="background: black;">
+                                <td width=16% style="background: black;">
                                     <p>Good Afternoon / Hello</p>
                                     <p>Kon'nichiwa</p>
                                     <p>(こんにちは)</p>
                                 </td>
-                                <td width=33% style="background: black;">
+                                <td width=16% style="background: black;">
                                     <p>Good Evening</p>
                                     <p>Konbanwa</p>
                                     <p>(こんばんわ)</p>
                                 </td>
                             </tr>
                             <tr>
-                                <td width=33% style="background: black;">
+                                <td width=16% style="background: black;">
                                     <p>Good Night</p>
                                     <p>Oyasuminasai</p>
                                     <p>(おやすみなさい)</p>
                                 </td>
-                                <td width=33% style="background: black;">
+                                <td width=16% style="background: black;">
 
                                 </td>
-                                <td width=33% style="background: black;">
+                                <td width=16% style="background: black;">
                                     <p>GoodBye</p>
                                     <p>Sayōnara</p>
                                     <p>(さようなら)</p>
@@ -1160,19 +1158,20 @@
                 </tbody>
             </table>
             <br>
-            <p style="padding-left: 10%;padding-right: 10%;">
+            <p style="padding-left: 10%;padding-right: 10%; background: transparent;">
                 For counting past 10 in Japanese, it's rather simple. Take the kanji for 1 - 9 and add them onto the kanji for any of the ten's. for example:
-                <br><br> 十 (juu) + 一 (ichi) = 十一 (juuichi)
+                <br><br> <mark style="background: black; color: white;padding: 0.3%;">十 (juu) + 一 (ichi) = 十一 (juuichi)</mark>
                 <br><br> But for the ten's you take ten 十 (juu) and add any single digit to the front of it this is the same for all of the ten's
-                <br><br> ニ (ni) + 十 (juu) = 二十 (nijuu)
+                <br><br> <mark style="background: black; color: white;padding: 0.3%;">ニ (ni) + 十 (juu) = 二十 (nijuu)</mark>
             </p>
             <br><br>
-            <p style="padding-left: 10%;padding-right: 10%;">
+            <p style="padding-left: 10%;padding-right: 10%;background: transparent;">
                 When counting in the hundreds, for the first number you take any single digit kanji and add that to the front of 100 (hyaku), then for the ten's you do the same as mentioned above and then add any single digit kanji to get your number for example:
-                <br><br> 2(nii)（二） + 100(hyaku) (百) + 20(niijuu) (二十) + 2(nii)（二）<br> = 222 (二百二十二) (niihyakuniijuunii)
+                <br><br><mark style="background: black; color: white;padding: 0.3%;">2(nii)（二） + 100(hyaku) (百) + 20(niijuu) (二十)</mark><br><mark style="background: black; color: white;padding: 0.3%;"> = 222 (二百二十二) (niihyakuniijuunii)</mark>
+
             </p>
             <br><br>
-            <p style="padding-left: 10%;padding-right: 10%;">
+            <p style="padding-left: 10%;padding-right: 10%;background: transparent;">
                 Disclamer: Some numbers change depending on the what kind of thing you’re referring to in a given moment, but this will be enough to get you through a casual day.
             </p>
         </div>
@@ -1181,6 +1180,7 @@
             <h2>Phonetics</h2>
         </div>
         <script>
+            var Menu = document.getElementById("Menu")
             var home = document.getElementById("Home");
             var Alphabet = document.getElementById("Alphabet");
             var Grammar = document.getElementById("Grammar");
@@ -1208,6 +1208,7 @@
                 Numbers.className = " ";
                 Phonetics.className = " ";
                 Vocabulary.className = " ";
+                Menu.click();
             }
             Alphabet.onclick = function() {
                 Alphabet_page.hidden = false;
@@ -1222,6 +1223,7 @@
                 Numbers.className = " ";
                 Phonetics.className = " ";
                 Vocabulary.className = " ";
+                Menu.click();
             }
             Grammar.onclick = function() {
                 Grammar_Page.hidden = false;
@@ -1236,6 +1238,7 @@
                 Numbers.className = " ";
                 Phonetics.className = " ";
                 Vocabulary.className = " ";
+                Menu.click();
             }
             Vocabulary.onclick = function() {
                 Vocabulary_Page.hidden = false;
@@ -1250,6 +1253,7 @@
                 Alphabet.className = " ";
                 Numbers.className = " ";
                 Phonetics.className = " ";
+                Menu.click();
             }
             Numbers.onclick = function() {
                 Numbers_Page.hidden = false;
@@ -1264,6 +1268,7 @@
                 Alphabet.className = " ";
                 Vocabulary.className = " ";
                 Phonetics.className = " ";
+                Menu.click();
             }
             Phonetics.onclick = function() {
                 Phonetics_Page.hidden = false;
@@ -1278,6 +1283,7 @@
                 home.className = " ";
                 Alphabet.className = " ";
                 Vocabulary.className = " ";
+                Menu.click();
             }
         </script>
     </section>

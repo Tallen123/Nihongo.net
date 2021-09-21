@@ -2,25 +2,31 @@
 <html>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="{{ url_for('static',    filename='css/TestsPage.css') }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
     Nihongo.net
 </title>
-<header>
+<header style="height: 1rem;">
     <h1 class="Name" style="font-size: 1.5rem;">Nihongo.net</h1>
 </header>
-<div style="text-align: center;">
-    <h2 class="Score" id="Score">Score: 0/46</h2>
-</div>
 
 <body>
+    <div style="text-align: center;">
+        <h2 class="Score" id="Score">Score: 0/46</h2>
+        <button style="margin-top: 1.5%;margin-bottom: -1%;" id="Back">Back</button>
+        <script>
+            var Back = document.getElementById("Back");
+            Back.onclick = function() {
+                document.location = "/";
+            }
+        </script>
+    </div>
     <h3 class="Info" id="Test_Name"></h3>
 </body>
 <div id="div">
 </div>
 <script>
-    function shuffle(array) {
-        array.sort(() => Math.random() - 0.5);
-    }
+    const isMobile = ('ontouchstart' in document.documentElement && navigator.userAgent.match(/Mobi/));
 
     function randomize(number) {
         return Math.floor(Math.random() * 46)
@@ -42,6 +48,7 @@
     var td1 = document.createElement("td");
     var br = document.createElement("br");
     var Score = 0;
+
 
     function Hiragana() {
         var Questions = [
@@ -105,17 +112,11 @@
             wo = "を"
         ];
 
-        //shuffle(Multi_question)
-
-
-
-
+        function shuffle(array) {
+            array.sort(() => Math.random() - 0.5);
+        }
         var name = document.getElementById("name");
         var rand_num = randomize();
-        if (indexs.includes(rand_num)) {
-            rand_num = randomize();
-            Hiragana();
-        }
         if (indexs.length == 46) {
             div.hidden = true;
         }
@@ -197,7 +198,9 @@
         tr1.appendChild(td1);
         td1.appendChild(button3)
         td1.appendChild(button4)
-
+        if (isMobile) {
+            score.style.paddingTop = "15%"
+        }
     }
 </script>
 <script>

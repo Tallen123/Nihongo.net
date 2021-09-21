@@ -31,7 +31,6 @@ header .Name {
     font-weight: 700;
     text-decoration: none;
     font-size: 1.5em;
-    text-transform: uppercase;
     letter-spacing: 2px;
     cursor: default;
     user-select: none;
@@ -130,15 +129,17 @@ button {
     width: auto;
     color: #fff;
     text-align: center;
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     user-select: none;
 }
 
 .Formal-Greatings {
-    padding-left: 20%;
-    padding-right: 20%;
-    font-size: large;
+    margin: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    white-space: nowrap;
+    font-weight: 500;
+    size: auto;
 }
 
 body button {
@@ -194,4 +195,12 @@ table {
 html {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+.Numbers_Page p {
+    background: black;
+}
+
+td {
+    cursor: pointer;
 }
