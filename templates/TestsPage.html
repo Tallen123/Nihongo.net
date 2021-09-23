@@ -203,9 +203,9 @@
         }
     }
 
-    function Katakana(){
-            var Questions = [
-                "a", "e", "o", "u", "i",
+    function Katakana() {
+        var Questions = [
+            "a", "e", "o", "u", "i",
             "ka", "ke", "ko", "ku", "ki",
             "sa", "se", "so", "su", "shi",
             "ta", "te", "to", "tsu", "chi",
@@ -216,7 +216,7 @@
             "ra", "re", "ro", "ru", "ri",
             "wa", "n", "wo"
         ];
-            var answers = [
+        var answers = [
             a = "ア",
             e = "エ",
             o = "オ",
@@ -263,14 +263,14 @@
             wa = "ワ",
             n = "ン",
             wo = "ヲ"
-            ];
+        ];
 
-            function shuffle(array) {
+        function shuffle(array) {
             array.sort(() => Math.random() - 0.5);
         }
         var name = document.getElementById("name");
         var rand_num = randomize();
-        if (indexs.length == 46) {
+        if (indexs.length == 48) {
             div.hidden = true;
         }
         indexs.push(rand_num);
