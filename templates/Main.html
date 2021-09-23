@@ -27,7 +27,7 @@
                 <script>
                     var map = document.getElementById("Map");
                     var Food = document.getElementById("Food");
-                    var history = document.getElementById("History");
+                    var historyBtn = document.getElementById("History");
                     map.onclick = function() {
                         var current = document.location.href;
                         document.location = current + "/map"
@@ -36,11 +36,10 @@
                         var current = document.location.href;
                         document.location = current + "/food"
                     }
-                    history.onclick = function(){
+                    historyBtn.onclick = function() {
                         var current = document.location.href;
                         document.location = current + "/History"
                     }
-
                 </script>
                 <script>
                     var Menu = document.getElementById("Menu");
