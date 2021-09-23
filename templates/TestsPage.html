@@ -202,6 +202,159 @@
             score.style.paddingTop = "15%"
         }
     }
+
+    function Katakana(){
+            var Questions = [
+                "a", "e", "o", "u", "i",
+            "ka", "ke", "ko", "ku", "ki",
+            "sa", "se", "so", "su", "shi",
+            "ta", "te", "to", "tsu", "chi",
+            "na", "ne", "no", "nu", "ni",
+            "ha", "he", "ho", "fu", "hi",
+            "ma", "me", "mo", "mu", "mi",
+            "ya", "yo", "yu",
+            "ra", "re", "ro", "ru", "ri",
+            "wa", "n", "wo"
+        ];
+            var answers = [
+            a = "ア",
+            e = "エ",
+            o = "オ",
+            u = "ウ",
+            i = "イ",
+            ka = "カ",
+            ke = "ケ",
+            ko = "コ",
+            ku = "ク",
+            ki = "キ",
+            sa = "サ",
+            se = "セ",
+            so = "ソ",
+            su = "ス",
+            shi = "シ",
+            ta = "タ",
+            te = "テ",
+            to = "ト",
+            tsu = "ツ",
+            chi = "チ",
+            na = "ナ",
+            ne = "ネ",
+            no = "ノ",
+            nu = "ヌ",
+            ni = "ニ",
+            ha = "ハ",
+            he = "ヘ",
+            ho = "ホ",
+            fu = "フ",
+            hi = "ヒ",
+            ma = "マ",
+            me = "メ",
+            mo = "モ",
+            mu = "ム",
+            mi = "ミ",
+            ya = "ヤ",
+            yo = "ヨ",
+            yu = "ユ",
+            ra = "ラ",
+            re = "レ",
+            ro = "ロ",
+            ru = "ル",
+            ri = "リ",
+            wa = "ワ",
+            n = "ン",
+            wo = "ヲ"
+            ];
+
+            function shuffle(array) {
+            array.sort(() => Math.random() - 0.5);
+        }
+        var name = document.getElementById("name");
+        var rand_num = randomize();
+        if (indexs.length == 46) {
+            div.hidden = true;
+        }
+        indexs.push(rand_num);
+        console.log(indexs)
+
+        var question = Questions[rand_num]
+        console.log(question)
+        h2.className = "Info"
+        h2.style.paddingTop = "2%"
+        h2.innerHTML = question;
+        h2.style.fontSize = "xxx-large"
+        div.appendChild(h2);
+        div.appendChild(br);
+
+
+        var correct = answers[rand_num]
+        var one = randomize();
+        var two = randomize();
+        var three = randomize();
+        var Multi_question = [correct, answers[one], answers[two], answers[three]];
+        shuffle(Multi_question)
+
+        table.style.width = "100%"
+        tr.style.width = "50%"
+        div.style.textAlign = "center"
+        div.appendChild(table)
+        table.appendChild(tbody);
+        tbody.appendChild(tr);
+        tr.appendChild(td);
+        td.appendChild(button1)
+        button1.innerHTML = Multi_question[0]
+        button2.innerHTML = Multi_question[1]
+        button3.innerHTML = Multi_question[2]
+        button4.innerHTML = Multi_question[3]
+
+        button1.onclick = function() {
+            if (button1.innerText == correct) {
+                Score++
+                score.innerHTML = "score: " + Score + "/46";
+                Katakana();
+            } else {
+                Katakana();
+            }
+        }
+        button2.onclick = function() {
+            if (button2.innerText == correct) {
+                Score++
+                score.innerHTML = "score: " + Score + "/46";
+                Katakana();
+            } else {
+                Katakana();
+            }
+        }
+        button3.onclick = function() {
+            if (button3.innerText == correct) {
+                Score++
+                score.innerHTML = "score: " + Score + "/46";
+                Katakana();
+            } else {
+                Katakana();
+            }
+        }
+        button4.onclick = function() {
+            if (button4.innerText == correct) {
+                Score++
+                score.innerHTML = "score: " + Score + "/46";
+                Katakana();
+            } else {
+                Katakana();
+            }
+        }
+
+
+
+        td.appendChild(button2)
+
+        tbody.appendChild(tr1);
+        tr1.appendChild(td1);
+        td1.appendChild(button3)
+        td1.appendChild(button4)
+        if (isMobile) {
+            score.style.paddingTop = "15%"
+        }
+    }
 </script>
 <script>
     var loc = document.location.toString();
@@ -212,6 +365,9 @@
     Test_Name.innerHTML = test + " Test";
     if (test == "Hirigana") {
         Hiragana();
+    }
+    if (test == "Katakana") {
+        Katakana();
     }
 </script>
 
