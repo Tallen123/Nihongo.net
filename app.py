@@ -21,6 +21,10 @@ def food():
 @app.route("/About")
 def About():
         return render_template("About.html", name="About_Nihongo.net")
+
+@app.route("/History")
+def History():
+        return render_template("History.html", name="History")
         
 @app.route("/Test")
 def Test():
