@@ -7,6 +7,7 @@
 <meta name="keywords" content="Japanese, Learn Japanese, Hiragana, Katakana,kanji">
 <meta name="author" content="T.Thompson, S.Westman and itsrikareok">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="{{url_for('static', filename='Menu.js')}}"></script>
 <link rel="stylesheet" href="{{ url_for('static',    filename='css/style.css') }}">
 <title>Nihongo.net</title>
 <header>
@@ -39,34 +40,6 @@
                     historyBtn.onclick = function() {
                         var current = document.location.href;
                         document.location = current + "/History"
-                    }
-                </script>
-                <script>
-                    var Menu = document.getElementById("Menu");
-                    var Side_Bar = document.getElementById("Side_Bar");
-                    var List = document.getElementById("List");
-                    var Menu_Bar = document.getElementById("Menu_Bar");
-
-                    var opened = false
-                    Side_Bar.style.pointerEvents = "none"
-                    Menu.onclick = function() {
-                        if (opened == false) {
-                            Menu.innerHTML = "Close";
-                            Side_Bar.style.animationName = "Side_Bar_anim";
-                            Side_Bar.style.animationDuration = "0.2s";
-                            Side_Bar.style.animationPlayState = "Running";
-                            Side_Bar.style.opacity = "100%"
-                            Side_Bar.style.pointerEvents = "auto"
-                            opened = true;
-                        } else if (opened == true) {
-                            Menu.innerHTML = "Menu";
-                            Side_Bar.style.animationName = "Side_Bar_anim_rev";
-                            Side_Bar.style.animationDuration = "0.5s";
-                            Side_Bar.style.animationPlayState = "Running";
-                            Side_Bar.style.opacity = "0%"
-                            Side_Bar.style.pointerEvents = "none"
-                            opened = false;
-                        }
                     }
                 </script>
             </ul>

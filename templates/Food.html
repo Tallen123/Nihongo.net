@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
+<script src="{{url_for('static', filename='Menu.js')}}"></script>
 <link rel="stylesheet" href="{{ url_for('static',    filename='css/food_css.css') }}">
 <title>
     Japanese Food
 </title>
 <header>
-    <h1 class="Name" style="font-size: 2.6rem; color: white;padding-left: 1%; user-select: none;">Nihongo.net</h1>
+    <div class="Menu_Bar" id="Menu_Bar" style="user-select: none;text-align: right;width: 1%;position: absolute;top: -1.4%;right: 8.7%;">
+        <button id="Menu" style="width: 12rem;">Menu</button>
+        <div class="Side_Bar" id="Side_Bar" style="text-align: right;">
+            <ul class="List" id="List">
+                <li><button id="Home" class="Active">Home</button></li>
+                <li><button id="Map">Places in Japan</button></li>
+                <li><button id="Food">Japanese Food</button></li>
+                <li><button id="History">Japanese History</button></li>
+                <script>
+                    var home = document.getElementById("Home");
+                    var map = document.getElementById("Map");
+                    var Food = document.getElementById("Food");
+                    var historyBtn = document.getElementById("History");
+                    home.onclick = function() {
+                        var current = document.location.href;
+                        document.location = "/"
+                    }
+                    map.onclick = function() {
+                        var current = document.location.href;
+                        document.location = "/map"
+                    }
+                    Food.onclick = function() {
+                        var current = document.location.href;
+                        document.location = "/food"
+                    }
+                    historyBtn.onclick = function() {
+                        var current = document.location.href;
+                        document.location = "/History"
+                    }
+                </script>
+            </ul>
+        </div>
+    </div>
+    <h1 class="Name" style="font-size: 2.6rem;position: absolute; color: white;padding-left: 1%; user-select: none;width: 10%;top: -2%;">Nihongo.net</h1>
     <div style="text-align: center;">
-        <button id="Back" style=" position:relative;top: 8.5rem;font-size: 3rem;width: auto;">Back</button>
-        <script>
-            var Back = document.getElementById("Back");
-            Back.onclick = function() {
-                document.location = "/ "
-            }
-        </script>
         <h2 style=" position:relative; color: white;top: 9rem; user-select: none;font-size: 2.6rem; ">Japanese Foods</h2>
         <br><br>
     </div>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
+<script src="{{url_for('static', filename='Menu.js')}}"></script>
 <link rel="stylesheet" href="{{ url_for('static',    filename='css/TestsPage.css') }}">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
@@ -8,6 +9,39 @@
 </title>
 <header style="height: 1rem;">
     <h1 class="Name" style="font-size: 1.5rem;">Nihongo.net</h1>
+    <div class="Menu_Bar" id="Menu_Bar" style="user-select: none;">
+        <button id="Menu" style="width: 12rem;">Menu</button>
+        <div class="Side_Bar" id="Side_Bar">
+            <ul class="List" id="List">
+                <li><button id="Home" class="Active">Home</button></li>
+                <li><button id="Map">Places in Japan</button></li>
+                <li><button id="Food">Japanese Food</button></li>
+                <li><button id="History">Japanese History</button></li>
+                <script>
+                    var home = document.getElementById("Home");
+                    var map = document.getElementById("Map");
+                    var Food = document.getElementById("Food");
+                    var historyBtn = document.getElementById("History");
+                    home.onclick = function() {
+                        var current = document.location.href;
+                        document.location = "/"
+                    }
+                    map.onclick = function() {
+                        var current = document.location.href;
+                        document.location = "/map"
+                    }
+                    Food.onclick = function() {
+                        var current = document.location.href;
+                        document.location = "/food"
+                    }
+                    historyBtn.onclick = function() {
+                        var current = document.location.href;
+                        document.location = "/History"
+                    }
+                </script>
+            </ul>
+        </div>
+    </div>
 </header>
 
 <body>
