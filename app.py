@@ -32,7 +32,7 @@ def Test():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('error.html' , name = "Error", error={"code":"404","message":"Page Not Found"})
+    return render_template('error.html' , name = "Error", error={"code":"404"})
 
 if __name__ == "__main__":
     app.run(debug=True)

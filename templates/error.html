@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
 <style>
     * {
         margin: 0;
@@ -34,9 +36,9 @@
         cursor: default;
         user-select: none;
         display: flex;
-        padding-top: 1%;
-        padding-right: 1%;
-        padding-left: 1%;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-left: 2%;
     }
     
     button {
@@ -78,7 +80,7 @@
 
 <body>
     <div style="text-align: center;">
-        <button id="Back" style=" position:relative;top: 8.5rem;font-size: 3rem;width: auto;margin-top: 10%;">Return</button>
+        <button id="Back" style=" position:relative;font-size: 3rem;width: auto; margin-top: 0.5%;box-shadow: none;">Return</button>
         <script>
             var Back = document.getElementById("Back");
             Back.onclick = function() {
@@ -86,13 +88,25 @@
             }
         </script>
     </div>
-    <div style="text-align: center;font-size: 3rem;margin-top: 9%;">
-        <h4>{{error['code']}}</h4>
+    <div style="text-align: center;font-size: 3rem;">
+        <h4 style="padding: 0%;margin: 0%;">{{error['code']}}</h4>
     </div>
     <div style="text-align: center; font-size: 3rem;">
-        <h4>Sorry the page you was looking for does not exist.</h4>
-        <h4></h4>
+        <h4 id="ErrorMsg">Here have a meme...To say sorry</h4>
+        <img id="Meme" height="720" src="" alt="">
     </div>
+    <script>
+        var Errorh4 = document.getElementById("ErrorMsg")
+        var meme = document.getElementById("Meme")
+        $.ajax({
+            url: "https://meme-api.herokuapp.com/gimme",
+            type: "GET",
+            success: function(result) {
+                console.log(result)
+                meme.src = result.url
+            }
+        })
+    </script>
 </body>
 
 </html>
