@@ -30,5 +30,9 @@ def History():
 def Test():
         return render_template("TestsPage.html", name="TestingPage")
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('error.html' , name = "Error", error={"code":"404","message":"Page Not Found"})
+
 if __name__ == "__main__":
     app.run(debug=True)
