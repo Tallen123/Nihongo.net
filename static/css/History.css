@@ -58,3 +58,65 @@ button:hover {
     color: black;
     background: white;
 }
+
+.Menu_Bar button {
+    height: auto;
+    width: 100%;
+    font-size: medium;
+    margin: 0%;
+}
+
+.Side_Bar {
+    width: 12rem;
+    background-color: black;
+    opacity: 0%;
+    padding-top: 10%;
+    box-shadow: -1px 1px 50px black;
+    user-select: none;
+}
+
+@keyframes Side_Bar_anim {
+    0% {
+        opacity: 0%;
+        transform: scale(.5)
+    }
+    100% {
+        opacity: 100%;
+        transform: scale(1)
+    }
+}
+
+@keyframes Side_Bar_anim_rev {
+    0% {
+        opacity: 100%;
+        transform: scale(1)
+    }
+    100% {
+        opacity: 0%;
+        transform: scale(.5)
+    }
+}
+
+.List {
+    outline: none;
+    background: none;
+    text-decoration: none;
+    padding: 6px;
+    color: #fff;
+    cursor: pointer;
+    list-style: none;
+}
+
+.List li {
+    padding: 6px;
+}
+
+.Active {
+    background: #fff;
+    color: black;
+}
+
+header ul li button:hover {
+    background: #fff;
+    color: black;
+}

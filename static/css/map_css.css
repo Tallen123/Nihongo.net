@@ -59,8 +59,8 @@ button {
     color: white;
     background: black;
     cursor: pointer;
+    margin-left: -24;
     text-align: center;
-    box-shadow: -1px 10px 100px black;
 }
 
 button:hover {
@@ -75,4 +75,75 @@ button:hover {
 html {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+.Side_Bar {
+    background-color: black;
+    width: 9rem;
+    opacity: 0%;
+    padding-top: 10%;
+    height: 12rem;
+    box-shadow: -1px 1px 50px black;
+    user-select: none;
+    margin-top: -2rem;
+}
+
+@keyframes Side_Bar_anim {
+    0% {
+        opacity: 0%;
+        transform: scale(.5)
+    }
+    100% {
+        opacity: 100%;
+        transform: scale(1)
+    }
+}
+
+@keyframes Side_Bar_anim_rev {
+    0% {
+        opacity: 100%;
+        transform: scale(1)
+    }
+    100% {
+        opacity: 0%;
+        transform: scale(.5)
+    }
+}
+
+.List {
+    outline: none;
+    background: none;
+    text-decoration: none;
+    padding: 6px;
+    color: #fff;
+    cursor: pointer;
+    list-style: none;
+}
+
+.List li {
+    padding: 6px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.List li button {
+    width: 100%;
+}
+
+.Active {
+    background: #fff;
+    color: black;
+}
+
+header ul li button:hover {
+    background: #fff;
+    color: black;
+}
+
+.Menu_Bar {
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }

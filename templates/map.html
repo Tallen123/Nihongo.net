@@ -9,7 +9,7 @@
 <script src="/js/leaflet.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="/js/leaflet.css" />
-<script src="/path/to/leaflet.js"></script>
+<script src="{{url_for('static', filename='Menu.js')}}"></script>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="{{ url_for('static',    filename='css/map_css.css') }}">
 </head>
@@ -19,16 +19,37 @@
 <header>
     <div class="title">
         <h1 class="Name">Nihongo.net</h1>
-        <div style="text-align: center;">
-            <button id="Back" style="font-size: x-large;">Back</button>
-            <script>
-                var Back = document.getElementById("Back");
-                Back.onclick = function() {
-                    document.location = "/"
-                }
-            </script>
+    </div>
+    <div>
+        <div class="Menu_Bar" id="Menu_Bar" style="user-select: none;">
+            <button id="Menu" style="width: 9rem;">Menu</button>
+            <div class="Side_Bar" id="Side_Bar">
+                <ul class="List" id="List">
+                    <li><button style="margin-left: -34px;" id="Home">Home</button></li>
+                    <li><button style="margin-left: -34px;" id="Food">Japanese Food</button></li>
+                    <li><button style="margin-left: -34px;" id="History">Japanese History</button></li>
+                    <script>
+                        var home = document.getElementById("Home");
+                        var Food = document.getElementById("Food");
+                        var historyBtn = document.getElementById("History");
+                        home.onclick = function() {
+                            var current = document.location.href;
+                            document.location = "/"
+                        }
+                        Food.onclick = function() {
+                            var current = document.location.href;
+                            document.location = "/food"
+                        }
+                        historyBtn.onclick = function() {
+                            var current = document.location.href;
+                            document.location = "/History"
+                        }
+                    </script>
+                </ul>
+            </div>
         </div>
-        <h2 class="SubTitle">Map of Japan and Prefectures</h2>
+    </div>
+    <h2 class="SubTitle">Map of Japan and Prefectures</h2>
     </div>
     <div id="Map" class="Map">
 
