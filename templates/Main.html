@@ -48,21 +48,23 @@
 </header>
 
 <body>
-    <section class="Sudo_body">
+    <section class="Sudo_body" style="text-align: center;">
         <br><br>
         <h1 class="Name" style="font-size: medium;">Work in progress</h1>
         <br>
         <div id="HomePage">
-            <h2 style="font-size: xx-large;">Welcome to Nihongo.net!</h2>
-            <br>
-            <h4 style="padding-left: 10%;padding-right: 10%;">Here users have access to everything needed to learn Japanese free of charge. No annoying notifications, learn at you own pace. Knowledge in japanese is not required to use Nihongo.net as we have something for the most knowledgeable as-well
-                as the beginners.
-            </h4>
-            <br>
-            <h4>
-                Here at Nihongo.net privacy is seriously emphasized and due to this we have no advertisements, cookies and accounts.
-            </h4>
-            <br><br><br>
+            <div class="HomePage">
+                <h2 style="font-size: xx-large;">Welcome to Nihongo.net!</h2>
+                <br>
+                <h4 style="padding-left: 10%;padding-right: 10%;">Here users have access to everything needed to learn Japanese free of charge. No annoying notifications, learn at you own pace. Knowledge in japanese is not required to use Nihongo.net as we have something for the most knowledgeable as-well
+                    as the beginners.
+                </h4>
+                <br>
+                <h4>
+                    Here at Nihongo.net privacy is seriously emphasized and due to this we have no advertisements, cookies and accounts.
+                </h4>
+                <br><br><br>
+            </div>
         </div>
 
         <div id="Alphabet_page" hidden>
@@ -76,7 +78,7 @@
             <br>
             <button style="margin: 10px;" id="Katakana_Button">Katakana</button>
             <br>
-            <button hidden style="margin: 10px;" id="Kanji_Button">Kanji</button>
+            <button style="margin: 10px;" id="Kanji_Button">Kanji</button>
             <script>
                 //Start and finish kanji Section
             </script>
@@ -958,23 +960,196 @@
                 </script>
             </div>
 
+            <script>
+                //Currently being worked on
+            </script>
             <div hidden id="Kanji">
-                <h4>Kanji</h4>
-                <table width=100%>
-                    <tbody>
-                        <tr>
-                            <td>
+                <script>
+                    //Kanji are from this website https://thejapanesepage.com/japanese-kanji/
+                </script>
+                <br>
+                <button class="Active" id="Module_1_Btn">Module 1</button>
+                <button id="Module_2_Btn">Module 2</button>
+                <button id="Module_3_Btn">Module 3</button>
+                <button id="Module_4_Btn">Module 4</button>
+                <div id="Module_1">
+                    <br>
+                    <h4>Module 1</h4>
+                    <table width=100%>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>百 (hyaku) (100)</p>
+                                </td>
+                                <td>
+                                    <p>千 (sen) (1000)</p>
+                                </td>
+                                <td>
+                                    <p>万 (man) (10,000)</p>
+                                </td>
+                                <td>
+                                    <p>父 (chichi) (father)</p>
+                                </td>
+                                <td>
+                                    <p>友 (tomo) (friend)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>母 (haha) (mother)</p>
+                                </td>
+                                <td>
+                                    <p>女 (onna) (woman)</p>
+                                </td>
+                                <td>
+                                    <p>男 (otoko) (man)</p>
+                                </td>
+                                <td>
+                                    <p>人 (hito) (person)</p>
+                                </td>
+                                <td>
+                                    <p>子 (ko) (child)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>日 (hi) (day)</p>
+                                </td>
+                                <td>
+                                    <p>月 (tsuki) (month)</p>
+                                </td>
+                                <td>
+                                    <p>火 (hi) (fire)</p>
+                                </td>
+                                <td>
+                                    <p>水 (mizu) (water)</p>
+                                </td>
+                                <td>
+                                    <p>木 (ki) (tree)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>金 (kin) (Gold)</p>
+                                </td>
+                                <td>
+                                    <p>土 (tsuchi) (ground)</p>
+                                </td>
+                                <td>
+                                    <p>語 (go) (Language)</p>
+                                </td>
+                                <td>
+                                    <p>年 (toshi) (year)</p>
+                                </td>
+                                <td>
+                                    <p>午 (go) (Noon)</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div hidden id="Module_2">
+                    <br>
+                    <h4>Module 2</h4>
+                    <table width=100%>
+                        <tbody>
+                            <tr>
+                                <td>
 
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div hidden id="Module_3">
+                    <br>
+                    <h4>Module 3</h4>
+                    <table width=100%>
+                        <tbody>
+                            <tr>
+                                <td>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div hidden id="Module_4">
+                    <br>
+                    <h4>Module 4</h4>
+                    <table width=100%>
+                        <tbody>
+                            <tr>
+                                <td>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <button hidden id="KanjitestBtn" class="Hirigana_test_button">Test your Knowledge</button>
                 <script>
                     //Start and finish kanji Section
                     var testbutton2 = document.getElementById("KanjitestBtn");
                     testbutton2.onclick = function() {
                         document.location = "/Test?Kanji"
+                    }
+                </script>
+                <script>
+                    //Kanji buttons Script
+                    var Module_1_Btn = document.getElementById("Module_1_Btn")
+                    var Module_2_Btn = document.getElementById("Module_2_Btn")
+                    var Module_3_Btn = document.getElementById("Module_3_Btn")
+                    var Module_4_Btn = document.getElementById("Module_4_Btn")
+
+                    var Module_1 = document.getElementById("Module_1")
+                    var Module_2 = document.getElementById("Module_2")
+                    var Module_3 = document.getElementById("Module_3")
+                    var Module_4 = document.getElementById("Module_4")
+
+                    Module_1_Btn.onclick = function() {
+                        Module_1_Btn.className = "Active"
+                        Module_2_Btn.className = null
+                        Module_3_Btn.className = null
+                        Module_4_Btn.className = null
+
+                        Module_1.hidden = false;
+                        Module_2.hidden = true;
+                        Module_3.hidden = true;
+                        Module_4.hidden = true;
+                    }
+                    Module_2_Btn.onclick = function() {
+                        Module_1_Btn.className = null
+                        Module_2_Btn.className = "Active"
+                        Module_3_Btn.className = null
+                        Module_4_Btn.className = null
+
+                        Module_1.hidden = true;
+                        Module_2.hidden = false;
+                        Module_3.hidden = true;
+                        Module_4.hidden = true;
+                    }
+                    Module_3_Btn.onclick = function() {
+                        Module_1_Btn.className = null
+                        Module_2_Btn.className = null
+                        Module_3_Btn.className = "Active"
+                        Module_4_Btn.className = null
+
+                        Module_1.hidden = true;
+                        Module_2.hidden = true;
+                        Module_3.hidden = false;
+                        Module_4.hidden = true;
+                    }
+                    Module_4_Btn.onclick = function() {
+                        Module_1_Btn.className = null
+                        Module_2_Btn.className = null
+                        Module_3_Btn.className = null
+                        Module_4_Btn.className = "Active"
+
+                        Module_1.hidden = true;
+                        Module_2.hidden = true;
+                        Module_3.hidden = true;
+                        Module_4.hidden = false;
                     }
                 </script>
             </div>
@@ -1152,6 +1327,10 @@
             <br><br>
             <p style="padding-left: 10%;padding-right: 10%;background: transparent;">
                 Disclamer: Some numbers change depending on the what kind of thing you’re referring to in a given moment, but this will be enough to get you through a casual day.
+            </p>
+            <br><br>
+            <p style="padding-left: 10%;padding-right: 10%;background: transparent; font-size: larger;">
+                <b>numbers are continued on the kanji page</b>
             </p>
         </div>
 

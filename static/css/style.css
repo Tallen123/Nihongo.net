@@ -204,3 +204,12 @@ html {
 td {
     cursor: pointer;
 }
+
+.HomePage {
+    background-color: #000066;
+    border-radius: 20px;
+    width: 60%;
+    box-shadow: #000066 0px 0px 5px;
+    position: absolute;
+    left: 20%;
+}
