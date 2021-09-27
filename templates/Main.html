@@ -976,76 +976,16 @@
                     <br>
                     <h4>Module 1</h4>
                     <table width=100%>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <p>百 (hyaku) (100)</p>
-                                </td>
-                                <td>
-                                    <p>千 (sen) (1000)</p>
-                                </td>
-                                <td>
-                                    <p>万 (man) (10,000)</p>
-                                </td>
-                                <td>
-                                    <p>父 (chichi) (father)</p>
-                                </td>
-                                <td>
-                                    <p>友 (tomo) (friend)</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>母 (haha) (mother)</p>
-                                </td>
-                                <td>
-                                    <p>女 (onna) (woman)</p>
-                                </td>
-                                <td>
-                                    <p>男 (otoko) (man)</p>
-                                </td>
-                                <td>
-                                    <p>人 (hito) (person)</p>
-                                </td>
-                                <td>
-                                    <p>子 (ko) (child)</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>日 (hi) (day)</p>
-                                </td>
-                                <td>
-                                    <p>月 (tsuki) (month)</p>
-                                </td>
-                                <td>
-                                    <p>火 (hi) (fire)</p>
-                                </td>
-                                <td>
-                                    <p>水 (mizu) (water)</p>
-                                </td>
-                                <td>
-                                    <p>木 (ki) (tree)</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>金 (kin) (Gold)</p>
-                                </td>
-                                <td>
-                                    <p>土 (tsuchi) (ground)</p>
-                                </td>
-                                <td>
-                                    <p>語 (go) (Language)</p>
-                                </td>
-                                <td>
-                                    <p>年 (toshi) (year)</p>
-                                </td>
-                                <td>
-                                    <p>午 (go) (Noon)</p>
-                                </td>
-                            </tr>
+                        <tbody id="Tbody">
                         </tbody>
+                        <script>
+                            var Tbody = document.getElementById("Tbody");
+                            $.ajax({
+                                url: "", //find Api for getting kanji as-well as romaji and english
+                                type: "GET",
+                                success: function(result) {}
+                            })
+                        </script>
                     </table>
                 </div>
                 <div hidden id="Module_2">
