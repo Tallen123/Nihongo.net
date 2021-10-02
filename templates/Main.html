@@ -22,26 +22,6 @@
                 <li><button id="Grammar">Grammar</button></li>
                 <li><button id="Numbers">Numbers</button></li>
                 <li><button id="Phonetics">Phonetics</button></li>
-                <li><button id="Map">Places in Japan</button></li>
-                <li><button id="Food">Japanese Food</button></li>
-                <li><button hidden id="History">Japanese History</button></li>
-                <script>
-                    var map = document.getElementById("Map");
-                    var Food = document.getElementById("Food");
-                    var historyBtn = document.getElementById("History");
-                    map.onclick = function() {
-                        var current = document.location.href;
-                        document.location = current + "/map"
-                    }
-                    Food.onclick = function() {
-                        var current = document.location.href;
-                        document.location = current + "/food"
-                    }
-                    historyBtn.onclick = function() {
-                        var current = document.location.href;
-                        document.location = current + "/History"
-                    }
-                </script>
             </ul>
         </div>
     </div>
