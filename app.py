@@ -45,48 +45,38 @@ def Katakana():
 
 @app.route('/Kanji/N5')
 def Kanji_N5():
-    return render_template('N5.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('N5.html',Color=Color)
 
 @app.route('/Kanji/N4')
 def Kanji_N4():
-    return render_template('N4.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('N4.html',Color=Color)
 
 @app.route('/Kanji/N3')
 def Kanji_N3():
-    return render_template('N3.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('N3.html',Color=Color)
 
 @app.route('/Kanji/N2')
 def Kanji_N2():
-    return render_template('N2.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('N2.html',Color=Color)
 
 @app.route('/Kanji/N1')
 def Kanji_N1():
-    return render_template('N1.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('N1.html',Color=Color)
 
 @app.errorhandler(400)
 def page_not_found(e):
-    return render_template('Settings.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('LandingPage.html',Color=Color)
 
 @app.route('/Settings', methods=['POST', 'GET'])
 def Settings():
-
-    if not 'username' in session:
-        return redirect('/Account/SignUp')
+    if 'username' in session:
+        Color =  request.form['Color']
+        doc_ref = db.collection(u'Users').document(session['username']).collection(session['username']).document(session['username'])
+        doc_ref.update({
+        u'BackgroundColor': Color})
     else:
-        if session['username'] == " ":
-            abort(400)
-        else:
-            textcolor = request.form['textcolor']
-            PannelColor = request.form['PannelColor']
-            Color =  request.form['Color']
-            Hovercolor = request.form['Hovercolor']
-            doc_ref = db.collection(u'Users').document(session['username']).collection(session['username']).document(session['username'])
-            doc_ref.update({
-            u'TextColor': textcolor,
-            u'PannelColor': PannelColor,
-            u'BackgroundColor': Color,
-            u'HoverColor': Hovercolor,})
-            return render_template('Settings.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor,name = session['username'])
+        return redirect('/Account/SignUp')
+    return render_template('Settings.html',Color=Color,name = session['username'])
 
 
 @app.route('/Account/Login', methods=['POST', 'GET'])
@@ -101,8 +91,6 @@ def AccountLogin():
             if password == dbpass:
                 session['username'] = username
                 return render_template('LandingPage.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
-        else:
-            return render_template('Account.html',Page_Name="Username is taken, Try a differant one",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
     return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
 
 
@@ -118,15 +106,10 @@ def AccountSignUp():
             doc_ref.set({
             u'username': username,
             u'password': password,
-            u'TextColor': "",
-            u'PannelColor': "",
             u'BackgroundColor': "",
-            u'HoverColor': "",
             })
             session['username'] = username
-        else:
-            return render_template('Account.html',Page_Name="Username is taken, Try a differant one",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
-    return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",Color=Color)
 
 if __name__ == '__main__':
     app.run(debug = True)
