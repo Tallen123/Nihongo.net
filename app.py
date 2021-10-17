@@ -1,4 +1,5 @@
 from re import search
+import re
 from typing import Coroutine
 from flask import Flask, render_template, request, abort,session
 import firebase_admin
@@ -28,55 +29,58 @@ def make_session_permanent():
 
 @app.route('/')
 def landing_page():
-    return render_template('LandingPage.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('LandingPage.html',Color=session['BackgroundColor'])
 
 @app.route('/Account/Logout')
 def Logout():
     session.clear()
-    return render_template('LandingPage.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('LandingPage.html',Color=session['BackgroundColor'])
 
 @app.route('/Hiragana')
 def Hiragana():
-    return render_template('Hiragana.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('Hiragana.html',Color=session['BackgroundColor'])
 
 @app.route('/Katakana')
 def Katakana():
-    return render_template('Katakana.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('Katakana.html',Color=session['BackgroundColor'])
 
 @app.route('/Kanji/N5')
 def Kanji_N5():
-    return render_template('N5.html',Color=Color)
+    return render_template('N5.html',Color=session['BackgroundColor'])
 
 @app.route('/Kanji/N4')
 def Kanji_N4():
-    return render_template('N4.html',Color=Color)
+    return render_template('N4.html',Color=session['BackgroundColor'])
 
 @app.route('/Kanji/N3')
 def Kanji_N3():
-    return render_template('N3.html',Color=Color)
+    return render_template('N3.html',Color=session['BackgroundColor'])
 
 @app.route('/Kanji/N2')
 def Kanji_N2():
-    return render_template('N2.html',Color=Color)
+    return render_template('N2.html',Color=session['BackgroundColor'])
 
 @app.route('/Kanji/N1')
 def Kanji_N1():
-    return render_template('N1.html',Color=Color)
+    return render_template('N1.html',Color=session['BackgroundColor'])
 
 @app.errorhandler(400)
 def page_not_found(e):
-    return render_template('LandingPage.html',Color=Color)
+    return render_template('LandingPage.html',Color=session['BackgroundColor'])
 
 @app.route('/Settings', methods=['POST', 'GET'])#Fix Settings not displaying
 def Settings():
     if 'username' in session:
-        Color =  request.form['Color']
-        doc_ref = db.collection(u'Users').document(session['username']).collection(session['username']).document(session['username'])
-        doc_ref.update({
-        u'BackgroundColor': Color})
+        if 'Color' in request.form:
+            color = request.form['Color']
+            session['BackgroundColor'] = color
+            doc_ref = db.collection(u'Users').document(session['username']).collection(session['username']).document(session['username'])
+            doc_ref.update({u'BackgroundColor': color})
+        else:
+            return render_template('Settings.html',Color=session['BackgroundColor'],name = session['username'])
     else:
         return redirect('/Account/SignUp')
-    return render_template('Settings.html',Color=Color,name = session['username'])
+    return render_template('Settings.html',Color=session['BackgroundColor'],name = session['username'])
 
 
 @app.route('/Account/Login', methods=['POST', 'GET'])
@@ -90,8 +94,8 @@ def AccountLogin():
             dbpass = doc.to_dict()['password']
             if password == dbpass:
                 session['username'] = username
-                return render_template('LandingPage.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
-    return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+                return render_template('LandingPage.html',Color=session['BackgroundColor'])
+    return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
 
 
 
@@ -109,7 +113,8 @@ def AccountSignUp():
             u'BackgroundColor': "",
             })
             session['username'] = username
-    return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",Color=Color)
+            session['BackgroundColor'] = Color
+    return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",Color=session['BackgroundColor'])
 
 if __name__ == '__main__':
     app.run(debug = True)
