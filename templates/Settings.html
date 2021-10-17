@@ -7,15 +7,18 @@
     </div>
     <div class="Pannel" id="Pannel" style="height: 32rem;">
         <div style="text-align: center;">
-            <h3 style="position:sticky;">Status: </h3>
-            <br>
-            <h3 style="color: red; cursor: pointer;padding: 0%;margin: 0%;" id="Status" onclick="document.location = '/Account/SignUp'">Not Signed in</h3>
-            <br>
+            <script>
+                //<h3 style="position:sticky;">Status: </h3>
+                //<br>
+                //<h3 style="color: red; cursor: pointer;padding: 0%;margin: 0%;" id="Status" onclick="document.location = '/Account/SignUp'">Not Signed in</h3>
+                //<br>
+            </script>
+            <br><br>
             <button style="width: 8rem;font-size: 100%;" onclick="document.location = '/Account/Logout'"><b>Log Out</b></button>
             <script>
                 document.onload = function() {
-                    var name = "{{session['username']}}";
-                    console.log("{{session['username']}}")
+                    var name = "{{name}}";
+                    console.log("{{name}}")
                     var Status = document.getElementById("Status");
                     if (name == null) {
                         Status.style.color = "red";
@@ -48,7 +51,7 @@
                 <input type="color" name="Hovercolor" id="Hovercolor">
                 <button type="button" style="width: 5rem;position:sticky;" class="SettingsButton" id="HovercolorReset">Reset</button>
                 <br><br>
-                <button type="submit" style="position: sticky;width: 5rem;">Save</button>
+                <button type="submit" style="position: sticky;width: 5rem;font-size: 100%"><b>Save</b></button>
             </div>
         </form>
         <script>

@@ -69,9 +69,9 @@ def page_not_found(e):
 
 @app.route('/Settings', methods=['POST', 'GET'])
 def Settings():
+
     if not 'username' in session:
         return redirect('/Account/SignUp')
-    
     else:
         if session['username'] == " ":
             abort(400)
@@ -86,7 +86,7 @@ def Settings():
             u'PannelColor': PannelColor,
             u'BackgroundColor': Color,
             u'HoverColor': Hovercolor,})
-            return render_template('Settings.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+            return render_template('Settings.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor,name = session['username'])
 
 
 @app.route('/Account/Login', methods=['POST', 'GET'])

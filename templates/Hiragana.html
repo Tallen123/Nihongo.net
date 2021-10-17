@@ -10,7 +10,7 @@
     <script>
         $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
             $.each(data, function(key, val) {
-                var x = Object.entries(data[0].hirigana);
+                var x = Object.entries(data[0].hiragana);
                 var pannel = document.getElementById("Pannel");
                 for (var index in x) {
                     var letter = document.createElement("h2");
