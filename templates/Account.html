@@ -1,10 +1,11 @@
 {% extends "layout.html" %} {% block content %}
 <div>
     <div class="Pannel">
-        <h2>login</h2>
+        <h2>{{Page_Name}}</h2>
     </div>
     <div class="Pannel" id="Pannel">
-        <form action="" autocomplete="off" method="POST">
+        <form autocomplete="off" method="POST">
+            <br>
             <label for="Username" style="color: white;">Username</label>
             <br>
             <input type="text" name="Username" id="Username">
@@ -13,8 +14,11 @@
             <br>
             <input type="password" name="Password" id="Password">
             <br><br>
-            <button style="width: 10%;" class="Loginbtn">Login</button>
-            <button style="width: 10%;" class="Loginbtn">Sign up</button>
+            <button id="Loginbtn" style="width: 10%;" type="button" onclick="document.location = '/Account/Login'" class="Loginbtn">Login</button>
+            <button id="Signupbtn" style="width: 10%;" type="button" onclick="document.location = '/Account/SignUp'" class="Loginbtn">Sign up</button>
+            <br><br>
+            <button style="width: 10%;" type="submit">Submit</button>
+            <br><br>
         </form>
     </div>
 </div>
