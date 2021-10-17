@@ -103,7 +103,7 @@ def AccountLogin():
                 return render_template('LandingPage.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
         else:
             return render_template('Account.html',Page_Name="Username is taken, Try a differant one",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
-    return render_template('Account.html',Page_Name="Login",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
 
 
 
@@ -126,7 +126,7 @@ def AccountSignUp():
             session['username'] = username
         else:
             return render_template('Account.html',Page_Name="Username is taken, Try a differant one",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
-    return render_template('Account.html',Page_Name="Sign Up",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+    return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
 
 if __name__ == '__main__':
     app.run(debug = True)
