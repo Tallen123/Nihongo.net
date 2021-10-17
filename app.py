@@ -35,6 +35,10 @@ def landing_page():
 def Numbers():
     return render_template('Numbers.html',Color=session['BackgroundColor'])
 
+@app.route('/Phonetics')
+def Phonetics():
+    return render_template('Phonetics.html',Color=session['BackgroundColor'])
+
 @app.route('/Account/Logout')
 def Logout():
     session.clear()
