@@ -29,9 +29,9 @@ def make_session_permanent():
 def landing_page():
     return render_template('LandingPage.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
 
-@app.route('/Hirigana')
-def Hirigana():
-    return render_template('Hirigana.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+@app.route('/Hiragana')
+def Hiragana():
+    return render_template('Hiragana.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
 
 @app.route('/Katakana')
 def Katakana():
