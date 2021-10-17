@@ -6,6 +6,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 from flask.sessions import NullSession
 from datetime import timedelta
+from werkzeug.utils import redirect
 
 textcolor = " "
 PannelColor = " "
@@ -27,6 +28,11 @@ def make_session_permanent():
 
 @app.route('/')
 def landing_page():
+    return render_template('LandingPage.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+
+@app.route('/Account/Logout')
+def Logout():
+    session.clear()
     return render_template('LandingPage.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
 
 @app.route('/Hiragana')
@@ -63,24 +69,28 @@ def page_not_found(e):
 
 @app.route('/Settings', methods=['POST', 'GET'])
 def Settings():
-    if session['username'] == " ":
-        abort(400)
+    if not 'username' in session:
+        return redirect('/Account/SignUp')
+    
     else:
-        textcolor = request.form['textcolor']
-        PannelColor = request.form['PannelColor']
-        Color =  request.form['Color']
-        Hovercolor = request.form['Hovercolor']
-        doc_ref = db.collection(u'Users').document(session['username']).collection(session['username']).document(session['username'])
-        doc_ref.update({
-        u'TextColor': textcolor,
-        u'PannelColor': PannelColor,
-        u'BackgroundColor': Color,
-        u'HoverColor': Hovercolor,})
-        return render_template('Settings.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
+        if session['username'] == " ":
+            abort(400)
+        else:
+            textcolor = request.form['textcolor']
+            PannelColor = request.form['PannelColor']
+            Color =  request.form['Color']
+            Hovercolor = request.form['Hovercolor']
+            doc_ref = db.collection(u'Users').document(session['username']).collection(session['username']).document(session['username'])
+            doc_ref.update({
+            u'TextColor': textcolor,
+            u'PannelColor': PannelColor,
+            u'BackgroundColor': Color,
+            u'HoverColor': Hovercolor,})
+            return render_template('Settings.html',textcolor = textcolor, PannelColor = PannelColor,Color=Color,Hovercolor=Hovercolor)
 
 
 @app.route('/Account/Login', methods=['POST', 'GET'])
-def Account():
+def AccountLogin():
     if request.form:
         username = request.form['Username']
         password = request.form['Password']

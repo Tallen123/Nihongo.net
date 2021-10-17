@@ -11,7 +11,7 @@
             <br>
             <h3 style="color: red; cursor: pointer;padding: 0%;margin: 0%;" id="Status" onclick="document.location = '/Account/SignUp'">Not Signed in</h3>
             <br>
-            <button style="width: 8rem;font-size: 100%;"><b>Log Out</b></button>
+            <button style="width: 8rem;font-size: 100%;" onclick="document.location = '/Account/Logout'"><b>Log Out</b></button>
             <script>
                 document.onload = function() {
                     var name = "{{session['username']}}";
@@ -114,19 +114,10 @@
                 textstyle.innerHTML = "body,button{color:" + textcolor.value + ";}"
             }
             textcolorReset.onclick = function() {
-                textcolor.value = "black"
+                textcolor.value = "white"
                 textstyle.innerHTML = "body,button{color:white;}"
             }
         </script>
     </div>
 </div>
-<style id="Style1">
-
-</style>
-<script>
-    var Style1 = document.getElementById("Style1");
-    var background = "{{Color}}"
-    var textColor = "{{textcolor}}"
-    Style1.innerHTML = "body{Background:" + background + ";}" + "\n" + "body,h1,h2,h3,h4,h5{color:" + textColor + ";}"
-</script>
 {% endblock %}
