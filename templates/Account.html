@@ -1,10 +1,11 @@
 {% extends "layout.html" %} {% block content %}
-<div>
+<div style="user-select: none;">
     <div class="Pannel">
         <h2>{{Page_Name}}</h2>
     </div>
     <div class="Pannel" id="Pannel">
         <form autocomplete="off" method="POST">
+            <h3 hidden style="color: red;" id="Thanks">Thank you for using Nihongo.net</h3>
             <br>
             <label for="Username" style="color: white;">Username</label>
             <br>
@@ -17,7 +18,17 @@
             <button id="Loginbtn" style="width: 10%;" type="button" onclick="document.location = '/Account/Login'" class="Loginbtn">Login</button>
             <button id="Signupbtn" style="width: 10%;" type="button" onclick="document.location = '/Account/SignUp'" class="Loginbtn">Sign up</button>
             <br><br>
-            <button style="width: 10%;" type="submit">Submit</button>
+            <button style="width: 10%;" id="Submit" type="submit">Submit</button>
+            <script>
+                var Username = document.getElementById("Username")
+                if (Username.innerHTML != " ") {
+                    var submit = document.getElementById("Submit");
+                    submit.onclick = function() {
+                        var Thanks = document.getElementById('Thanks')
+                        Thanks.hidden = false
+                    }
+                }
+            </script>
             <br><br>
         </form>
     </div>
