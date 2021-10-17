@@ -31,6 +31,10 @@ def make_session_permanent():
 def landing_page():
     return render_template('LandingPage.html',Color=session['BackgroundColor'])
 
+@app.route('/Numbers')
+def Numbers():
+    return render_template('Numbers.html',Color=session['BackgroundColor'])
+
 @app.route('/Account/Logout')
 def Logout():
     session.clear()
