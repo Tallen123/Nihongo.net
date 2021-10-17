@@ -642,7 +642,103 @@
         },
         "N2": {
 
+            "党":  "(トウ  なかま むら) (party, faction, clique)", 
+
+            "協":  "(キョウ) (co-, cooperation)",
+            
+            "総":  "(ソウ フ  す.べて すべ.て) (general, whole, all, full, total)", 
+            
+            "区":  "(ク オウ コウ) (ward, district)",
+            
+            "領":  "(リョウ) (jurisdiction, dominion, territory, fief, reign)",
+            
+            "県":  "(ケン カ.ケ) (prefecture)", 
+            
+            "設":  "(セツ モウ.ケ)  (establishment, provision, prepare)",
+            
+            "改":  "(カイ  あらた.める あらた.まる) (reformation, change, modify, mend, renew, examine, inspect, search)",
+            
+            "府":  "() (borough, urban prefecture, govt office, representative body, storehouse)",
+            
+            "査":  "(サ) (investigate)",
+            
+            "委":  "(イ ユダ.ネ) (committee, entrust to, leave to, devote, discard)", 
+            
+            "軍":  "(グン) (army, force, troops, war, battle)",
+            
+            "団":  "(ダン トン  かたまり まる.い) (group, association)",
+            
+            "各":  "(カク オノオ) (each, every, either)",
+                                                 
+            "島":  "(トウ しま)  (island)", 
+            
+            "革":  "(カク かわ) (leather, become serious, skin, hide, pelt)",
+            
+            "村":  "(ソン ム) (town, village)",
+            
+            "勢":  "(セイ ゼイ ハズ  いきお.い) (forces, energy, military strength)",
+            
+            "減":  "(ゲン  へ.る へ.らす) (dwindle, decrease, reduce, decline, curtail, get hungry)",
+            
+            "再":  "(サイ サ フタタ.) (again, twice, second time)",
+            
+            "税":  "(ゼ) (tax, duty)",
+            
+            "営":  "(エイ  いとな.む いとな.み)  (occupation, camp, perform, build, conduct (business))",
+
+            "比":  "(ヒ クラ.ベ) (compare, race, ratio, Philipines)",
+            
+            "防":  "(ボウ フセ.) (ward off, defend, protect, resist)",
+            
+            "補":  "(ホ  おぎな.う) (supplement, supply, make good, offset, compensate, assistant, learner)",
+            
+            "境":  "(キョウ ケイ サカ) (boundary, border, region)",
+            
+            "導":  "(ドウ ミチビ.) (guidance, leading, conduct, usher)",
+            
+            "副":  "(フ) (vice-, duplicate, copy)",
+            
+            "算":  "(サン  そろ) (calculate, divining, number, abacus, probability)",
+            
+            "輸":  "(ユ シュ) (transport, send, be inferior)",
+            
+            "述":  "(ジュツ  の.べる) (mention, state, speak, relate)",
+                                           
+            "線":  "(セン  すじ) (line, track)",
+            
+            "農":  "(ノ) (agriculture, farmers)",
+            
+            "州":  "(シュウ ス) (state, province)",
+            
+            "武":  "(ブ ム タケ.) (warrior, military, chivalry, arms)",
+            
+            "象":  "(ショウ ゾウ カタド.) (elephant, pattern after, imitate, image, shape, sign (of the times))",
+            
+            "域":  "(イキ) (range, region, limits, stage, level)",
+            
+            "額":  "(ガク ヒタ) (forehead, tablet, plaque, framed picture, sum, amount, volume)",
+
+            "欧":  "(オウ ハ. うた.う) (Europe)",
+            
+            "担":  "(タン  かつ.ぐ にな.う) (shouldering, carry, raise, bear)",
+            
+            "準":  "(ジュン じゅん.じる じゅん.ずる なぞら.える のり ひと.しい みずもり) (semi-, correspond to, proportionate to, conform, imitate)", 
+            
+            "賞":  "(ショウ  ほ.める) (prize, reward, praise)",
+            
+            "辺":  "(ヘン -  あた.り ほと.り) (environs, boundary, border, vicinity)",
+            
+            "造":  "(ゾウ -ヅク.  つく.る つく.り) (create, make, structure, physique)",
+            
+            "被":  "(ヒ カブ.セ  こうむ.る おお.う かぶ.る) (incur, cover, veil, brood over, shelter, wear, put on, be exposed (film), receiving)", 
+            
+            "技":  "(ギ  わざ) (skill, art, craft, ability, feat, performance, vocation, arts)",
+            
+            "低":  "(テイ  ひく.い ひく.める ひく.まる)  (lower, short, humble)",
+
+            "Continue": "Fill rest past page 4"
         },
+
         "N1": {
 
         }
