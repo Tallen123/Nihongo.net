@@ -67,7 +67,7 @@ def Kanji_N1():
 def page_not_found(e):
     return render_template('LandingPage.html',Color=Color)
 
-@app.route('/Settings', methods=['POST', 'GET'])
+@app.route('/Settings', methods=['POST', 'GET'])#Fix Settings not displaying
 def Settings():
     if 'username' in session:
         Color =  request.form['Color']
