@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en" id="html">
+
+<head>
+    <script>
+        //Amazing website's
+        // Credit this site http://www.tanos.co.uk/
+        //Amazing website for japanese stuff http://www.tanos.co.uk/jlpt/jlpt4/
+        //Url for Kanji to Hirigana site https://j-talk.com/convert
+    </script>
+    <meta charset="utf-8">
+    <meta name="description" content="Nihongo.net">
+    <meta name="author" content="Nihongo.net">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <title>Nihongo.net</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body id="body">
+
+    <header>
+        <div>
+        </div>
+        <h1 style="font-weight: bolder;" class="Name" id="Name">Nihongo.net</h1>
+        <div class="Menu">
+            <ul class="List" id="List" style=" position:fixed;top:10%;left: 1%;border-radius: 20px;">
+                <li><button id="Home" class="Active">Home</button></li>
+                <li><button id="Settings">Settings</button></li>
+                <li><button id="Hirigana">Hirigana</button></li>
+                <li><button id="Katakana">Katakana</button></li>
+                <li><button id="Kanji">Kanji</button></li>
+                <li><button id="Numbers">Numbers</button></li>
+                <li><button id="phonetics">phonetics</button></li>
+                <li><button id="Grammer">Grammer</button></li>
+                <li><button id="Vocabulary">Vocabulary</button></li>
+            </ul>
+            <div class="Kanji_Menu">
+                <ul class="Kanji_List" id="Kanji_List" style=" position:fixed;top:10%;left:1%;border-radius: 20px; pointer-events: none;">
+                    <li><button id="Back">Back</button></li>
+                    <li><button id="N5" onclick="document.location='/Kanji/N5'">N5 (Easy)</button></li>
+                    <li><button id="N4" onclick="document.location='/Kanji/N4'">N4</button></li>
+                    <li><button id="N3" onclick="document.location='/Kanji/N3'">N3</button></li>
+                    <li><button id="N2" onclick="document.location='/Kanji/N2'">N2</button></li>
+                    <li><button id="N1" onclick="document.location='/Kanji/N1'">N1 (Hard)</button></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            var Home = document.getElementById("Home");
+            var Hirigana = document.getElementById("Hirigana");
+            var Katakana = document.getElementById("Katakana");
+            var Kanji = document.getElementById("Kanji");
+            var phonetics = document.getElementById("phonetics");
+            var Grammer = document.getElementById("Grammer");
+            var Vocabulary = document.getElementById("Vocabulary");
+            var Name = document.getElementById("Name");
+            var Kanji_List = document.getElementById("Kanji_List");
+            var List = document.getElementById("List");
+            var Numbers = document.getElementById("Numbers");
+            var back = document.getElementById("Back");
+            var Settings = document.getElementById("Settings");
+
+
+            var loc = document.location.toString();
+            if (loc.includes("Hirigana")) {
+                Name.innerHTML = "Hirigana";
+                Home.className = null;
+                Hirigana.className = "Active";
+                Katakana.className = null;
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Settings.className = null;
+            }
+            if (loc.includes("Katakana")) {
+                Name.innerHTML = "Katakana";
+                Home.className = null;
+                Hirigana.className = null;
+                Katakana.className = "Active";
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Settings.className = null;
+            }
+            if (loc.includes("Kanji")) {
+                Name.innerHTML = "Kanji";
+                Home.className = null;
+                Hirigana.className = null;
+                Katakana.className = null;
+                Kanji.className = "Active";
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Settings.className = null;
+            }
+            if (loc.includes("Settings")) {
+                Settings.className = "Active";
+                Name.innerHTML = "Settings";
+                Settings.className = "Active";
+                Home.className = null;
+                Hirigana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+            }
+
+            Settings.onclick = function() {
+                Settings.className = "Active";
+                Home.className = null;
+                Hirigana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                document.location = "/Settings";
+                Numbers.className = null;
+            }
+
+            Home.onclick = function() {
+                Home.className = "Active"
+                Settings.className = null;
+                Hirigana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                document.location = "/"
+                Numbers.className = null;
+            }
+
+            Hirigana.onclick = function() {
+                Home.className = null;
+                Settings.className = null;
+                Hirigana.className = "Active";
+                Katakana.className = null;
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                document.location = "/Hirigana"
+                Numbers.className = null;
+            }
+
+            Katakana.onclick = function() {
+                Home.className = null;
+                Settings.className = null;
+                Hirigana.className = null;
+                Katakana.className = "Active";
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                document.location = "/Katakana"
+                Numbers.className = null;
+            }
+
+            back.onclick = function() {
+                Kanji_List.style.opacity = "0%"
+                List.style.animationName = "Klist"
+                List.style.animationDuration = "1s"
+                List.style.opacity = "100%"
+                Kanji_List.style.pointerEvents = "none"
+                List.style.pointerEvents = "auto"
+            }
+
+            Kanji.onclick = function() {
+                Home.className = null;
+                Settings.className = null;
+                Hirigana.className = null;
+                Katakana.className = null;
+                Kanji.className = "Active";
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Numbers.className = null;
+
+                Kanji_List.style.animationName = "Klist"
+                Kanji_List.style.animationDuration = "1s"
+                Kanji_List.style.opacity = "100%"
+                Kanji_List.style.pointerEvents = "auto"
+                List.style.opacity = "0%"
+            }
+
+            phonetics.onclick = function() {
+                Home.className = null;
+                Hirigana.className = null;
+                Settings.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                phonetics.className = "Active";
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Numbers.className = null;
+            }
+
+            Grammer.onclick = function() {
+                Home.className = null;
+                Hirigana.className = null;
+                Settings.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = "Active";
+                Vocabulary.className = null;
+            }
+
+            Vocabulary.onclick = function() {
+                Home.className = null;
+                Hirigana.className = null;
+                Katakana.className = null;
+                Settings.className = null;
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = "Active";
+                Numbers.className = null;
+            }
+
+            Numbers.onclick = function() {
+                Numbers.className = "Active";
+                Home.className = null;
+                Hirigana.className = null;
+                Katakana.className = null;
+                Settings.className = null;
+                Kanji.className = null;
+                phonetics.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+            }
+        </script>
+    </header>
+    <div class="body-container" id="body-container">
+        {% block content %} {% endblock %}
+    </div>
+    <script>
+        var Name = document.getElementById("Name");
+        var body_container = document.getElementById("body-container");
+        var html = document.getElementById("html")
+        const isMobile = ('ontouchstart' in document.documentElement && navigator.userAgent.match(/Mobi/));
+        if (isMobile) {
+            html.style.width = screen.width;
+            body_container.style.marginLeft = "4rem";
+            body_container.style.width = "100%";
+            body_container.style.fontSize = "small";
+            Name.style.fontSize = "1.5rem";
+        }
+    </script>
+</body>
+
+</html>

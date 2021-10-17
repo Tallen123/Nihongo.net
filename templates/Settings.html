@@ -1,0 +1,108 @@
+{% extends "layout.html" %} {% block content %}
+<div>
+    <div class="Pannel">
+        <h2>Settings</h2>
+        <br>
+        <h3>Everything set in here is temporary, If you are not signed in.</h3>
+    </div>
+    <div class="Pannel" id="Pannel" style="height: 21rem;">
+        <div>
+            <h3 style="position:absolute;left: 29rem;">Status: </h3>
+            <h3 style="color:red;position:absolute;left: 75rem;">Not Signed in</h3>
+        </div>
+        <br><br>
+        <form method="post">
+            <div style="user-select: none;text-align: center;">
+                <h3>Colors: </h3>
+                <label style="position: absolute;left: 30rem;" for="textcolor">Text Color</label>
+                <input type="color" name="textcolor" id="textcolor">
+                <button type="button" style="width: 5rem;position:absolute;left: 78rem;" class="SettingsButton" id="textcolorReset">Reset</button>
+                <br><br>
+
+                <label style="position: absolute;left: 30rem;" for="PannelColor">Pannel Color</label>
+                <input type="color" name="PannelColor" id="PannelColor">
+                <button type="button" style="width: 5rem;position:absolute;left: 78rem;" class="SettingsButton" id="PannelColorReset">Reset</button>
+                <br><br>
+
+                <label style="position: absolute;left: 30rem;" for="Color">Background Color</label>
+                <input type="color" name="Color" id="Color">
+                <button type="button" style="width: 5rem;position:absolute;left: 78rem;" class="SettingsButton" id="ColorReset">Reset</button>
+                <br><br>
+
+                <label style="position: absolute;left: 30rem;" for="Hovercolor">Button Background Color</label>
+                <input type="color" name="Hovercolor" id="Hovercolor">
+                <button type="button" style="width: 5rem;position:absolute;left: 78rem;" class="SettingsButton" id="HovercolorReset">Reset</button>
+                <br><br>
+                <button type="submit" style="width: 5rem;">Save</button>
+            </div>
+        </form>
+        <script>
+            // not signed in color = red
+            // signed in color #00ff00
+            var ColorReset = document.getElementById("ColorReset")
+            var body = document.getElementById("body");
+            var Color = document.getElementById("Color");
+            Color.onchange = function() {
+                body.style.backgroundColor = Color.value;
+            }
+            ColorReset.onclick = function() {
+                Color.value = "black"
+                body.style.backgroundColor = "rebeccapurple";
+            }
+        </script>
+        <style id="Hoverstyle">
+
+        </style>
+        <script>
+            var HovercolorReset = document.getElementById("HovercolorReset");
+            var Hoverstyle = document.getElementById("Hoverstyle")
+            var Hovercolor = document.getElementById("Hovercolor");
+            Hovercolor.onchange = function() {
+                Hoverstyle.innerHTML = "button:hover{background:" + Hovercolor.value + ";}" + "\n" + ".Active{background:" + Hovercolor.value + ";}"
+            }
+            HovercolorReset.onclick = function() {
+                Hovercolor.value = "black"
+                Hoverstyle.innerHTML = "button:hover{background:rebeccapurple;}" + "\n" + ".Active{background:rebeccapurple;}"
+            }
+        </script>
+        <style id="pannelstyle">
+
+        </style>
+        <script>
+            var pannelstyle = document.getElementById("pannelstyle");
+            var PannelColor = document.getElementById("PannelColor");
+            var PannelColorReset = document.getElementById("PannelColorReset");
+
+            PannelColor.onchange = function() {
+                pannelstyle.innerHTML = ".Pannel{background:" +
+                    PannelColor.value + ";}" +
+                    ".List{background-color:" +
+                    PannelColor.value + ";}" +
+                    ".Kanji_List{background-color:" +
+                    PannelColor.value + ";}"
+            }
+            PannelColorReset.onclick = function() {
+                PannelColor.value = "black"
+                pannelstyle.innerHTML = ".Pannel{background:black;}" +
+                    ".List{background-color:black;}" +
+                    ".Kanji_List{background-color:black;}"
+            }
+        </script>
+        <style id="textstyle">
+
+        </style>
+        <script>
+            var textcolor = document.getElementById("textcolor");
+            var textstyle = document.getElementById("textstyle");
+            var textcolorReset = document.getElementById("textcolorReset");
+            textcolor.onchange = function() {
+                textstyle.innerHTML = "body,button{color:" + textcolor.value + ";}"
+            }
+            textcolorReset.onclick = function() {
+                textcolor.value = "black"
+                textstyle.innerHTML = "body,button{color:white;}"
+            }
+        </script>
+    </div>
+</div>
+{% endblock %}

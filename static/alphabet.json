@@ -1,0 +1,650 @@
+[{
+    "hirigana": {
+        "あ": "a",
+        "い": "i",
+        "う": "u",
+        "え": "e",
+        "お": "o",
+        "か": "ka",
+        "き": "ki",
+        "く": "ku",
+        "け": "ke",
+        "こ": "ko",
+        "さ": "sa",
+        "し": "shi",
+        "す": "su",
+        "せ": "se",
+        "そ": "so",
+        "た": "ta",
+        "ち": "chi",
+        "つ": "tsu",
+        "て": "te",
+        "と": "to",
+        "な": "na",
+        "に": "ni",
+        "ぬ": "nu",
+        "ね": "ne",
+        "の": "no",
+        "は": "ha",
+        "ひ": "hi",
+        "ふ": "fu",
+        "へ": "he",
+        "ほ": "ho",
+        "ま": "ma",
+        "み": "mi",
+        "む": "mu",
+        "め": "me",
+        "も": "mo",
+        "や": "ya",
+        "ゆ": "yu",
+        "よ": "yo",
+        "ら": "ra",
+        "り": "ri",
+        "る": "ru",
+        "れ": "re",
+        "ろ": "ro",
+        "わ": "wa",
+        "を": "o",
+        "ん": "n"
+    },
+    "Katakana": {
+        "ア": "a",
+        "イ": "i",
+        "ウ": "u",
+        "エ": "e",
+        "オ": "o",
+        "カ": "ka",
+        "キ": "ki",
+        "ク": "ku",
+        "ケ": "ke",
+        "コ": "ko",
+        "サ": "sa",
+        "シ": "shi",
+        "ス": "su",
+        "セ": "se",
+        "ソ": "so",
+        "タ": "ta",
+        "チ": "chi",
+        "ツ": "tsu",
+        "テ": "te",
+        "ト": "to",
+        "ナ": "na",
+        "ニ": "ni",
+        "ヌ": "nu",
+        "ネ": "ne",
+        "ノ": "no",
+        "ハ": "ha",
+        "ヒ": "hi",
+        "フ": "fu",
+        "ヘ": "he",
+        "ホ": "ho",
+        "マ": "ma",
+        "ミ": "mi",
+        "ム": "mu",
+        "メ": "me",
+        "モ": "mo",
+        "ヤ": "ya",
+        "ユ": "yu",
+        "ヨ": "yo",
+        "ラ": "ra",
+        "リ": "ri",
+        "ル": "ru",
+        "レ": "re",
+        "ロ": "ro",
+        "ワ": "wa",
+        "ヰ": "wi",
+        "ヱ": "we",
+        "ヲ": "wo",
+        "ン": "n"
+    },
+    "Kanji": {
+        "N5": {
+            "日": "(ひ)(day,sun,Japan )",
+            "一": "(いち)(one)",
+            "国": "(くに)(country)",
+            "年 ": "(ねん)(year)",
+            "大": "(おおきい)(large,big)",
+            "十": "(じゅう)(ten)",
+            "二": "(に)(two)",
+            "本": "(ほん)(book)",
+            "中": "(なか)(inside)",
+            "長": "(なが)(long)",
+            "出": "(で)(exit, leave)",
+            "三": "(さん)(three)",
+            "時": "(じ)(time,hour)",
+            "行": "(こう)(going, journey)",
+            "見": "(み)(see, hopes, chances, idea, opinion, look at, visible)",
+            "月": "(つき)(month, moon)",
+            "後": "(あと)(behind, back, later)",
+            "前": "(まえ)(in front, before)",
+            "生": "(なま)(life, genuine, birth)",
+            "五": "(ご)(five)",
+            "間": "(ま)(interval, space)",
+            "上": "(うえ)(above, up)",
+            "東": "(ひがし)(east)",
+            "四": "(よん)(four)",
+            "今": "(いま)(now)",
+            "金": "(きん)(gold)",
+            "九": "(きゅう)(nine)",
+            "入": "(いり)(enter, insert)",
+            "学": "(がく)(study, learning, science )",
+            "高": "(こう)(tall, high, expensive)",
+            "円": "(えん)(circle, yen, round)",
+            "子": "(こ)(child)",
+            "外": "(そと)(outside)",
+            "八": "(はち)(eight)",
+            "六": "(ろく)(six)",
+            "下": "(した)(below, down, descend, give, low,inferior)",
+            "来": "(き)(come, due, next, cause, become)",
+            "気": "(き)(spirit, mind)",
+            "小": "(しょう)(little, small)",
+            "七": "(なな)(seven)",
+            "山": "(やま)(mountain)",
+            "話": "(はなし)(tale, talk)",
+            "女": "(おんな)(woman, female)",
+            "北": "(きた)(north)",
+            "午": "(うま)(noon, sign of the horse, seventh sign of Chinese zodiac)",
+            "百": "(ひゃく)(hundred)",
+            "書": "(しょ)(write)",
+            "先": "(さき)(before, ahead, previous, future, precedence)",
+            "名": "(な)(name, reputation)",
+            "川": "(かわ)(river, stream)",
+            "千": "(せん)(thousand)",
+            "水": "(みず)(water)",
+            "半": "(はん)(half)",
+            "男": "(おとこ)(man, male)",
+            "西": "(にし)(west, Spain)",
+            "電": "(でん)(electricity)",
+            "校": "(-こう)(exam, school, printing, proof, correction)",
+            "語": "(ご)(word, speech, language)",
+            "土": "(つち)(soil, earth, ground)",
+            "木": "(き)(tree, wood)",
+            "聞": "(きき)(hear, ask, listen)",
+            "食": "(しょく)(meal, food)",
+            "車": "(くるま)(car)",
+            "何": "(なん)(what)",
+            "南": "(みなみ)(south)",
+            "万": "(まん)(ten thousand)",
+            "毎": "(まい)(every)",
+            "白": "(しろ)(white)",
+            "天": "(てん)(heavens, sky, imperial)",
+            "母": "(はは)(mother,mama)",
+            "火": "(ひ)(Tuesday, fire)",
+            "右": "(みぎ)(right, right hand side)",
+            "読": "(よみ)(read, reading)",
+            "友": "(とも)(friend)",
+            "左": "(ひだり)(left, left hand side)",
+            "休": "(きゅう)(rest, day off, retire, sleep)",
+            "父": "(ちち)(father)",
+            "雨": "(あめ)(rain)"
+        },
+        "N4": {
+            "会": "(かい)(meeting, meet, party, association, interview, join)",
+            "同": "(どう)(same, agree, equal)",
+            "事": "(こと)(matter, thing, fact, business, reason, possibly)",
+            "自": "(じ)(self)",
+            "社": "(しゃ)(company, association, society)",
+            "発": "(はつ)(company, firm, office, association, shrine)",
+            "者": "(もの)(person)",
+            "地": "(ち)(ground, land, earth, soil)",
+            "業": "(ごう)(work, business, study)",
+            "方": "(ほう)(side, direction, way)",
+            "新": "(しん)(thin)",
+            "場": "(ば)(place, occasion, situation)",
+            "員": "(-いん)(member)",
+            "立": "(たて)(just (done), freshly (baked), indicates activity only just occurred)",
+            "開": "(かい)(open, unfold, unseal)",
+            "手": "(て)(hand)",
+            "力": "(ちから)(power, strong, strain, bear up, exert)",
+            "問": "(もん)(question, ask, problem)",
+            "代": "(だい)(substitute, change, convert, replace, period, age)",
+            "明": "(あきら)(bright, light)",
+            "動": "(どう)(move, motion, change, confusion, shift, shake)",
+            "京": "(きょう)(imperial capital)",
+            "目": "(め)(eye, eyeball, eyesight, sight, vision, look, stare, glance)",
+            "通": "(つう)(traffic, pass through, avenue)",
+            "言": "(げん)(word, remark, statement,say)",
+            "理": "(り)(reason, truth, way of things, justice,)",
+            "体": "(からだ)(body, health)",
+            "田": "(た)(rice field)",
+            "主": "(ぬし)(lord, chief, master)",
+            "題": "(だい)(topic, subject)",
+            "意": "(い)(feelings, thoughts, meaning)",
+            "不": "(ふ)(un-, non-, negative prefix)",
+            "作": "(さく)(make, production, prepare, build)",
+            "用": "(よう)(utilize, business, service, use, employ)",
+            "度": "(ど)(degrees, occurrence, time, counter for occurrences)",
+            "強": "(きょう)(strong)",
+            "公": "(こう)(official, public, formal, open, governmental,)",
+            "持": "(もち)(hold, have)",
+            "野": "(の)(plains, field, rustic, civilian life)",
+            "以": "(い)(by means of, because, in view of, compared with)",
+            "思": "(おもう)(think)",
+            "家": "(いえ)(house, home)",
+            "世": "(よ)(generation, world, society, public)",
+            "多": "(さわ)(many, frequent, much)",
+            "正": "(ただし)(correct, justice, righteous)",
+            "安": "(あん)(relax, cheap, low, quiet, rested, contented, peaceful)",
+            "院": "(いん)(institution, temple, mansion, school)",
+            "心": "(りっしんべん)(heart, mind, spirit)",
+            "界": "(さかい)(border, boundary, mental state)",
+            "教": "(える)(teach, faith, doctrine )",
+            "文": "(ふみ)(sentence, literature, style, art, decoration, figures, plan )",
+            "元": "(もと)(beginning, former time, origin)",
+            "重": "(じゅう)(heavy, heap up, pile up, nest of boxes, -fold)",
+            "近": "(きん)(near, early, akin, tantamount)",
+            "考": "(かんがえ)(thinking, thought, ideas, intention)",
+            "画": "(が)(brush-stroke, picture)",
+            "海": "(うみ)(sea. ocean)",
+            "売": "(うり)(sell)",
+            "知": "(ち)(know, wisdom)",
+            "道": "(みち)(road-way, street, district, journey, course, moral, teachings)",
+            "集": "(しゅう)(gather, meet, congregate, swarm, flock)",
+            "別": "(れる)(separate, branch off, diverge, fork, another, extra, specially)",
+            "物": "(もの)(thing, object, matter)",
+            "使": "(し)(use)",
+            "品": "(しな)(goods, refinement, dignity, article, counter for meal courses)",
+            "計": "(けい)(plot, plan, scheme, measure)",
+            "死": "(し)(death, die)",
+            "特": "(とく)(special)",
+            "私": "(わたくし)(private, i, me)",
+            "始": "(はじめ)(commence, begin)",
+            "朝": "(あさ)(morning, dynasty, regime, epoch, period, (North) Korea)",
+            "運": "(うん)(carry, luck, destiny, fate, lot, transport, progress, advance)",
+            "終": "(おわり)(end, finish)",
+            "台": "(だい)(pedestal, a stand, counter for machines and vehicles)",
+            "広": "(ひろし)(wide, broad, spacious)",
+            "住": "(じゅう)(dwell, reside, live, inhabit)",
+            "真": "(しん)(true, reality, Buddhist sect)",
+            "有": "(ゆう)(possess, have, exist, happen, occur, approx)",
+            "口": "(くち)(mouth)",
+            "少": "(すくな)(few, little)",
+            "町": "(まち(village, town, block, street)",
+            "料": "(-りょう)(fee, materials)",
+            "工": "(こう)(craft, construction)",
+            "建": "(けん)(build)",
+            "空": "(そら)(empty, sky, void, vacant, vacuum)",
+            "急": "(きゅう)(hurry, emergency, sudden, steep)",
+            "止": "(とめ)(stop, halt)",
+            "送": "(おくる)(escort, send)",
+            "切": "(-る)(cut, cutoff, be sharp)",
+            "転": "(てん)(revolve, turn around, change)",
+            "研": "(けん)(polish, study of, sharpen)",
+            "足": "(あし)(leg, foot, be sufficient, counter for pairs of footwear)",
+            "究": "(きわむ)(research, study)",
+            "楽": "(らく)(music, comfort, ease)",
+            "起": "(き)(rouse, wake up, get up)",
+            "着": "(き)(don, arrive, wear, counter for suits of clothing)",
+            "店": "(みせ)(store, shop)",
+            "病": "(やまい)(ill, sick)",
+            "質": "(しつ)(substance, quality, matter, temperament)",
+            "待": "(まち)(wait, depend on)",
+            "試": "(み)(test, try, attempt, experiment, ordeal)",
+            "族": "(ぞく)(tribe, family)",
+            "銀": "(ぎん)(silver)",
+            "早": "(はや)(early, fast)",
+            "映": "(えい)(reflect, reflection, projection)",
+            "親": "(おや)(parent, intimacy, relative, familiarity, dealer (cards))",
+            "験": "(げん)(verification, effect, testing)",
+            "英": "(えい)(England, English)",
+            "医": "(い)(doctor, medicine)",
+            "仕": "(し)(attend, doing, official, serve)",
+            "去": "(さっ)(gone, past, quit, leave, elapse, eliminate, divorce)",
+            "味": "(あじ)(flavor, taste)",
+            "写": "(うつし)(copy, be photographed, describe)",
+            "字": "(じ)(character, letter, word, section of village)",
+            "答": "(こたえ)(solution, answer)",
+            "夜": "(よる)(night, evening)",
+            "音": "(おと)(sound, noise )",
+            "注": "(ちゅう)(pour, irrigate, shed (tears), flow into, concentrate on, notes, comment, annotate )",
+            "帰": "(き)(homecoming, arrive at, lead to, result in)",
+            "古": "(ふる-)(old)",
+            "歌": "(うた)(song, sing)",
+            "買": "(かい)(buy)",
+            "悪": "(わる)(bad, vice, rascal, false, evil, wrong)",
+            "図": "(え)(map, drawing, plan, unexpected, accidentally)",
+            "週": "(しゅう)(week)",
+            "室": "(むろ)(room, apartment, chamber, greenhouse, cellar)",
+            "歩": "(あゆみ)(walk, counter for steps)",
+            "風": "(かぜかざ-)(wind, air, style, manner)",
+            "紙": "(かみ)(paper)",
+            "黒": "(くろ)(black)",
+            "花": "(はな)(flower)",
+            "春": "(はる)(springtime, spring (season))",
+            "赤": "(あか)(red)",
+            "青": "(あお)(blue, green)",
+            "館": "(やかた)(building, mansion, large building, palace)",
+            "屋": "(-や)(roof, house, shop, dealer, seller)",
+            "色": "(いろ)(color)",
+            "走": "(そう)(run)",
+            "秋": "(あき)(autumn)",
+            "夏": "(なつ)(summer)",
+            "習": "(-う)(learn)",
+            "駅": "(えき)(station)",
+            "洋": "(よう)(ocean, western style)",
+            "旅": "(たび)(trip, travel)",
+            "服": "(ふく)(clothing, admit, obey, discharge)",
+            "夕": "(ゆう)(evening)",
+            "借": "(かり)(borrow, rent)",
+            "曜": "(よう)(weekday)",
+            "飲": "(いん)(drink, smoke, take)",
+            "肉": "(にく)(meat)",
+            "貸": "(かし)(lend,loan)",
+            "堂": "(どう)(public chamber, hall)",
+            "鳥": "(とり)(bird, chicken)",
+            "飯": "(めし)(meal, boiled rice)",
+            "勉": "(つとむ)(exertion)",
+            "冬": "(ふゆ)(winter)",
+            "昼": "(ひる)(daytime, noon)",
+            "茶": "(ちゃ)(tea)",
+            "弟": "(おとうと)(younger brother, faithful service to elders)",
+            "牛": "(うし)(cow)",
+            "魚": "(さかな)(fish)",
+            "兄": "(あに)(elder brother, big brother)",
+            "犬": "(いぬ)(dog)",
+            "妹": "(いもうと)(younger sister)",
+            "姉": "(あね)(elder sister)",
+            "漢": "(かん)(Sino-, China)"
+        },
+        "N3": {
+
+            "完": "(カン) (perfect, completion, end)",
+
+            "降": " (ろす) (descend, precipitate, fall, surrender)",
+
+            "責": "(める blame, condemn, censure)",
+
+            "捕": " (まえる つか) (catch, capture)",
+
+            "危": "(あぶ) (dangerous, fear, uneasy)",
+
+            "給": "(たも) (salary, wage, gift, allow, grant, bestow on)",
+
+            "苦": "(しむ くる) (suffering, trial, worry, hardship, feel bitter, scowl)",
+
+            "迎": "(/) (welcome, meet, greet)",
+
+            "園": "(/) (park, garden, yard, farm)",
+
+            "具": "(える) (tool, utensil, means, possess, ingredients, counter for armor, suits, sets of furniture)",
+
+            "辞": "(める いな) (resign, word, term, expression)",
+
+            "因": "(よる) (cause, factor, be associated with, depend on, be limited to)",
+
+            "馬": "(うま) (horse)",
+
+            "愛": "() (love, affection, favourite)",
+
+            "富": "(む) (wealth, enrich, abundant)",
+
+            "彼": "(かれ かの) (he, that, the)",
+
+            "未": "(だ ひつじ) (un- , not yet, hitherto, still, even now, sign of the ram, 1 - 3 PM)",
+
+            "舞": "(う まい) (dance, flit, circle, wheel)",
+
+            "亡": "(ぶ ほろ) (deceased, the late, dying, perish)",
+
+            "冷": "(ます) (cool, cold(beer, person), chill)",
+
+            "適": "(かな) (suitable, occasional, rare, qualified, capable)",
+
+            "婦": "(/) (lady, woman, wife, bride)",
+
+            "寄": "(/) (draw near, stop in, bring near, gather, collect, send, forward)",
+
+            "込": "(こみ) (crowded, mixture, in bulk, included, (kokuji))",
+
+            "顔": "(ガン かお) (face, expression)",
+
+            "類": "(たぐい) (sort, kind, variety, class, genus)",
+
+            "余": "(あま) (too much, myself, surplus, other, remainder)",
+
+            "王": "(/) (king, rule, magnate)",
+
+            "返": "(かえ) (return, answer, fade, repay)",
+
+            "妻": "(/) (wife, spouse)",
+
+            "背": "(そむける) (stature, height, back, behind)",
+
+            "熱": "(ネツ アツ.) (heat, temperature, fever, mania, passion)",
+
+            "宿": "(やど やど) (inn, lodging, relay station, dwell, lodge, be pregnant, home, dwelling)",
+
+            "薬": "(/) (medicine, chemical, enamel, gunpowder, benefit)",
+
+            "険": "(しい) (precipitous, inaccessible place, impregnable position, steep, place, sharp eyes)",
+
+            "頼": "(もしい) (trust, request)",
+
+            "覚": "(める さと) (memorize, learn, remember, awake, sober up)",
+
+            "船": "(ふな) (ship, boat)",
+
+            "途": "(/) (route, way, road)",
+
+            "許": "(ゆるす) (permit, approve)",
+
+            "抜": "(かす) (slip out, extract, pull out, pilfer, quote, remove, omit)",
+
+            "便": "たよ) (convenience)",
+
+            "留": "(まる) (detain, fasten, halt, stop)",
+
+            "罪": "(つみ) (guilt, sin, crime, fault, blame, offense)",
+
+            "努": "(つと) (toil, diligent, as much as possible)",
+
+            "精": "(/) (refined, ghost, fairy, energy, vitality, semen, excellence)",
+
+            "散": "(らかる) (scatter, disperse,spend, squander)",
+
+            "静": "(まる) (quiet)",
+
+            "婚": "(/) (marriage)",
+
+            "喜": "(よろこ) (rejoice, take pleasure in)",
+
+            "浮": "(かぶむ) (floating, float, rise to surface)",
+
+            "絶": "(やすた) (discontinue, beyond, sever, cut off, abstain, interrupt, suppress)",
+
+            "幸": "(いさち) (happiness, blessing, fortune)",
+
+            "押": "(さえる) (push, stop, check, subdue, attach, seize, weight, shove, press, seal, do inspite of)",
+
+            "倒": "(れたお) (overthrow, fall, collapse, drop, break down)",
+
+            "等": "(しいなど) (etc., and so forth, class(first), quality, equal, similar)",
+
+            "老": "(おいる) (old man, old age, grow old)",
+
+            "曲": "(まがる) (bend, music, melody, composition, pleasure, injustice, fault, curve, crooked, perverse, lean)",
+
+            "払": "(はらい) (pay, clear out, prune, banish, dispose of)",
+
+            "庭": "(/) (courtyard, garden, yard)",
+
+            "徒": "(いたずら) (junior, emptiness, vanity, futility, uselessness, ephemeral thing, gang, set, party, people)",
+
+            "勤": "(いそしむ) (diligence, become employed, serve)",
+
+            "遅": "(らす) (slow, late, back, later)",
+
+            "居": "(るい) (reside, to be, exist, live with)",
+
+            "雑": "(まじる) (miscellaneous)",
+
+            "招": "(まね) (beckon, invite, summon, engage)",
+
+            "困": "(こま) (quandary, become distressed, annoyed)",
+
+            "欠": "(あくび) (lack, gap, fail)",
+
+            "更": "(かす) (grow late, night watch, sit up late, of course)",
+
+            "刻": "(むきざ) (engrave, cut fine, chop, hash, mince, time, carving)",
+
+            "賛": "(える) (approve, praise, title or inscription on picture, assist, agree with)",
+
+            "抱": "(いだ) (embrace, hug, hold in arms)",
+
+            "犯": "(おかす) (crime, sin, offense)",
+
+            "恐": "(がる) (fear, dread, awe)",
+
+            "息": "(いき) (breath, respiration, son, interest(on money))",
+
+            "遠": "(/) (distant, far)",
+
+            "戻": "(すもど) (re-, return, revert, resume, restore, go backwards)",
+
+            "願": "(ねが) (petition, request, vow, wish, hope)",
+
+            "絵": "(/) (picture, drawing, painting, sketch)",
+
+            "越": "(える) (surpass, cross over, move to, exceed, Vietnam)",
+
+            "欲": "(しい) (longing, covetousness, greed, passion, desire, craving)",
+
+            "痛": "(める) (pain, hurt, damage, bruise)",
+
+            "笑": "(わら) (laugh)",
+
+            "互": "(いかたみ) (mutually, reciprocally, together)",
+
+            "束": "(ねる) (bundle, sheaf, ream, tie in bundles, govern, manage, control)",
+
+            "似": "(る) (becoming, resemble, counterfeit, imitate, suitable)",
+
+            "列": "(/) (file, row, rank, tier, column)",
+
+            "探": "(るさが) (grope, search, look for)",
+
+            "逃": "(れる) (escape, flee, shirk, evade, set free)",
+
+            "遊": "(バあそ) (play)",
+
+            "迷": "(まよ) (astray, be perplexed, in doubt, lost, err, illusion)",
+
+            "夢": "(い) (dream, vision, illusion)",
+
+            "君": "(きみ) (old boy, name - suffix)",
+
+            "閉": "(まる) (closed, shut)",
+
+            "緒": "(お) (thong, beginning, inception, end, cord, strap)",
+
+            "折": "(り) (fold, break, fracture, bend, yield, submit)",
+
+            "草": "(くさ)  (grass, weeds, herbs, pasture, write, draft)",
+
+            "暮": "(れる) (livelihood, make a living, spend time)",
+
+            "酒": "(さか) (sake, alcohol)",
+
+            "悲": "(しむ) (jail cell, grieve, sad, deplore, regret)",
+
+            "晴": "(れる) (clear up)",
+
+            "掛": "(かりかかり) (hang, suspend, arrive at, tax, pour)",
+
+            "到": "(いたる) (arrival, proceed, reach, attain, result in)",
+
+            "寝": "(める) (lie down, sleep, rest, bed, remain unsold)",
+
+            "暗": "(くらい) (darkness, disappear, shade, informal, grow dark, be blinded)",
+
+            "盗": "(むぬす) (steal, rob, pilfer)",
+
+            "吸": "(すう) (suck, imbibe, inhale, sip)",
+
+            "陽": "(/) (sunshine, yang principle, positive, male, heaven, daytime)",
+
+            "御": "(おん - お - み) (honorable, manipulate, govern)",
+
+            "歯": "(いよわい) (tooth, cog)",
+
+            "忘": "(れる) (forget)",
+
+            "雪": "(/) (snow)",
+
+            "吹": "(/) (blow, breathe, puff, emit, smoke)",
+
+            "娘": "(むすめ) (daughter, girl)",
+
+            "誤": "(あやま) (mistake, err, do wrong, mislead)",
+
+            "洗": "(/) (wash, inquire into, probe)",
+
+            "慣": "(らす) (accustomed, get used to, become experienced)",
+
+            "礼": "(/) (salute, bow, ceremony, thanks, remuneration)",
+
+            "窓": "(けむだし) (window, pane)",
+
+            "昔": "(むかし) (once upon a time, antiquity, old times)",
+
+            "貧": "(まず) (poverty, poor)",
+
+            "怒": "(おこ) (angry, be offended)",
+
+            "泳": "(およ) (swim)",
+
+            "祖": "(/) (ancestor, pioneer, founder)",
+
+            "杯": "(さかずき) (counter for cupfuls, wine glass, glass, toast)",
+
+            "疲": "(らす) (exhausted, tire, weary)",
+
+            "皆": "(みな) (all, everything)",
+
+            "鳴": "(くな) (chirp, cry, bark, sound, ring, echo, honk)",
+
+            "腹": "(はら) (abdomen, belly, stomach)",
+
+            "煙": "(けむ) (smoke)",
+
+            "眠": "(ねむ) sleep, die, sleepy)",
+
+            "怖": "(れる)(dreadful, be frightened, fearful)",
+
+            "耳": "(/) (ear)",
+
+            "頂": "(くいただき) (place on the head, receive, top of head, top, summit, peak)",
+
+            "箱": "(はこ) (box, chest, case, bin, railway car)",
+
+            "晩": "(/) (nightfall, night)",
+
+            "寒": "(カン) (cold)",
+
+            "髪": "(カ) (hair of the head)",
+
+            "忙": "(うれえるさま) (busy, occupied, restless)",
+
+            "才": "(/) (genius, years old,cubic shaku)",
+
+            "靴": "(くつ) (shoes)",
+
+            "恥": "(じらう) (shame, dishonor)",
+
+            "偶": "(たま) (accidentally, even number, couple, man & wife, same kind)",
+
+            "偉": "(/) (admirable, greatness, remarkable, conceited, famous, excellent)",
+
+            "猫": "(ねこ) (cat)",
+
+            "幾": "(つ) (how many, how much, how far, how long)"
+        },
+        "N2": {
+
+        },
+        "N1": {
+
+        }
+    }
+}]

@@ -1,0 +1,21 @@
+{% extends "layout.html" %} {% block content %}
+<div>
+    <div class="Pannel">
+        <h2>login</h2>
+    </div>
+    <div class="Pannel" id="Pannel">
+        <form action="" autocomplete="off" method="POST">
+            <label for="Username" style="color: white;">Username</label>
+            <br>
+            <input type="text" name="Username" id="Username">
+            <br><br>
+            <label for="Password" style="color: white;">Password</label>
+            <br>
+            <input type="password" name="Password" id="Password">
+            <br><br>
+            <button style="width: 10%;" class="Loginbtn">Login</button>
+            <button style="width: 10%;" class="Loginbtn">Sign up</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

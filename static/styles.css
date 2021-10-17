@@ -1,0 +1,131 @@
+body {
+    background: rebeccapurple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Name {
+    margin: 2%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    user-select: none;
+    animation-name: nameanim;
+    animation-duration: 1s;
+}
+
+@keyframes nameanim {
+    0% {
+        margin-left: -50%;
+        color: black;
+    }
+    100% {}
+}
+
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body,
+button {
+    color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.Pannel {
+    border-radius: 20px;
+    text-align: center;
+    background: black;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0.2%;
+}
+
+.Active {
+    background: rebeccapurple;
+}
+
+.List {
+    background: black;
+    margin-top: 1.9%;
+    outline: none;
+    text-decoration: none;
+    padding: 6px;
+    list-style: none;
+}
+
+.List li {
+    padding: 6px;
+}
+
+button:hover {
+    background: rebeccapurple;
+}
+
+button {
+    outline: none;
+    background: none;
+    border-radius: 10px;
+    border: 0;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    background: #000;
+    z-index: 2;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    margin: 1%;
+    user-select: none;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.grid-container {
+    display: inline-grid;
+}
+
+.Kanji_List {
+    background: black;
+    margin-top: 1.9%;
+    outline: none;
+    text-decoration: none;
+    padding: 6px;
+    list-style: none;
+    opacity: 0%;
+}
+
+.Kanji_List li {
+    padding: 6px;
+}
+
+@keyframes Klist {
+    0% {
+        pointer-events: none;
+        opacity: 0%;
+        left: -10%;
+        color: black;
+    }
+    100% {}
+}
+
+@keyframes KlistC {
+    0% {}
+    100% {
+        pointer-events: none;
+        opacity: 0%;
+        margin-left: -5%;
+        color: black;
+    }
+}
