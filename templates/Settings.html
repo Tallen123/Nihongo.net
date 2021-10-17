@@ -5,11 +5,25 @@
         <br>
         <h3>You must be signed in for the changes to take effect site wide.</h3>
     </div>
-    <div class="Pannel" id="Pannel" style="height: 30rem;">
-        <div>
+    <div class="Pannel" id="Pannel" style="height: 32rem;">
+        <div style="text-align: center;">
             <h3 style="position:sticky;">Status: </h3>
             <br>
-            <h3 style="color:red; position: sticky;cursor: pointer;" onclick="document.location = '/Account/SignUp'">Not Signed in</h3>
+            <h3 style="color: red; cursor: pointer;padding: 0%;margin: 0%;" id="Status" onclick="document.location = '/Account/SignUp'">Not Signed in</h3>
+            <br>
+            <button style="width: 8rem;font-size: 100%;"><b>Log Out</b></button>
+            <script>
+                document.onload = function() {
+                    var name = "{{session['username']}}";
+                    console.log("{{session['username']}}")
+                    var Status = document.getElementById("Status");
+                    if (name == null) {
+                        Status.style.color = "red";
+                    } else {
+                        Status.style.Color = "green"
+                    }
+                }
+            </script>
         </div>
         <br>
         <form method="post">
@@ -47,7 +61,7 @@
                 body.style.backgroundColor = Color.value;
             }
             ColorReset.onclick = function() {
-                Color.value = "black"
+                Color.value = "purple"
                 body.style.backgroundColor = "rebeccapurple";
             }
         </script>
@@ -106,4 +120,13 @@
         </script>
     </div>
 </div>
+<style id="Style1">
+
+</style>
+<script>
+    var Style1 = document.getElementById("Style1");
+    var background = "{{Color}}"
+    var textColor = "{{textcolor}}"
+    Style1.innerHTML = "body{Background:" + background + ";}" + "\n" + "body,h1,h2,h3,h4,h5{color:" + textColor + ";}"
+</script>
 {% endblock %}
