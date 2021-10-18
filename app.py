@@ -145,6 +145,7 @@ class AccountStuff:
     @app.route('/Account/Logout')
     def Logout():
         session.clear()
+        session['BackgroundColor'] = "#663399"
         return render_template('LandingPage.html',Color=session['BackgroundColor'])#Logout Code
 
 if __name__ == '__main__':
