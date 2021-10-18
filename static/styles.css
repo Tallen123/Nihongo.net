@@ -96,6 +96,20 @@ h3 {
     display: inline-grid;
 }
 
+.Vocabulary_List {
+    background: black;
+    margin-top: 1.9%;
+    outline: none;
+    text-decoration: none;
+    padding: 6px;
+    list-style: none;
+    opacity: 0%;
+}
+
+.Vocabulary_List li {
+    padding: 6px;
+}
+
 .Kanji_List {
     background: black;
     margin-top: 1.9%;

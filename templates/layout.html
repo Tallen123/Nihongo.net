@@ -38,9 +38,9 @@
                 <li><button id="Katakana">Katakana</button></li>
                 <li><button id="Kanji">Kanji</button></li>
                 <li><button id="Numbers">Numbers</button></li>
-                <li><button id="phonetics">phonetics</button></li>
-                <li><button id="Grammer">Grammer</button></li>
                 <li><button id="Vocabulary">Vocabulary</button></li>
+                <li><button id="Grammer">Grammer</button></li>
+                <li><button id="phonetics">phonetics</button></li>
             </ul>
             <div class="Kanji_Menu">
                 <ul class="Kanji_List" id="Kanji_List" style=" position:fixed;top:10%;left:1%;border-radius: 20px; pointer-events: none;">
@@ -50,6 +50,16 @@
                     <li><button id="N3" onclick="document.location='/Kanji/N3'">N3</button></li>
                     <li><button id="N2" onclick="document.location='/Kanji/N2'">N2</button></li>
                     <li><button id="N1" onclick="document.location='/Kanji/N1'">N1 (Hard)</button></li>
+                </ul>
+            </div>
+            <div class="Vocabulary_Menu">
+                <ul class="Vocabulary_List" id="Vocabulary_List" style=" position:fixed;top:10%;left:1%;border-radius: 20px; pointer-events: none;">
+                    <li><button id="Vocab_Back">Back</button></li>
+                    <li><button id="N5" onclick="document.location='/Vocabulary/N5'">N5 (Easy)</button></li>
+                    <li><button id="N4" onclick="document.location='/Vocabulary/N4'">N4</button></li>
+                    <li><button id="N3" onclick="document.location='/Vocabulary/N3'">N3</button></li>
+                    <li><button id="N2" onclick="document.location='/Vocabulary/N2'">N2</button></li>
+                    <li><button id="N1" onclick="document.location='/Vocabulary/N1'">N1 (Hard)</button></li>
                 </ul>
             </div>
         </div>
@@ -68,6 +78,8 @@
             var back = document.getElementById("Back");
             var Settings = document.getElementById("Settings");
             var phonetics = document.getElementById("phonetics");
+            var Vocabulary_List = document.getElementById("Vocabulary_List");
+            var Vocab_Back = document.getElementById("Vocab_Back")
 
 
             var loc = document.location.toString();
@@ -144,59 +156,59 @@
                 Vocabulary.className = null;
                 Numbers.className = "Active";
             }
-
+            //Settings code
             Settings.onclick = function() {
-                Settings.className = "Active";
-                Home.className = null;
-                Hiragana.className = null;
-                Katakana.className = null;
-                Kanji.className = null;
-                phonetics.className = null;
-                Grammer.className = null;
-                Vocabulary.className = null;
-                document.location = "/Settings";
-                Numbers.className = null;
-            }
-
+                    Settings.className = "Active";
+                    Home.className = null;
+                    Hiragana.className = null;
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    phonetics.className = null;
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    document.location = "/Settings";
+                    Numbers.className = null;
+                }
+                //Home Code
             Home.onclick = function() {
-                Home.className = "Active"
-                Settings.className = null;
-                Hiragana.className = null;
-                Katakana.className = null;
-                Kanji.className = null;
-                phonetics.className = null;
-                Grammer.className = null;
-                Vocabulary.className = null;
-                document.location = "/"
-                Numbers.className = null;
-            }
-
+                    Home.className = "Active"
+                    Settings.className = null;
+                    Hiragana.className = null;
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    phonetics.className = null;
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    document.location = "/"
+                    Numbers.className = null;
+                }
+                //Hiragana code
             Hiragana.onclick = function() {
-                Home.className = null;
-                Settings.className = null;
-                Hiragana.className = "Active";
-                Katakana.className = null;
-                Kanji.className = null;
-                phonetics.className = null;
-                Grammer.className = null;
-                Vocabulary.className = null;
-                document.location = "/Hiragana"
-                Numbers.className = null;
-            }
-
+                    Home.className = null;
+                    Settings.className = null;
+                    Hiragana.className = "Active";
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    phonetics.className = null;
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    document.location = "/Hiragana"
+                    Numbers.className = null;
+                }
+                //Katakana code
             Katakana.onclick = function() {
-                Home.className = null;
-                Settings.className = null;
-                Hiragana.className = null;
-                Katakana.className = "Active";
-                Kanji.className = null;
-                phonetics.className = null;
-                Grammer.className = null;
-                Vocabulary.className = null;
-                document.location = "/Katakana"
-                Numbers.className = null;
-            }
-
+                    Home.className = null;
+                    Settings.className = null;
+                    Hiragana.className = null;
+                    Katakana.className = "Active";
+                    Kanji.className = null;
+                    phonetics.className = null;
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    document.location = "/Katakana"
+                    Numbers.className = null;
+                }
+                //KanjiCode
             back.onclick = function() {
                 Kanji_List.style.opacity = "0%"
                 List.style.animationName = "Klist"
@@ -205,49 +217,48 @@
                 Kanji_List.style.pointerEvents = "none"
                 List.style.pointerEvents = "auto"
             }
-
             Kanji.onclick = function() {
-                Home.className = null;
-                Settings.className = null;
-                Hiragana.className = null;
-                Katakana.className = null;
-                Kanji.className = "Active";
-                phonetics.className = null;
-                Grammer.className = null;
-                Vocabulary.className = null;
-                Numbers.className = null;
+                    Home.className = null;
+                    Settings.className = null;
+                    Hiragana.className = null;
+                    Katakana.className = null;
+                    Kanji.className = "Active";
+                    phonetics.className = null;
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    Numbers.className = null;
 
-                Kanji_List.style.animationName = "Klist"
-                Kanji_List.style.animationDuration = "1s"
-                Kanji_List.style.opacity = "100%"
-                Kanji_List.style.pointerEvents = "auto"
-                List.style.opacity = "0%"
-            }
-
+                    Kanji_List.style.animationName = "Klist"
+                    Kanji_List.style.animationDuration = "1s"
+                    Kanji_List.style.opacity = "100%"
+                    Kanji_List.style.pointerEvents = "auto"
+                    List.style.opacity = "0%"
+                }
+                //Phonetics code
             phonetics.onclick = function() {
-                Home.className = null;
-                Hiragana.className = null;
-                Settings.className = null;
-                Katakana.className = null;
-                Kanji.className = null;
-                phonetics.className = "Active";
-                Grammer.className = null;
-                Vocabulary.className = null;
-                Numbers.className = null;
-                document.location = "/Phonetics"
-            }
-
+                    Home.className = null;
+                    Hiragana.className = null;
+                    Settings.className = null;
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    phonetics.className = "Active";
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    Numbers.className = null;
+                    document.location = "/Phonetics"
+                }
+                //Grammar code
             Grammer.onclick = function() {
-                Home.className = null;
-                Hiragana.className = null;
-                Settings.className = null;
-                Katakana.className = null;
-                Kanji.className = null;
-                phonetics.className = null;
-                Grammer.className = "Active";
-                Vocabulary.className = null;
-            }
-
+                    Home.className = null;
+                    Hiragana.className = null;
+                    Settings.className = null;
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    phonetics.className = null;
+                    Grammer.className = "Active";
+                    Vocabulary.className = null;
+                }
+                //Vocabulary Code
             Vocabulary.onclick = function() {
                 Home.className = null;
                 Hiragana.className = null;
@@ -258,8 +269,22 @@
                 Grammer.className = null;
                 Vocabulary.className = "Active";
                 Numbers.className = null;
-            }
 
+                Vocabulary_List.style.animationName = "Klist"
+                Vocabulary_List.style.animationDuration = "1s"
+                Vocabulary_List.style.opacity = "100%"
+                Vocabulary_List.style.pointerEvents = "auto"
+                List.style.opacity = "0%"
+            }
+            Vocab_Back.onclick = function() {
+                    Vocabulary_List.style.opacity = "0%"
+                    List.style.animationName = "Klist"
+                    List.style.animationDuration = "1s"
+                    List.style.opacity = "100%"
+                    Vocabulary_List.style.pointerEvents = "none"
+                    List.style.pointerEvents = "auto"
+                }
+                //Numbers code
             Numbers.onclick = function() {
                 Numbers.className = "Active";
                 Home.className = null;
