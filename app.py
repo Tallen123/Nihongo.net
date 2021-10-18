@@ -29,71 +29,119 @@ def make_session_permanent():
 
 @app.route('/')
 def landing_page():
-    return render_template('LandingPage.html',Color=session['BackgroundColor'])
+    if 'BackgroundColor' in session:
+        return render_template('LandingPage.html',Color=session['BackgroundColor'])
+    else:
+        return render_template('LandingPage.html',Color="#663399")
 
 @app.route('/Numbers')
 def Numbers():
-    return render_template('Numbers.html',Color=session['BackgroundColor'])#Numbers Page
+    if 'BackgroundColor' in session:
+        return render_template('Numbers.html',Color=session['BackgroundColor'])#Numbers Page
+    else:
+        return render_template('Numbers.html',Color="#663399")
 
 @app.route('/Phonetics')
 def Phonetics():
-    return render_template('Phonetics.html',Color=session['BackgroundColor'])#Phonetics Page
+    if 'BackgroundColor' in session:
+        return render_template('Phonetics.html',Color=session['BackgroundColor'])
+    else:
+        return render_template('Phonetics.html',Color="#663399")
 
 
 class HiraganaKatakana:
     @app.route('/Hiragana')
     def Hiragana():
-        return render_template('Hiragana.html',Color=session['BackgroundColor'])#Hiragana Page
+        if 'BackgroundColor' in session:
+            return render_template('Hiragana.html',Color=session['BackgroundColor'])#Numbers Page
+        else:
+            return render_template('Hiragana.html',Color="#663399")
 
     @app.route('/Katakana')
     def Katakana():
-        return render_template('Katakana.html',Color=session['BackgroundColor'])#Katakana Page
+        if 'BackgroundColor' in session:
+            return render_template('Katakana.html',Color=session['BackgroundColor'])#Numbers Page
+        else:
+            return render_template('Katakana.html',Color="#663399")
 
 class Kanji:
     @app.route('/Kanji/N5')
     def Kanji_N5():
-        return render_template('KanjiN5.html',Color=session['BackgroundColor'])#N5 kanji page
+        if 'BackgroundColor' in session:
+            return render_template('KanjiN5.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('KanjiN5.html',Color="#663399")
 
     @app.route('/Kanji/N4')
     def Kanji_N4():
-        return render_template('KanjiN4.html',Color=session['BackgroundColor'])#N4 kanji page
+        if 'BackgroundColor' in session:
+            return render_template('KanjiN4.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('KanjiN4.html',Color="#663399")
 
     @app.route('/Kanji/N3')
     def Kanji_N3():
-        return render_template('KanjiN3.html',Color=session['BackgroundColor'])#N3 kanji page
+        if 'BackgroundColor' in session:
+            return render_template('KanjiN3.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('KanjiN3.html',Color="#663399")
 
     @app.route('/Kanji/N2')
     def Kanji_N2():
-        return render_template('KanjiN2.html',Color=session['BackgroundColor'])#N2 kanji page
+        if 'BackgroundColor' in session:
+            return render_template('KanjiN2.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('KanjiN2.html',Color="#663399")
 
     @app.route('/Kanji/N1')
     def Kanji_N1():
-        return render_template('KanjiN1.html',Color=session['BackgroundColor'])#N1 kanji page
+        if 'BackgroundColor' in session:
+            return render_template('KanjiN1.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('KanjiN1.html',Color="#663399")
 
 class Vocab:
     @app.route('/Vocabulary/N5')
     def Vocab_N5():
-        return render_template('VocabN5.html',Color=session['BackgroundColor'])#N5 Vocab page
+        if 'BackgroundColor' in session:
+            return render_template('VocabN5.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('VocabN5.html',Color="#663399")
 
     @app.route('/Vocabulary/N4')
     def Vocab_N4():
-        return render_template('VocabN4.html',Color=session['BackgroundColor'])#N4 Vocab page
+        if 'BackgroundColor' in session:
+            return render_template('VocabN4.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('VocabN4.html',Color="#663399")
 
     @app.route('/Vocabulary/N3')
     def Vocab_N3():
-        return render_template('VocabN3.html',Color=session['BackgroundColor'])#N3 Vocab page
+        if 'BackgroundColor' in session:
+            return render_template('VocabN3.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('VocabN3.html',Color="#663399")
 
     @app.route('/Vocabulary/N2')
     def Vocab_N2():
-        return render_template('VocabN2.html',Color=session['BackgroundColor'])#N2 Vocab page
+        if 'BackgroundColor' in session:
+            return render_template('VocabN2.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('VocabN2.html',Color="#663399")
 
     @app.route('/Vocabulary/N1')
     def Vocab_N1():
-        return render_template('VocabN1.html',Color=session['BackgroundColor'])#N1 Vocab page
+        if 'BackgroundColor' in session:
+            return render_template('VocabN1.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('VocabN1.html',Color="#663399")
 
     @app.errorhandler(400)
     def page_not_found(e):
-        return render_template('LandingPage.html',Color=session['BackgroundColor'])#Home Page
+        if 'BackgroundColor' in session:
+            return render_template('LandingPage.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('LandingPage.html',Color="#663399")
 
 class Settings:
     @app.route('/Settings', methods=['POST', 'GET'])#Settings Page Code
@@ -105,10 +153,16 @@ class Settings:
                 doc_ref = db.collection(u'Users').document(session['username']).collection(session['username']).document(session['username'])
                 doc_ref.update({u'BackgroundColor': color})
             else:
-                return render_template('Settings.html',Color=session['BackgroundColor'],name = session['username'])
+                if 'BackgroundColor' in session:
+                    return render_template('Settings.html',Color=session['BackgroundColor'],name = session['username'])
+                else:
+                    return render_template('Settings.html',Color="#663399",name = session['username'])
         else:
             return redirect('/Account/SignUp')
-        return render_template('Settings.html',Color=session['BackgroundColor'],name = session['username'])
+        if 'BackgroundColor' in session:
+            return render_template('Settings.html',Color=session['BackgroundColor'],name = session['username'])
+        else:
+            return render_template('Settings.html',Color="#663399",name = session['username'])
 
 class AccountStuff:
     @app.route('/Account/Login', methods=['POST', 'GET'])#Logining in Code
@@ -122,8 +176,14 @@ class AccountStuff:
                 dbpass = doc.to_dict()['password']
                 if password == dbpass:
                     session['username'] = username
-                    return render_template('LandingPage.html',Color=session['BackgroundColor'])
-        return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
+                    if 'BackgroundColor' in session:
+                        return render_template('LandingPage.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
+                    else:
+                        return render_template('LandingPage.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color="#663399")
+                if 'BackgroundColor' in session:
+                    return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
+        else:
+            return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color="#663399")
 
     @app.route('/Account/SignUp', methods=['POST', 'GET'])#Sign up Code
     def AccountSignUp():
@@ -140,13 +200,19 @@ class AccountStuff:
                 })
                 session['username'] = username
                 session['BackgroundColor'] = Color
-        return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",Color=session['BackgroundColor'])
+        if 'BackgroundColor' in session:
+            return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",Color=session['BackgroundColor'])
+        else:
+            return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",Color="#663399")
 
     @app.route('/Account/Logout')
     def Logout():
         session.clear()
         session['BackgroundColor'] = "#663399"
-        return render_template('LandingPage.html',Color=session['BackgroundColor'])#Logout Code
+        if 'BackgroundColor' in session:
+            return render_template('LandingPage.html',Page_Name="Sign Up",Page_oposite = "Login page",Color=session['BackgroundColor'])
+        else:
+            return render_template('LandingPage.html',Page_Name="Sign Up",Page_oposite = "Login page",Color="#663399")
 
 if __name__ == '__main__':
     app.run(debug = True)
