@@ -216,6 +216,7 @@
                 List.style.opacity = "100%"
                 Kanji_List.style.pointerEvents = "none"
                 List.style.pointerEvents = "auto"
+                Kanji_List.style.animationName = null
             }
             Kanji.onclick = function() {
                     Home.className = null;
@@ -229,6 +230,7 @@
                     Numbers.className = null;
 
                     Kanji_List.style.animationName = "Klist"
+                    List.style.animationName = null
                     Kanji_List.style.animationDuration = "1s"
                     Kanji_List.style.opacity = "100%"
                     Kanji_List.style.pointerEvents = "auto"
@@ -271,6 +273,7 @@
                 Numbers.className = null;
 
                 Vocabulary_List.style.animationName = "Klist"
+                List.style.animationName = null
                 Vocabulary_List.style.animationDuration = "1s"
                 Vocabulary_List.style.opacity = "100%"
                 Vocabulary_List.style.pointerEvents = "auto"
@@ -279,6 +282,7 @@
             Vocab_Back.onclick = function() {
                     Vocabulary_List.style.opacity = "0%"
                     List.style.animationName = "Klist"
+                    Vocabulary_List.style.animationName = null
                     List.style.animationDuration = "1s"
                     List.style.opacity = "100%"
                     Vocabulary_List.style.pointerEvents = "none"
