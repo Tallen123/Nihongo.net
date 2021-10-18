@@ -26,7 +26,6 @@ db = firestore.client()
 @app.before_request
 def make_session_permanent():
     session.permanent = True
-    session['BackgroundColor'] = "#663399"
 
 @app.route('/')
 def landing_page():
