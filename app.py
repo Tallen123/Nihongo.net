@@ -176,6 +176,7 @@ class AccountStuff:
                 dbpass = doc.to_dict()['password']
                 if password == dbpass:
                     session['username'] = username
+                    session['BackgroundColor'] = doc.to_dict()['BackgroundColor']
                     if 'BackgroundColor' in session:
                         return render_template('LandingPage.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
                     else:
