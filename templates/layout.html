@@ -303,9 +303,14 @@
         {% block content %} {% endblock %}
     </div>
     <script>
+        var Save = document.getElementById("Save")
+        var ColorLabel = document.getElementById("ColorLabel")
+        var Color = document.getElementById("Color")
         var Name = document.getElementById("Name");
         var body_container = document.getElementById("body-container");
         var html = document.getElementById("html")
+        var Msg = document.getElementById("Msg")
+        var ColorReset = document.getElementById("ColorReset")
         const isMobile = ('ontouchstart' in document.documentElement && navigator.userAgent.match(/Mobi/));
         if (isMobile) {
             html.style.width = screen.width;
@@ -313,6 +318,22 @@
             body_container.style.width = "100%";
             body_container.style.fontSize = "small";
             Name.style.fontSize = "1.5rem";
+
+            Color.style.left = "60%"
+            Color.style.right = "0%"
+
+            ColorReset.style.left = "58%"
+            ColorReset.style.top = "45%"
+
+            ColorLabel.style.left = "50%"
+            ColorLabel.style.top = "33%"
+            ColorLabel.style.fontSize = "1rem"
+
+            Save.style.left = "58%"
+            Save.style.top = "55%"
+
+            Msg.style.left = "18%"
+            Msg.style.top = "60%"
         }
     </script>
 </body>
