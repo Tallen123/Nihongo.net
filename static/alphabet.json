@@ -99,1282 +99,1282 @@
     },
     "Kanji": {
         "N5": {
-            "日": "(ひ)(day,sun,Japan )",
-            "一": "(いち)(one)",
-            "国": "(くに)(country)",
-            "年 ": "(ねん)(year)",
-            "大": "(おおきい)(large,big)",
-            "十": "(じゅう)(ten)",
-            "二": "(に)(two)",
-            "本": "(ほん)(book)",
-            "中": "(なか)(inside)",
-            "長": "(なが)(long)",
-            "出": "(で)(exit, leave)",
-            "三": "(さん)(three)",
-            "時": "(じ)(time,hour)",
-            "行": "(こう)(going, journey)",
-            "見": "(み)(see, hopes, chances, idea, opinion, look at, visible)",
-            "月": "(つき)(month, moon)",
-            "後": "(あと)(behind, back, later)",
-            "前": "(まえ)(in front, before)",
-            "生": "(なま)(life, genuine, birth)",
-            "五": "(ご)(five)",
-            "間": "(ま)(interval, space)",
-            "上": "(うえ)(above, up)",
-            "東": "(ひがし)(east)",
-            "四": "(よん)(four)",
-            "今": "(いま)(now)",
-            "金": "(きん)(gold)",
-            "九": "(きゅう)(nine)",
-            "入": "(いり)(enter, insert)",
-            "学": "(がく)(study, learning, science )",
-            "高": "(こう)(tall, high, expensive)",
-            "円": "(えん)(circle, yen, round)",
-            "子": "(こ)(child)",
-            "外": "(そと)(outside)",
-            "八": "(はち)(eight)",
-            "六": "(ろく)(six)",
-            "下": "(した)(below, down, descend, give, low,inferior)",
-            "来": "(き)(come, due, next, cause, become)",
-            "気": "(き)(spirit, mind)",
-            "小": "(しょう)(little, small)",
-            "七": "(なな)(seven)",
-            "山": "(やま)(mountain)",
-            "話": "(はなし)(tale, talk)",
-            "女": "(おんな)(woman, female)",
-            "北": "(きた)(north)",
-            "午": "(うま)(noon, sign of the horse, seventh sign of Chinese zodiac)",
-            "百": "(ひゃく)(hundred)",
-            "書": "(しょ)(write)",
-            "先": "(さき)(before, ahead, previous, future, precedence)",
-            "名": "(な)(name, reputation)",
-            "川": "(かわ)(river, stream)",
-            "千": "(せん)(thousand)",
-            "水": "(みず)(water)",
-            "半": "(はん)(half)",
-            "男": "(おとこ)(man, male)",
-            "西": "(にし)(west, Spain)",
-            "電": "(でん)(electricity)",
-            "校": "(-こう)(exam, school, printing, proof, correction)",
-            "語": "(ご)(word, speech, language)",
-            "土": "(つち)(soil, earth, ground)",
-            "木": "(き)(tree, wood)",
-            "聞": "(きき)(hear, ask, listen)",
-            "食": "(しょく)(meal, food)",
-            "車": "(くるま)(car)",
-            "何": "(なん)(what)",
-            "南": "(みなみ)(south)",
-            "万": "(まん)(ten thousand)",
-            "毎": "(まい)(every)",
-            "白": "(しろ)(white)",
-            "天": "(てん)(heavens, sky, imperial)",
-            "母": "(はは)(mother,mama)",
-            "火": "(ひ)(Tuesday, fire)",
-            "右": "(みぎ)(right, right hand side)",
-            "読": "(よみ)(read, reading)",
-            "友": "(とも)(friend)",
-            "左": "(ひだり)(left, left hand side)",
-            "休": "(きゅう)(rest, day off, retire, sleep)",
-            "父": "(ちち)(father)",
-            "雨": "(あめ)(rain)"
+            "日": "ひ day,sun,Japan  ",
+            "一": "いち one ",
+            "国": "くに country ",
+            "年 ": "ねん year ",
+            "大": "おおきい large,big ",
+            "十": "じゅう ten ",
+            "二": "に two ",
+            "本": "ほん book ",
+            "中": "なか inside ",
+            "長": "なが long ",
+            "出": "で exit, leave ",
+            "三": "さん three ",
+            "時": "じ time,hour ",
+            "行": "こう going, journey ",
+            "見": "み see, hopes, chances, idea, opinion, look at, visible ",
+            "月": "つき month, moon ",
+            "後": "あと behind, back, later ",
+            "前": "まえ in front, before ",
+            "生": "なま life, genuine, birth ",
+            "五": "ご five ",
+            "間": "ま interval, space ",
+            "上": "うえ above, up ",
+            "東": "ひがし east ",
+            "四": "よん four ",
+            "今": "いま now ",
+            "金": "きん gold ",
+            "九": "きゅう nine ",
+            "入": "いり enter, insert ",
+            "学": "がく study, learning, science  ",
+            "高": "こう tall, high, expensive ",
+            "円": "えん circle, yen, round ",
+            "子": "こ child ",
+            "外": "そと outside ",
+            "八": "はち eight ",
+            "六": "ろく six ",
+            "下": "した below, down, descend, give, low,inferior ",
+            "来": "き come, due, next, cause, become ",
+            "気": "き spirit, mind ",
+            "小": "しょう little, small ",
+            "七": "なな seven ",
+            "山": "やま mountain ",
+            "話": "はなし tale, talk ",
+            "女": "おんな woman, female ",
+            "北": "きた north ",
+            "午": "うま noon, sign of the horse, seventh sign of Chinese zodiac ",
+            "百": "ひゃく hundred ",
+            "書": "しょ write ",
+            "先": "さき before, ahead, previous, future, precedence ",
+            "名": "な name, reputation ",
+            "川": "かわ river, stream ",
+            "千": "せん thousand ",
+            "水": "みず water ",
+            "半": "はん half ",
+            "男": "おとこ man, male ",
+            "西": "にし west, Spain ",
+            "電": "でん electricity ",
+            "校": "-こう exam, school, printing, proof, correction ",
+            "語": "ご word, speech, language ",
+            "土": "つち soil, earth, ground ",
+            "木": "き tree, wood ",
+            "聞": "きき hear, ask, listen ",
+            "食": "しょく meal, food ",
+            "車": "くるま car ",
+            "何": "なん what ",
+            "南": "みなみ south ",
+            "万": "まん ten thousand ",
+            "毎": "まい every ",
+            "白": "しろ white ",
+            "天": "てん heavens, sky, imperial ",
+            "母": "はは mother,mama ",
+            "火": "ひ Tuesday, fire ",
+            "右": "みぎ right, right hand side ",
+            "読": "よみ read, reading ",
+            "友": "とも friend ",
+            "左": "ひだり left, left hand side ",
+            "休": "きゅう rest, day off, retire, sleep ",
+            "父": "ちち father ",
+            "雨": "あめ rain "
         },
         "N4": {
-            "会": "(かい)(meeting, meet, party, association, interview, join)",
-            "同": "(どう)(same, agree, equal)",
-            "事": "(こと)(matter, thing, fact, business, reason, possibly)",
-            "自": "(じ)(self)",
-            "社": "(しゃ)(company, association, society)",
-            "発": "(はつ)(company, firm, office, association, shrine)",
-            "者": "(もの)(person)",
-            "地": "(ち)(ground, land, earth, soil)",
-            "業": "(ごう)(work, business, study)",
-            "方": "(ほう)(side, direction, way)",
-            "新": "(しん)(thin)",
-            "場": "(ば)(place, occasion, situation)",
-            "員": "(-いん)(member)",
-            "立": "(たて)(just (done), freshly (baked), indicates activity only just occurred)",
-            "開": "(かい)(open, unfold, unseal)",
-            "手": "(て)(hand)",
-            "力": "(ちから)(power, strong, strain, bear up, exert)",
-            "問": "(もん)(question, ask, problem)",
-            "代": "(だい)(substitute, change, convert, replace, period, age)",
-            "明": "(あきら)(bright, light)",
-            "動": "(どう)(move, motion, change, confusion, shift, shake)",
-            "京": "(きょう)(imperial capital)",
-            "目": "(め)(eye, eyeball, eyesight, sight, vision, look, stare, glance)",
-            "通": "(つう)(traffic, pass through, avenue)",
-            "言": "(げん)(word, remark, statement,say)",
-            "理": "(り)(reason, truth, way of things, justice,)",
-            "体": "(からだ)(body, health)",
-            "田": "(た)(rice field)",
-            "主": "(ぬし)(lord, chief, master)",
-            "題": "(だい)(topic, subject)",
-            "意": "(い)(feelings, thoughts, meaning)",
-            "不": "(ふ)(un-, non-, negative prefix)",
-            "作": "(さく)(make, production, prepare, build)",
-            "用": "(よう)(utilize, business, service, use, employ)",
-            "度": "(ど)(degrees, occurrence, time, counter for occurrences)",
-            "強": "(きょう)(strong)",
-            "公": "(こう)(official, public, formal, open, governmental,)",
-            "持": "(もち)(hold, have)",
-            "野": "(の)(plains, field, rustic, civilian life)",
-            "以": "(い)(by means of, because, in view of, compared with)",
-            "思": "(おもう)(think)",
-            "家": "(いえ)(house, home)",
-            "世": "(よ)(generation, world, society, public)",
-            "多": "(さわ)(many, frequent, much)",
-            "正": "(ただし)(correct, justice, righteous)",
-            "安": "(あん)(relax, cheap, low, quiet, rested, contented, peaceful)",
-            "院": "(いん)(institution, temple, mansion, school)",
-            "心": "(りっしんべん)(heart, mind, spirit)",
-            "界": "(さかい)(border, boundary, mental state)",
-            "教": "(える)(teach, faith, doctrine )",
-            "文": "(ふみ)(sentence, literature, style, art, decoration, figures, plan )",
-            "元": "(もと)(beginning, former time, origin)",
-            "重": "(じゅう)(heavy, heap up, pile up, nest of boxes, -fold)",
-            "近": "(きん)(near, early, akin, tantamount)",
-            "考": "(かんがえ)(thinking, thought, ideas, intention)",
-            "画": "(が)(brush-stroke, picture)",
-            "海": "(うみ)(sea. ocean)",
-            "売": "(うり)(sell)",
-            "知": "(ち)(know, wisdom)",
-            "道": "(みち)(road-way, street, district, journey, course, moral, teachings)",
-            "集": "(しゅう)(gather, meet, congregate, swarm, flock)",
-            "別": "(れる)(separate, branch off, diverge, fork, another, extra, specially)",
-            "物": "(もの)(thing, object, matter)",
-            "使": "(し)(use)",
-            "品": "(しな)(goods, refinement, dignity, article, counter for meal courses)",
-            "計": "(けい)(plot, plan, scheme, measure)",
-            "死": "(し)(death, die)",
-            "特": "(とく)(special)",
-            "私": "(わたくし)(private, i, me)",
-            "始": "(はじめ)(commence, begin)",
-            "朝": "(あさ)(morning, dynasty, regime, epoch, period, (North) Korea)",
-            "運": "(うん)(carry, luck, destiny, fate, lot, transport, progress, advance)",
-            "終": "(おわり)(end, finish)",
-            "台": "(だい)(pedestal, a stand, counter for machines and vehicles)",
-            "広": "(ひろし)(wide, broad, spacious)",
-            "住": "(じゅう)(dwell, reside, live, inhabit)",
-            "真": "(しん)(true, reality, Buddhist sect)",
-            "有": "(ゆう)(possess, have, exist, happen, occur, approx)",
-            "口": "(くち)(mouth)",
-            "少": "(すくな)(few, little)",
-            "町": "(まち(village, town, block, street)",
-            "料": "(-りょう)(fee, materials)",
-            "工": "(こう)(craft, construction)",
-            "建": "(けん)(build)",
-            "空": "(そら)(empty, sky, void, vacant, vacuum)",
-            "急": "(きゅう)(hurry, emergency, sudden, steep)",
-            "止": "(とめ)(stop, halt)",
-            "送": "(おくる)(escort, send)",
-            "切": "(-る)(cut, cutoff, be sharp)",
-            "転": "(てん)(revolve, turn around, change)",
-            "研": "(けん)(polish, study of, sharpen)",
-            "足": "(あし)(leg, foot, be sufficient, counter for pairs of footwear)",
-            "究": "(きわむ)(research, study)",
-            "楽": "(らく)(music, comfort, ease)",
-            "起": "(き)(rouse, wake up, get up)",
-            "着": "(き)(don, arrive, wear, counter for suits of clothing)",
-            "店": "(みせ)(store, shop)",
-            "病": "(やまい)(ill, sick)",
-            "質": "(しつ)(substance, quality, matter, temperament)",
-            "待": "(まち)(wait, depend on)",
-            "試": "(み)(test, try, attempt, experiment, ordeal)",
-            "族": "(ぞく)(tribe, family)",
-            "銀": "(ぎん)(silver)",
-            "早": "(はや)(early, fast)",
-            "映": "(えい)(reflect, reflection, projection)",
-            "親": "(おや)(parent, intimacy, relative, familiarity, dealer (cards))",
-            "験": "(げん)(verification, effect, testing)",
-            "英": "(えい)(England, English)",
-            "医": "(い)(doctor, medicine)",
-            "仕": "(し)(attend, doing, official, serve)",
-            "去": "(さっ)(gone, past, quit, leave, elapse, eliminate, divorce)",
-            "味": "(あじ)(flavor, taste)",
-            "写": "(うつし)(copy, be photographed, describe)",
-            "字": "(じ)(character, letter, word, section of village)",
-            "答": "(こたえ)(solution, answer)",
-            "夜": "(よる)(night, evening)",
-            "音": "(おと)(sound, noise )",
-            "注": "(ちゅう)(pour, irrigate, shed (tears), flow into, concentrate on, notes, comment, annotate )",
-            "帰": "(き)(homecoming, arrive at, lead to, result in)",
-            "古": "(ふる-)(old)",
-            "歌": "(うた)(song, sing)",
-            "買": "(かい)(buy)",
-            "悪": "(わる)(bad, vice, rascal, false, evil, wrong)",
-            "図": "(え)(map, drawing, plan, unexpected, accidentally)",
-            "週": "(しゅう)(week)",
-            "室": "(むろ)(room, apartment, chamber, greenhouse, cellar)",
-            "歩": "(あゆみ)(walk, counter for steps)",
-            "風": "(かぜかざ-)(wind, air, style, manner)",
-            "紙": "(かみ)(paper)",
-            "黒": "(くろ)(black)",
-            "花": "(はな)(flower)",
-            "春": "(はる)(springtime, spring (season))",
-            "赤": "(あか)(red)",
-            "青": "(あお)(blue, green)",
-            "館": "(やかた)(building, mansion, large building, palace)",
-            "屋": "(-や)(roof, house, shop, dealer, seller)",
-            "色": "(いろ)(color)",
-            "走": "(そう)(run)",
-            "秋": "(あき)(autumn)",
-            "夏": "(なつ)(summer)",
-            "習": "(-う)(learn)",
-            "駅": "(えき)(station)",
-            "洋": "(よう)(ocean, western style)",
-            "旅": "(たび)(trip, travel)",
-            "服": "(ふく)(clothing, admit, obey, discharge)",
-            "夕": "(ゆう)(evening)",
-            "借": "(かり)(borrow, rent)",
-            "曜": "(よう)(weekday)",
-            "飲": "(いん)(drink, smoke, take)",
-            "肉": "(にく)(meat)",
-            "貸": "(かし)(lend,loan)",
-            "堂": "(どう)(public chamber, hall)",
-            "鳥": "(とり)(bird, chicken)",
-            "飯": "(めし)(meal, boiled rice)",
-            "勉": "(つとむ)(exertion)",
-            "冬": "(ふゆ)(winter)",
-            "昼": "(ひる)(daytime, noon)",
-            "茶": "(ちゃ)(tea)",
-            "弟": "(おとうと)(younger brother, faithful service to elders)",
-            "牛": "(うし)(cow)",
-            "魚": "(さかな)(fish)",
-            "兄": "(あに)(elder brother, big brother)",
-            "犬": "(いぬ)(dog)",
-            "妹": "(いもうと)(younger sister)",
-            "姉": "(あね)(elder sister)",
-            "漢": "(かん)(Sino-, China)"
+            "会": "かい meeting, meet, party, association, interview, join ",
+            "同": "どう same, agree, equal ",
+            "事": "こと matter, thing, fact, business, reason, possibly ",
+            "自": "じ self ",
+            "社": "しゃ company, association, society ",
+            "発": "はつ company, firm, office, association, shrine ",
+            "者": "もの person ",
+            "地": "ち ground, land, earth, soil ",
+            "業": "ごう work, business, study ",
+            "方": "ほう side, direction, way ",
+            "新": "しん thin ",
+            "場": "ば place, occasion, situation ",
+            "員": "-いん member ",
+            "立": "たて just done , freshly baked , indicates activity only just occurred ",
+            "開": "かい open, unfold, unseal ",
+            "手": "て hand ",
+            "力": "ちから power, strong, strain, bear up, exert ",
+            "問": "もん question, ask, problem ",
+            "代": "だい substitute, change, convert, replace, period, age ",
+            "明": "あきら bright, light ",
+            "動": "どう move, motion, change, confusion, shift, shake ",
+            "京": "きょう imperial capital ",
+            "目": "め eye, eyeball, eyesight, sight, vision, look, stare, glance ",
+            "通": "つう traffic, pass through, avenue ",
+            "言": "げん word, remark, statement,say ",
+            "理": "り reason, truth, way of things, justice, ",
+            "体": "からだ body, health ",
+            "田": "た rice field ",
+            "主": "ぬし lord, chief, master ",
+            "題": "だい topic, subject ",
+            "意": "い feelings, thoughts, meaning ",
+            "不": "ふ un-, non-, negative prefix ",
+            "作": "さく make, production, prepare, build ",
+            "用": "よう utilize, business, service, use, employ ",
+            "度": "ど degrees, occurrence, time, counter for occurrences ",
+            "強": "きょう strong ",
+            "公": "こう official, public, formal, open, governmental, ",
+            "持": "もち hold, have ",
+            "野": "の plains, field, rustic, civilian life ",
+            "以": "い by means of, because, in view of, compared with ",
+            "思": "おもう think ",
+            "家": "いえ house, home ",
+            "世": "よ generation, world, society, public ",
+            "多": "さわ many, frequent, much ",
+            "正": "ただし correct, justice, righteous ",
+            "安": "あん relax, cheap, low, quiet, rested, contented, peaceful ",
+            "院": "いん institution, temple, mansion, school ",
+            "心": "りっしんべん heart, mind, spirit ",
+            "界": "さかい border, boundary, mental state ",
+            "教": "える teach, faith, doctrine  ",
+            "文": "ふみ sentence, literature, style, art, decoration, figures, plan  ",
+            "元": "もと beginning, former time, origin ",
+            "重": "じゅう heavy, heap up, pile up, nest of boxes, -fold ",
+            "近": "きん near, early, akin, tantamount ",
+            "考": "かんがえ thinking, thought, ideas, intention ",
+            "画": "が brush-stroke, picture ",
+            "海": "うみ sea. ocean ",
+            "売": "うり sell ",
+            "知": "ち know, wisdom ",
+            "道": "みち road-way, street, district, journey, course, moral, teachings ",
+            "集": "しゅう gather, meet, congregate, swarm, flock ",
+            "別": "れる separate, branch off, diverge, fork, another, extra, specially ",
+            "物": "もの thing, object, matter ",
+            "使": "し use ",
+            "品": "しな goods, refinement, dignity, article, counter for meal courses ",
+            "計": "けい plot, plan, scheme, measure ",
+            "死": "し death, die ",
+            "特": "とく special ",
+            "私": "わたくし private, i, me ",
+            "始": "はじめ commence, begin ",
+            "朝": "あさ morning, dynasty, regime, epoch, period, North  Korea ",
+            "運": "うん carry, luck, destiny, fate, lot, transport, progress, advance ",
+            "終": "おわり end, finish ",
+            "台": "だい pedestal, a stand, counter for machines and vehicles ",
+            "広": "ひろし wide, broad, spacious ",
+            "住": "じゅう dwell, reside, live, inhabit ",
+            "真": "しん true, reality, Buddhist sect ",
+            "有": "ゆう possess, have, exist, happen, occur, approx ",
+            "口": "くち mouth ",
+            "少": "すくな few, little ",
+            "町": "まちvillage, town, block, street ",
+            "料": "-りょう fee, materials ",
+            "工": "こう craft, construction ",
+            "建": "けん build ",
+            "空": "そら empty, sky, void, vacant, vacuum ",
+            "急": "きゅう hurry, emergency, sudden, steep ",
+            "止": "とめ stop, halt ",
+            "送": "おくる escort, send ",
+            "切": "-る cut, cutoff, be sharp ",
+            "転": "てん revolve, turn around, change ",
+            "研": "けん polish, study of, sharpen ",
+            "足": "あし leg, foot, be sufficient, counter for pairs of footwear ",
+            "究": "きわむ research, study ",
+            "楽": "らく music, comfort, ease ",
+            "起": "き rouse, wake up, get up ",
+            "着": "き don, arrive, wear, counter for suits of clothing ",
+            "店": "みせ store, shop ",
+            "病": "やまい ill, sick ",
+            "質": "しつ substance, quality, matter, temperament ",
+            "待": "まち wait, depend on ",
+            "試": "み test, try, attempt, experiment, ordeal ",
+            "族": "ぞく tribe, family ",
+            "銀": "ぎん silver ",
+            "早": "はや early, fast ",
+            "映": "えい reflect, reflection, projection ",
+            "親": "おや parent, intimacy, relative, familiarity, dealer cards  ",
+            "験": "げん verification, effect, testing ",
+            "英": "えい England, English ",
+            "医": "い doctor, medicine ",
+            "仕": "し attend, doing, official, serve ",
+            "去": "さっ gone, past, quit, leave, elapse, eliminate, divorce ",
+            "味": "あじ flavor, taste ",
+            "写": "うつし copy, be photographed, describe ",
+            "字": "じ character, letter, word, section of village ",
+            "答": "こたえ solution, answer ",
+            "夜": "よる night, evening ",
+            "音": "おと sound, noise  ",
+            "注": "ちゅう pour, irrigate, shed tears , flow into, concentrate on, notes, comment, annotate  ",
+            "帰": "き homecoming, arrive at, lead to, result in ",
+            "古": "ふる- old ",
+            "歌": "うた song, sing ",
+            "買": "かい buy ",
+            "悪": "わる bad, vice, rascal, false, evil, wrong ",
+            "図": "え map, drawing, plan, unexpected, accidentally ",
+            "週": "しゅう week ",
+            "室": "むろ room, apartment, chamber, greenhouse, cellar ",
+            "歩": "あゆみ walk, counter for steps ",
+            "風": "かぜかざ- wind, air, style, manner ",
+            "紙": "かみ paper ",
+            "黒": "くろ black ",
+            "花": "はな flower ",
+            "春": "はる springtime, spring season  ",
+            "赤": "あか red ",
+            "青": "あお blue, green ",
+            "館": "やかた building, mansion, large building, palace ",
+            "屋": "-や roof, house, shop, dealer, seller ",
+            "色": "いろ color ",
+            "走": "そう run ",
+            "秋": "あき autumn ",
+            "夏": "なつ summer ",
+            "習": "-う learn ",
+            "駅": "えき station ",
+            "洋": "よう ocean, western style ",
+            "旅": "たび trip, travel ",
+            "服": "ふく clothing, admit, obey, discharge ",
+            "夕": "ゆう evening ",
+            "借": "かり borrow, rent ",
+            "曜": "よう weekday ",
+            "飲": "いん drink, smoke, take ",
+            "肉": "にく meat ",
+            "貸": "かし lend,loan ",
+            "堂": "どう public chamber, hall ",
+            "鳥": "とり bird, chicken ",
+            "飯": "めし meal, boiled rice ",
+            "勉": "つとむ exertion ",
+            "冬": "ふゆ winter ",
+            "昼": "ひる daytime, noon ",
+            "茶": "ちゃ tea ",
+            "弟": "おとうと younger brother, faithful service to elders ",
+            "牛": "うし cow ",
+            "魚": "さかな fish ",
+            "兄": "あに elder brother, big brother ",
+            "犬": "いぬ dog ",
+            "妹": "いもうと younger sister ",
+            "姉": "あね elder sister ",
+            "漢": "かん Sino-, China "
         },
         "N3": {
 
-            "完": "(カン) (perfect, completion, end)",
+            "完": "カン  perfect, completion, end ",
 
-            "降": " (ろす) (descend, precipitate, fall, surrender)",
+            "降": " ろす  descend, precipitate, fall, surrender ",
 
-            "責": "(める blame, condemn, censure)",
+            "責": "める blame, condemn, censure ",
 
-            "捕": " (まえる つか) (catch, capture)",
+            "捕": " まえる つか  catch, capture ",
 
-            "危": "(あぶ) (dangerous, fear, uneasy)",
+            "危": "あぶ  dangerous, fear, uneasy ",
 
-            "給": "(たも) (salary, wage, gift, allow, grant, bestow on)",
+            "給": "たも  salary, wage, gift, allow, grant, bestow on ",
 
-            "苦": "(しむ くる) (suffering, trial, worry, hardship, feel bitter, scowl)",
+            "苦": "しむ くる  suffering, trial, worry, hardship, feel bitter, scowl ",
 
-            "迎": "(/) (welcome, meet, greet)",
+            "迎": "/  welcome, meet, greet ",
 
-            "園": "(/) (park, garden, yard, farm)",
+            "園": "/  park, garden, yard, farm ",
 
-            "具": "(える) (tool, utensil, means, possess, ingredients, counter for armor, suits, sets of furniture)",
+            "具": "える  tool, utensil, means, possess, ingredients, counter for armor, suits, sets of furniture ",
 
-            "辞": "(める いな) (resign, word, term, expression)",
+            "辞": "める いな  resign, word, term, expression ",
 
-            "因": "(よる) (cause, factor, be associated with, depend on, be limited to)",
+            "因": "よる  cause, factor, be associated with, depend on, be limited to ",
 
-            "馬": "(うま) (horse)",
+            "馬": "うま  horse ",
 
-            "愛": "() (love, affection, favourite)",
+            "愛": "  love, affection, favourite ",
 
-            "富": "(む) (wealth, enrich, abundant)",
+            "富": "む  wealth, enrich, abundant ",
 
-            "彼": "(かれ かの) (he, that, the)",
+            "彼": "かれ かの  he, that, the ",
 
-            "未": "(だ ひつじ) (un- , not yet, hitherto, still, even now, sign of the ram, 1 - 3 PM)",
+            "未": "だ ひつじ  un- , not yet, hitherto, still, even now, sign of the ram, 1 - 3 PM ",
 
-            "舞": "(う まい) (dance, flit, circle, wheel)",
+            "舞": "う まい  dance, flit, circle, wheel ",
 
-            "亡": "(ぶ ほろ) (deceased, the late, dying, perish)",
+            "亡": "ぶ ほろ  deceased, the late, dying, perish ",
 
-            "冷": "(ます) (cool, cold(beer, person), chill)",
+            "冷": "ます  cool, coldbeer, person , chill ",
 
-            "適": "(かな) (suitable, occasional, rare, qualified, capable)",
+            "適": "かな  suitable, occasional, rare, qualified, capable ",
 
-            "婦": "(/) (lady, woman, wife, bride)",
+            "婦": "/  lady, woman, wife, bride ",
 
-            "寄": "(/) (draw near, stop in, bring near, gather, collect, send, forward)",
+            "寄": "/  draw near, stop in, bring near, gather, collect, send, forward ",
 
-            "込": "(こみ) (crowded, mixture, in bulk, included, (kokuji))",
+            "込": "こみ  crowded, mixture, in bulk, included, kokuji  ",
 
-            "顔": "(ガン かお) (face, expression)",
+            "顔": "ガン かお  face, expression ",
 
-            "類": "(たぐい) (sort, kind, variety, class, genus)",
+            "類": "たぐい  sort, kind, variety, class, genus ",
 
-            "余": "(あま) (too much, myself, surplus, other, remainder)",
+            "余": "あま  too much, myself, surplus, other, remainder ",
 
-            "王": "(/) (king, rule, magnate)",
+            "王": "/  king, rule, magnate ",
 
-            "返": "(かえ) (return, answer, fade, repay)",
+            "返": "かえ  return, answer, fade, repay ",
 
-            "妻": "(/) (wife, spouse)",
+            "妻": "/  wife, spouse ",
 
-            "背": "(そむける) (stature, height, back, behind)",
+            "背": "そむける  stature, height, back, behind ",
 
-            "熱": "(ネツ アツ.) (heat, temperature, fever, mania, passion)",
+            "熱": "ネツ アツ.  heat, temperature, fever, mania, passion ",
 
-            "宿": "(やど やど) (inn, lodging, relay station, dwell, lodge, be pregnant, home, dwelling)",
+            "宿": "やど やど  inn, lodging, relay station, dwell, lodge, be pregnant, home, dwelling ",
 
-            "薬": "(/) (medicine, chemical, enamel, gunpowder, benefit)",
+            "薬": "/  medicine, chemical, enamel, gunpowder, benefit ",
 
-            "険": "(しい) (precipitous, inaccessible place, impregnable position, steep, place, sharp eyes)",
+            "険": "しい  precipitous, inaccessible place, impregnable position, steep, place, sharp eyes ",
 
-            "頼": "(もしい) (trust, request)",
+            "頼": "もしい  trust, request ",
 
-            "覚": "(める さと) (memorize, learn, remember, awake, sober up)",
+            "覚": "める さと  memorize, learn, remember, awake, sober up ",
 
-            "船": "(ふな) (ship, boat)",
+            "船": "ふな  ship, boat ",
 
-            "途": "(/) (route, way, road)",
+            "途": "/  route, way, road ",
 
-            "許": "(ゆるす) (permit, approve)",
+            "許": "ゆるす  permit, approve ",
 
-            "抜": "(かす) (slip out, extract, pull out, pilfer, quote, remove, omit)",
+            "抜": "かす  slip out, extract, pull out, pilfer, quote, remove, omit ",
 
-            "便": "たよ) (convenience)",
+            "便": "たよ  convenience ",
 
-            "留": "(まる) (detain, fasten, halt, stop)",
+            "留": "まる  detain, fasten, halt, stop ",
 
-            "罪": "(つみ) (guilt, sin, crime, fault, blame, offense)",
+            "罪": "つみ  guilt, sin, crime, fault, blame, offense ",
 
-            "努": "(つと) (toil, diligent, as much as possible)",
+            "努": "つと  toil, diligent, as much as possible ",
 
-            "精": "(/) (refined, ghost, fairy, energy, vitality, semen, excellence)",
+            "精": "/  refined, ghost, fairy, energy, vitality, semen, excellence ",
 
-            "散": "(らかる) (scatter, disperse,spend, squander)",
+            "散": "らかる  scatter, disperse,spend, squander ",
 
-            "静": "(まる) (quiet)",
+            "静": "まる  quiet ",
 
-            "婚": "(/) (marriage)",
+            "婚": "/  marriage ",
 
-            "喜": "(よろこ) (rejoice, take pleasure in)",
+            "喜": "よろこ  rejoice, take pleasure in ",
 
-            "浮": "(かぶむ) (floating, float, rise to surface)",
+            "浮": "かぶむ  floating, float, rise to surface ",
 
-            "絶": "(やすた) (discontinue, beyond, sever, cut off, abstain, interrupt, suppress)",
+            "絶": "やすた  discontinue, beyond, sever, cut off, abstain, interrupt, suppress ",
 
-            "幸": "(いさち) (happiness, blessing, fortune)",
+            "幸": "いさち  happiness, blessing, fortune ",
 
-            "押": "(さえる) (push, stop, check, subdue, attach, seize, weight, shove, press, seal, do inspite of)",
+            "押": "さえる  push, stop, check, subdue, attach, seize, weight, shove, press, seal, do inspite of ",
 
-            "倒": "(れたお) (overthrow, fall, collapse, drop, break down)",
+            "倒": "れたお  overthrow, fall, collapse, drop, break down ",
 
-            "等": "(しいなど) (etc., and so forth, class(first), quality, equal, similar)",
+            "等": "しいなど  etc., and so forth, classfirst , quality, equal, similar ",
 
-            "老": "(おいる) (old man, old age, grow old)",
+            "老": "おいる  old man, old age, grow old ",
 
-            "曲": "(まがる) (bend, music, melody, composition, pleasure, injustice, fault, curve, crooked, perverse, lean)",
+            "曲": "まがる  bend, music, melody, composition, pleasure, injustice, fault, curve, crooked, perverse, lean ",
 
-            "払": "(はらい) (pay, clear out, prune, banish, dispose of)",
+            "払": "はらい  pay, clear out, prune, banish, dispose of ",
 
-            "庭": "(/) (courtyard, garden, yard)",
+            "庭": "/  courtyard, garden, yard ",
 
-            "徒": "(いたずら) (junior, emptiness, vanity, futility, uselessness, ephemeral thing, gang, set, party, people)",
+            "徒": "いたずら  junior, emptiness, vanity, futility, uselessness, ephemeral thing, gang, set, party, people ",
 
-            "勤": "(いそしむ) (diligence, become employed, serve)",
+            "勤": "いそしむ  diligence, become employed, serve ",
 
-            "遅": "(らす) (slow, late, back, later)",
+            "遅": "らす  slow, late, back, later ",
 
-            "居": "(るい) (reside, to be, exist, live with)",
+            "居": "るい  reside, to be, exist, live with ",
 
-            "雑": "(まじる) (miscellaneous)",
+            "雑": "まじる  miscellaneous ",
 
-            "招": "(まね) (beckon, invite, summon, engage)",
+            "招": "まね  beckon, invite, summon, engage ",
 
-            "困": "(こま) (quandary, become distressed, annoyed)",
+            "困": "こま  quandary, become distressed, annoyed ",
 
-            "欠": "(あくび) (lack, gap, fail)",
+            "欠": "あくび  lack, gap, fail ",
 
-            "更": "(かす) (grow late, night watch, sit up late, of course)",
+            "更": "かす  grow late, night watch, sit up late, of course ",
 
-            "刻": "(むきざ) (engrave, cut fine, chop, hash, mince, time, carving)",
+            "刻": "むきざ  engrave, cut fine, chop, hash, mince, time, carving ",
 
-            "賛": "(える) (approve, praise, title or inscription on picture, assist, agree with)",
+            "賛": "える  approve, praise, title or inscription on picture, assist, agree with ",
 
-            "抱": "(いだ) (embrace, hug, hold in arms)",
+            "抱": "いだ  embrace, hug, hold in arms ",
 
-            "犯": "(おかす) (crime, sin, offense)",
+            "犯": "おかす  crime, sin, offense ",
 
-            "恐": "(がる) (fear, dread, awe)",
+            "恐": "がる  fear, dread, awe ",
 
-            "息": "(いき) (breath, respiration, son, interest(on money))",
+            "息": "いき  breath, respiration, son, intereston money  ",
 
-            "遠": "(/) (distant, far)",
+            "遠": "/  distant, far ",
 
-            "戻": "(すもど) (re-, return, revert, resume, restore, go backwards)",
+            "戻": "すもど  re-, return, revert, resume, restore, go backwards ",
 
-            "願": "(ねが) (petition, request, vow, wish, hope)",
+            "願": "ねが  petition, request, vow, wish, hope ",
 
-            "絵": "(/) (picture, drawing, painting, sketch)",
+            "絵": "/  picture, drawing, painting, sketch ",
 
-            "越": "(える) (surpass, cross over, move to, exceed, Vietnam)",
+            "越": "える  surpass, cross over, move to, exceed, Vietnam ",
 
-            "欲": "(しい) (longing, covetousness, greed, passion, desire, craving)",
+            "欲": "しい  longing, covetousness, greed, passion, desire, craving ",
 
-            "痛": "(める) (pain, hurt, damage, bruise)",
+            "痛": "める  pain, hurt, damage, bruise ",
 
-            "笑": "(わら) (laugh)",
+            "笑": "わら  laugh ",
 
-            "互": "(いかたみ) (mutually, reciprocally, together)",
+            "互": "いかたみ  mutually, reciprocally, together ",
 
-            "束": "(ねる) (bundle, sheaf, ream, tie in bundles, govern, manage, control)",
+            "束": "ねる  bundle, sheaf, ream, tie in bundles, govern, manage, control ",
 
-            "似": "(る) (becoming, resemble, counterfeit, imitate, suitable)",
+            "似": "る  becoming, resemble, counterfeit, imitate, suitable ",
 
-            "列": "(/) (file, row, rank, tier, column)",
+            "列": "/  file, row, rank, tier, column ",
 
-            "探": "(るさが) (grope, search, look for)",
+            "探": "るさが  grope, search, look for ",
 
-            "逃": "(れる) (escape, flee, shirk, evade, set free)",
+            "逃": "れる  escape, flee, shirk, evade, set free ",
 
-            "遊": "(バあそ) (play)",
+            "遊": "バあそ  play ",
 
-            "迷": "(まよ) (astray, be perplexed, in doubt, lost, err, illusion)",
+            "迷": "まよ  astray, be perplexed, in doubt, lost, err, illusion ",
 
-            "夢": "(い) (dream, vision, illusion)",
+            "夢": "い  dream, vision, illusion ",
 
-            "君": "(きみ) (old boy, name - suffix)",
+            "君": "きみ  old boy, name - suffix ",
 
-            "閉": "(まる) (closed, shut)",
+            "閉": "まる  closed, shut ",
 
-            "緒": "(お) (thong, beginning, inception, end, cord, strap)",
+            "緒": "お  thong, beginning, inception, end, cord, strap ",
 
-            "折": "(り) (fold, break, fracture, bend, yield, submit)",
+            "折": "り  fold, break, fracture, bend, yield, submit ",
 
-            "草": "(くさ)  (grass, weeds, herbs, pasture, write, draft)",
+            "草": "くさ   grass, weeds, herbs, pasture, write, draft ",
 
-            "暮": "(れる) (livelihood, make a living, spend time)",
+            "暮": "れる  livelihood, make a living, spend time ",
 
-            "酒": "(さか) (sake, alcohol)",
+            "酒": "さか  sake, alcohol ",
 
-            "悲": "(しむ) (jail cell, grieve, sad, deplore, regret)",
+            "悲": "しむ  jail cell, grieve, sad, deplore, regret ",
 
-            "晴": "(れる) (clear up)",
+            "晴": "れる  clear up ",
 
-            "掛": "(かりかかり) (hang, suspend, arrive at, tax, pour)",
+            "掛": "かりかかり  hang, suspend, arrive at, tax, pour ",
 
-            "到": "(いたる) (arrival, proceed, reach, attain, result in)",
+            "到": "いたる  arrival, proceed, reach, attain, result in ",
 
-            "寝": "(める) (lie down, sleep, rest, bed, remain unsold)",
+            "寝": "める  lie down, sleep, rest, bed, remain unsold ",
 
-            "暗": "(くらい) (darkness, disappear, shade, informal, grow dark, be blinded)",
+            "暗": "くらい  darkness, disappear, shade, informal, grow dark, be blinded ",
 
-            "盗": "(むぬす) (steal, rob, pilfer)",
+            "盗": "むぬす  steal, rob, pilfer ",
 
-            "吸": "(すう) (suck, imbibe, inhale, sip)",
+            "吸": "すう  suck, imbibe, inhale, sip ",
 
-            "陽": "(/) (sunshine, yang principle, positive, male, heaven, daytime)",
+            "陽": "/  sunshine, yang principle, positive, male, heaven, daytime ",
 
-            "御": "(おん - お - み) (honorable, manipulate, govern)",
+            "御": "おん - お - み  honorable, manipulate, govern ",
 
-            "歯": "(いよわい) (tooth, cog)",
+            "歯": "いよわい  tooth, cog ",
 
-            "忘": "(れる) (forget)",
+            "忘": "れる  forget ",
 
-            "雪": "(/) (snow)",
+            "雪": "/  snow ",
 
-            "吹": "(/) (blow, breathe, puff, emit, smoke)",
+            "吹": "/  blow, breathe, puff, emit, smoke ",
 
-            "娘": "(むすめ) (daughter, girl)",
+            "娘": "むすめ  daughter, girl ",
 
-            "誤": "(あやま) (mistake, err, do wrong, mislead)",
+            "誤": "あやま  mistake, err, do wrong, mislead ",
 
-            "洗": "(/) (wash, inquire into, probe)",
+            "洗": "/  wash, inquire into, probe ",
 
-            "慣": "(らす) (accustomed, get used to, become experienced)",
+            "慣": "らす  accustomed, get used to, become experienced ",
 
-            "礼": "(/) (salute, bow, ceremony, thanks, remuneration)",
+            "礼": "/  salute, bow, ceremony, thanks, remuneration ",
 
-            "窓": "(けむだし) (window, pane)",
+            "窓": "けむだし  window, pane ",
 
-            "昔": "(むかし) (once upon a time, antiquity, old times)",
+            "昔": "むかし  once upon a time, antiquity, old times ",
 
-            "貧": "(まず) (poverty, poor)",
+            "貧": "まず  poverty, poor ",
 
-            "怒": "(おこ) (angry, be offended)",
+            "怒": "おこ  angry, be offended ",
 
-            "泳": "(およ) (swim)",
+            "泳": "およ  swim ",
 
-            "祖": "(/) (ancestor, pioneer, founder)",
+            "祖": "/  ancestor, pioneer, founder ",
 
-            "杯": "(さかずき) (counter for cupfuls, wine glass, glass, toast)",
+            "杯": "さかずき  counter for cupfuls, wine glass, glass, toast ",
 
-            "疲": "(らす) (exhausted, tire, weary)",
+            "疲": "らす  exhausted, tire, weary ",
 
-            "皆": "(みな) (all, everything)",
+            "皆": "みな  all, everything ",
 
-            "鳴": "(くな) (chirp, cry, bark, sound, ring, echo, honk)",
+            "鳴": "くな  chirp, cry, bark, sound, ring, echo, honk ",
 
-            "腹": "(はら) (abdomen, belly, stomach)",
+            "腹": "はら  abdomen, belly, stomach ",
 
-            "煙": "(けむ) (smoke)",
+            "煙": "けむ  smoke ",
 
-            "眠": "(ねむ) sleep, die, sleepy)",
+            "眠": "ねむ  sleep, die, sleepy ",
 
-            "怖": "(れる)(dreadful, be frightened, fearful)",
+            "怖": "れる dreadful, be frightened, fearful ",
 
-            "耳": "(/) (ear)",
+            "耳": "/  ear ",
 
-            "頂": "(くいただき) (place on the head, receive, top of head, top, summit, peak)",
+            "頂": "くいただき  place on the head, receive, top of head, top, summit, peak ",
 
-            "箱": "(はこ) (box, chest, case, bin, railway car)",
+            "箱": "はこ  box, chest, case, bin, railway car ",
 
-            "晩": "(/) (nightfall, night)",
+            "晩": "/  nightfall, night ",
 
-            "寒": "(カン) (cold)",
+            "寒": "カン  cold ",
 
-            "髪": "(カ) (hair of the head)",
+            "髪": "カ  hair of the head ",
 
-            "忙": "(うれえるさま) (busy, occupied, restless)",
+            "忙": "うれえるさま  busy, occupied, restless ",
 
-            "才": "(/) (genius, years old,cubic shaku)",
+            "才": "/  genius, years old,cubic shaku ",
 
-            "靴": "(くつ) (shoes)",
+            "靴": "くつ  shoes ",
 
-            "恥": "(じらう) (shame, dishonor)",
+            "恥": "じらう  shame, dishonor ",
 
-            "偶": "(たま) (accidentally, even number, couple, man & wife, same kind)",
+            "偶": "たま  accidentally, even number, couple, man & wife, same kind ",
 
-            "偉": "(/) (admirable, greatness, remarkable, conceited, famous, excellent)",
+            "偉": "/  admirable, greatness, remarkable, conceited, famous, excellent ",
 
-            "猫": "(ねこ) (cat)",
+            "猫": "ねこ  cat ",
 
-            "幾": "(つ) (how many, how much, how far, how long)"
+            "幾": "つ  how many, how much, how far, how long "
         },
         "N2": {
 
-            "党": "(トウ  なかま むら) (party, faction, clique)",
+            "党": "トウ  なかま むら  party, faction, clique ",
 
-            "協": "(キョウ) (co-, cooperation)",
+            "協": "キョウ  co-, cooperation ",
 
-            "総": "(ソウ フ  す.べて すべ.て) (general, whole, all, full, total)",
+            "総": "ソウ フ  す.べて すべ.て  general, whole, all, full, total ",
 
-            "区": "(ク オウ コウ) (ward, district)",
+            "区": "ク オウ コウ  ward, district ",
 
-            "領": "(リョウ) (jurisdiction, dominion, territory, fief, reign)",
+            "領": "リョウ  jurisdiction, dominion, territory, fief, reign ",
 
-            "県": "(ケン カ.ケ) (prefecture)",
+            "県": "ケン カ.ケ  prefecture ",
 
-            "設": "(セツ モウ.ケ)  (establishment, provision, prepare)",
+            "設": "セツ モウ.ケ   establishment, provision, prepare ",
 
-            "改": "(カイ  あらた.める あらた.まる) (reformation, change, modify, mend, renew, examine, inspect, search)",
+            "改": "カイ  あらた.める あらた.まる  reformation, change, modify, mend, renew, examine, inspect, search ",
 
-            "府": "() (borough, urban prefecture, govt office, representative body, storehouse)",
+            "府": "  borough, urban prefecture, govt office, representative body, storehouse ",
 
-            "査": "(サ) (investigate)",
+            "査": "サ  investigate ",
 
-            "委": "(イ ユダ.ネ) (committee, entrust to, leave to, devote, discard)",
+            "委": "イ ユダ.ネ  committee, entrust to, leave to, devote, discard ",
 
-            "軍": "(グン) (army, force, troops, war, battle)",
+            "軍": "グン  army, force, troops, war, battle ",
 
-            "団": "(ダン トン  かたまり まる.い) (group, association)",
+            "団": "ダン トン  かたまり まる.い  group, association ",
 
-            "各": "(カク オノオ) (each, every, either)",
+            "各": "カク オノオ  each, every, either ",
 
-            "島": "(トウ しま)  (island)",
+            "島": "トウ しま   island ",
 
-            "革": "(カク かわ) (leather, become serious, skin, hide, pelt)",
+            "革": "カク かわ  leather, become serious, skin, hide, pelt ",
 
-            "村": "(ソン ム) (town, village)",
+            "村": "ソン ム  town, village ",
 
-            "勢": "(セイ ゼイ ハズ  いきお.い) (forces, energy, military strength)",
+            "勢": "セイ ゼイ ハズ  いきお.い  forces, energy, military strength ",
 
-            "減": "(ゲン  へ.る へ.らす) (dwindle, decrease, reduce, decline, curtail, get hungry)",
+            "減": "ゲン  へ.る へ.らす  dwindle, decrease, reduce, decline, curtail, get hungry ",
 
-            "再": "(サイ サ フタタ.) (again, twice, second time)",
+            "再": "サイ サ フタタ.  again, twice, second time ",
 
-            "税": "(ゼ) (tax, duty)",
+            "税": "ゼ  tax, duty ",
 
-            "営": "(エイ  いとな.む いとな.み)  (occupation, camp, perform, build, conduct (business))",
+            "営": "エイ  いとな.む いとな.み   occupation, camp, perform, build, conduct business  ",
 
-            "比": "(ヒ クラ.ベ) (compare, race, ratio, Philipines)",
+            "比": "ヒ クラ.ベ  compare, race, ratio, Philipines ",
 
-            "防": "(ボウ フセ.) (ward off, defend, protect, resist)",
+            "防": "ボウ フセ.  ward off, defend, protect, resist ",
 
-            "補": "(ホ  おぎな.う) (supplement, supply, make good, offset, compensate, assistant, learner)",
+            "補": "ホ  おぎな.う  supplement, supply, make good, offset, compensate, assistant, learner ",
 
-            "境": "(キョウ ケイ サカ) (boundary, border, region)",
+            "境": "キョウ ケイ サカ  boundary, border, region ",
 
-            "導": "(ドウ ミチビ.) (guidance, leading, conduct, usher)",
+            "導": "ドウ ミチビ.  guidance, leading, conduct, usher ",
 
-            "副": "(フ) (vice-, duplicate, copy)",
+            "副": "フ  vice-, duplicate, copy ",
 
-            "算": "(サン  そろ) (calculate, divining, number, abacus, probability)",
+            "算": "サン  そろ  calculate, divining, number, abacus, probability ",
 
-            "輸": "(ユ シュ) (transport, send, be inferior)",
+            "輸": "ユ シュ  transport, send, be inferior ",
 
-            "述": "(ジュツ  の.べる) (mention, state, speak, relate)",
+            "述": "ジュツ  の.べる  mention, state, speak, relate ",
 
-            "線": "(セン  すじ) (line, track)",
+            "線": "セン  すじ  line, track ",
 
-            "農": "(ノ) (agriculture, farmers)",
+            "農": "ノ  agriculture, farmers ",
 
-            "州": "(シュウ ス) (state, province)",
+            "州": "シュウ ス  state, province ",
 
-            "武": "(ブ ム タケ.) (warrior, military, chivalry, arms)",
+            "武": "ブ ム タケ.  warrior, military, chivalry, arms ",
 
-            "象": "(ショウ ゾウ カタド.) (elephant, pattern after, imitate, image, shape, sign (of the times))",
+            "象": "ショウ ゾウ カタド.  elephant, pattern after, imitate, image, shape, sign of the times  ",
 
-            "域": "(イキ) (range, region, limits, stage, level)",
+            "域": "イキ  range, region, limits, stage, level ",
 
-            "額": "(ガク ヒタ) (forehead, tablet, plaque, framed picture, sum, amount, volume)",
+            "額": "ガク ヒタ  forehead, tablet, plaque, framed picture, sum, amount, volume ",
 
-            "欧": "(オウ ハ. うた.う) (Europe)",
+            "欧": "オウ ハ. うた.う  Europe ",
 
-            "担": "(タン  かつ.ぐ にな.う) (shouldering, carry, raise, bear)",
+            "担": "タン  かつ.ぐ にな.う  shouldering, carry, raise, bear ",
 
-            "準": "(ジュン じゅん.じる じゅん.ずる なぞら.える のり ひと.しい みずもり) (semi-, correspond to, proportionate to, conform, imitate)",
+            "準": "ジュン じゅん.じる じゅん.ずる なぞら.える のり ひと.しい みずもり  semi-, correspond to, proportionate to, conform, imitate ",
 
-            "賞": "(ショウ  ほ.める) (prize, reward, praise)",
+            "賞": "ショウ  ほ.める  prize, reward, praise ",
 
-            "辺": "(ヘン -  あた.り ほと.り) (environs, boundary, border, vicinity)",
+            "辺": "ヘン -  あた.り ほと.り  environs, boundary, border, vicinity ",
 
-            "造": "(ゾウ -ヅク.  つく.る つく.り) (create, make, structure, physique)",
+            "造": "ゾウ -ヅク.  つく.る つく.り  create, make, structure, physique ",
 
-            "被": "(ヒ カブ.セ  こうむ.る おお.う かぶ.る) (incur, cover, veil, brood over, shelter, wear, put on, be exposed (film), receiving)",
+            "被": "ヒ カブ.セ  こうむ.る おお.う かぶ.る  incur, cover, veil, brood over, shelter, wear, put on, be exposed film , receiving ",
 
-            "技": "(ギ  わざ) (skill, art, craft, ability, feat, performance, vocation, arts)",
+            "技": "ギ  わざ  skill, art, craft, ability, feat, performance, vocation, arts ",
 
-            "低": "(テイ  ひく.い ひく.める ひく.まる)  (lower, short, humble)",
+            "低": "テイ  ひく.い ひく.める ひく.まる   lower, short, humble ",
 
-            "復": "(フク  また) (restore, return to, revert, resume)",
+            "復": "フク  また  restore, return to, revert, resume ",
 
-            "移": "(イ  うつ.る うつ.す) (shift, move, change, drift, catch (cold, fire), pass into)",
+            "移": "イ  うつ.る うつ.す  shift, move, change, drift, catch cold, fire , pass into ",
 
-            "個": "(コ カ) (individual, counter for articles and military units)",
+            "個": "コ カ  individual, counter for articles and military units ",
 
-            "門": "(モン  かど) (gates)",
+            "門": "モン  かど  gates ",
 
-            "課": "(カ) (chapter, lesson, section, department, division, counter for chapters (of a book))",
+            "課": "カ  chapter, lesson, section, department, division, counter for chapters of a book  ",
 
-            "脳": "(ノウ ドウ  のうずる) (brain, memory)",
+            "脳": "ノウ ドウ  のうずる  brain, memory ",
 
-            "極": "(キョク ゴク きわ.める きわ.まる きわ.まり きわ.み き.める -ぎ.め き.まる) (poles, settlement, conclusion, end, highest rank, electric poles, very, extremely, most, highly)",
+            "極": "キョク ゴク きわ.める きわ.まる きわ.まり きわ.み き.める -ぎ.め き.まる  poles, settlement, conclusion, end, highest rank, electric poles, very, extremely, most, highly ",
 
-            "含": "(ガン  ふく.む ふく.める) (include, bear in mind, understand, cherish)",
+            "含": "ガン  ふく.む ふく.める  include, bear in mind, understand, cherish ",
 
-            "蔵": "(ゾウ ソウ カク.レ くら おさ.める) (storehouse, hide, own, have, possess)",
+            "蔵": "ゾウ ソウ カク.レ くら おさ.める  storehouse, hide, own, have, possess ",
 
-            "量": "(リョウ ハカ) (quantity, measure, weight, amount, consider, estimate, surmise)",
+            "量": "リョウ ハカ  quantity, measure, weight, amount, consider, estimate, surmise ",
 
-            "型": "(ケイ  かた -がた) (mould, type, model)",
+            "型": "ケイ  かた -がた  mould, type, model ",
 
-            "況": "(キョウ  まし.て いわ.んや おもむき) (condition, situation)",
+            "況": "キョウ  まし.て いわ.んや おもむき  condition, situation ",
 
-            "針": "(シン ハ) (needle, pin, staple, stinger)",
+            "針": "シン ハ  needle, pin, staple, stinger ",
 
-            "専": "(セン  もっぱ.ら) (specialty, exclusive, mainly, solely)",
+            "専": "セン  もっぱ.ら  specialty, exclusive, mainly, solely ",
 
-            "谷": "(たに) (valley)",
+            "谷": "たに  valley ",
 
-            "史": "() (history, chronicle)",
+            "史": "  history, chronicle ",
 
-            "階": "(カイ キザハ) (storey, stair, counter for storeys of a building)",
+            "階": "カイ キザハ  storey, stair, counter for storeys of a building ",
 
-            "管": "(カン ク) (pipe, tube, wind instrument, drunken talk)",
+            "管": "カン ク  pipe, tube, wind instrument, drunken talk ",
 
-            "兵": "(ヘイ ヒョウ ツワモ) (soldier, private, troops, army, warfare, strategy, tactics)",
+            "兵": "ヘイ ヒョウ ツワモ  soldier, private, troops, army, warfare, strategy, tactics ",
 
-            "接": "(セツ ショウ  つ.ぐ) (touch, contact, adjoin, piece together)",
+            "接": "セツ ショウ  つ.ぐ  touch, contact, adjoin, piece together ",
 
-            "細": "(サイ  ほそ.い ほそ.る こま.か こま.かい) (dainty, get thin, taper, slender, narrow)",
+            "細": "サイ  ほそ.い ほそ.る こま.か こま.かい  dainty, get thin, taper, slender, narrow ",
 
-            "効": "(コウ  き.く ききめ なら.う) (merit, efficacy, efficiency, benefit)",
+            "効": "コウ  き.く ききめ なら.う  merit, efficacy, efficiency, benefit ",
 
-            "丸": "(ガン マル.  まる まる.める) (round, full, month, perfection, -ship, pills, make round, roll up, curl up, seduce, explain away)",
+            "丸": "ガン マル.  まる まる.める  round, full, month, perfection, -ship, pills, make round, roll up, curl up, seduce, explain away ",
 
-            "湾": "(ワン いりえ) (gulf, bay, inlet)",
+            "湾": "ワン いりえ  gulf, bay, inlet ",
 
-            "録": "(ロク) (record)",
+            "録": "ロク  record ",
 
-            "省": "(セイ ショウ ハブ.  かえり.みる) (focus, government ministry, conserve)",
+            "省": "セイ ショウ ハブ.  かえり.みる  focus, government ministry, conserve ",
 
-            "旧": "(キュウ  ふる.い もと) (old times, old things, old friend, former, ex-)",
+            "旧": "キュウ  ふる.い もと  old times, old things, old friend, former, ex- ",
 
-            "橋": "(キョウ ハ) (bridge)",
+            "橋": "キョウ ハ  bridge ",
 
-            "岸": "(ガン キ) (beach)",
+            "岸": "ガン キ  beach ",
 
-            "周": "(シュウ マワ) (circumference, circuit, lap)",
+            "周": "シュウ マワ  circumference, circuit, lap ",
 
-            "材": "(ザ) (lumber, log, timber, wood, talent)",
+            "材": "ザ  lumber, log, timber, wood, talent ",
 
-            "戸": "(コ) (door)",
+            "戸": "コ  door ",
 
-            "央": "(オ) (center, middle)",
+            "央": "オ  center, middle ",
 
-            "券": "(ケン) (ticket)",
+            "券": "ケン  ticket ",
 
-            "編": "(ヘン  あ.む -あ.み) (compilation, knit, plait, braid, twist, editing, completed poem, part of a book)",
+            "編": "ヘン  あ.む -あ.み  compilation, knit, plait, braid, twist, editing, completed poem, part of a book ",
 
-            "捜": "(ソウ シュ シュウ  さが.す) (search, look for, locate)",
+            "捜": "ソウ シュ シュウ  さが.す  search, look for, locate ",
 
-            "竹": "(チク タ) (bamboo)",
+            "竹": "チク タ  bamboo ",
 
-            "超": "(チョウ コ. こ.える) (transcend, super-, ultra-)",
+            "超": "チョウ コ. こ.える  transcend, super-, ultra- ",
 
-            "並": "(ヘイ ホウ ナラ.ビ  な.み なら.べる なら.ぶ) (row, and, besides, as well as, line up, rank with, rival, equal)",
+            "並": "ヘイ ホウ ナラ.ビ  な.み なら.べる なら.ぶ  row, and, besides, as well as, line up, rank with, rival, equal ",
 
-            "療": "(リョウ) (heal, cure)",
+            "療": "リョウ  heal, cure ",
 
-            "採": "(サイ  と.る) (pick, take, fetch, take up)",
+            "採": "サイ  と.る  pick, take, fetch, take up ",
 
-            "森": "(シン モ) (forest, woods)",
+            "森": "シン モ  forest, woods ",
 
-            "競": "(キョウ ケイ セ.  きそ.う) (emulate, compete with, bid, sell at auction, bout, contest, race)",
+            "競": "キョウ ケイ セ.  きそ.う  emulate, compete with, bid, sell at auction, bout, contest, race ",
 
-            "介": "(カ) (jammed in, shellfish, mediate, concern oneself with)",
+            "介": "カ  jammed in, shellfish, mediate, concern oneself with ",
 
-            "根": "(コン  ね -ね) (root, radical, head (pimple))",
+            "根": "コン  ね -ね  root, radical, head pimple  ",
 
-            "販": "(ハン) (marketing, sell, trade)",
+            "販": "ハン  marketing, sell, trade ",
 
-            "歴": "(レキ レッキ) (curriculum, continuation, passage of time)",
+            "歴": "レキ レッキ  curriculum, continuation, passage of time ",
 
-            "将": "(ショウ ソウ モッ まさ.に はた まさ ひきい.る) (leader, commander, general, admiral, or, and again, soon, from now on, just about)",
+            "将": "ショウ ソウ モッ まさ.に はた まさ ひきい.る  leader, commander, general, admiral, or, and again, soon, from now on, just about ",
 
-            "幅": "(フク  はば) (hanging scroll, width)",
+            "幅": "フク  はば  hanging scroll, width ",
 
-            "般": "(ハン) (carrier, carry, all)",
+            "般": "ハン  carrier, carry, all ",
 
-            "貿": "(ボウ) (trade, exchange)",
+            "貿": "ボウ  trade, exchange ",
 
-            "講": "(コウ) (lecture, club, association)",
+            "講": "コウ  lecture, club, association ",
 
-            "林": "(リン ハヤ) (grove, forest)",
+            "林": "リン ハヤ  grove, forest ",
 
-            "装": "(ソウ ショウ) (よそお.う よそお.い) (attire, dress, pretend, disguise, profess)",
+            "装": "ソウ ショウ  よそお.う よそお.い  attire, dress, pretend, disguise, profess ",
 
-            "諸": "(ショ  もろ) (various, many, several, together)",
+            "諸": "ショ  もろ  various, many, several, together ",
 
-            "劇": "(ゲキ) (drama, play)",
+            "劇": "ゲキ  drama, play ",
 
-            "河": "(カ カ) (river)",
+            "河": "カ カ  river ",
 
-            "航": "(コ) (navigate, sail, cruise, fly)",
+            "航": "コ  navigate, sail, cruise, fly ",
 
-            "鉄": "(テツ クロガ) (iron)",
+            "鉄": "テツ クロガ  iron ",
 
-            "児": "(ジ ニ ゲイ -ッ  こ -こ) (newborn babe, child, young of animals)",
+            "児": "ジ ニ ゲイ -ッ  こ -こ  newborn babe, child, young of animals ",
 
-            "禁": "(キン) (prohibition, ban, forbid)",
+            "禁": "キン  prohibition, ban, forbid ",
 
-            "印": "(イン  しるし -じるし しる.す) (stamp, seal, mark, imprint, symbol, emblem, trademark, evidence, souvenir, India)",
+            "印": "イン  しるし -じるし しる.す  stamp, seal, mark, imprint, symbol, emblem, trademark, evidence, souvenir, India ",
 
-            "逆": "(ギャク ゲキ  さか さか.さ さか.らう) (inverted, reverse, opposite, wicked)",
+            "逆": "ギャク ゲキ  さか さか.さ さか.らう  inverted, reverse, opposite, wicked ",
 
-            "換": "(カン  か.える -か.える か.わる) (interchange, period, charge, change?)",
+            "換": "カン  か.える -か.える か.わる  interchange, period, charge, change? ",
 
-            "久": "(キュウ ク ヒサ.シ) (long time, old story)",
+            "久": "キュウ ク ヒサ.シ  long time, old story ",
 
-            "短": "(ン  みじか.い) (short, brevity, fault, defect, weak point)",
+            "短": "ン  みじか.い  short, brevity, fault, defect, weak point ",
 
-            "油": "(ユ ユウ  あぶら) (oil, fat)",
+            "油": "ユ ユウ  あぶら  oil, fat ",
 
-            "暴": "(ボウ バク  あば.く あば.れる) (outburst, rave, fret, force, violence, cruelty, outrage)",
+            "暴": "ボウ バク  あば.く あば.れる  outburst, rave, fret, force, violence, cruelty, outrage ",
 
-            "輪": "(リン) (wheel, ring, circle, link, loop, counter for wheels and flowers)",
+            "輪": "リン  wheel, ring, circle, link, loop, counter for wheels and flowers ",
 
-            "占": "(セン ウラナ. し.める) (fortune-telling, divining, forecasting, occupy, hold, have, get, take)",
+            "占": "セン ウラナ. し.める  fortune-telling, divining, forecasting, occupy, hold, have, get, take ",
 
-            "植": "(ショク ウ.ワ  う.える) (plant)",
+            "植": "ショク ウ.ワ  う.える  plant ",
 
-            "清": "(セイ ショウ シン キヨ.メ  きよ.い きよ.まる) (pure, purify, cleanse, exorcise, Manchu dynasty)",
+            "清": "セイ ショウ シン キヨ.メ  きよ.い きよ.まる  pure, purify, cleanse, exorcise, Manchu dynasty ",
 
-            "倍": "(バ) (double, twice, times, fold)",
+            "倍": "バ  double, twice, times, fold ",
 
-            "均": "(キン ナラ) (level, average)",
+            "均": "キン ナラ  level, average ",
 
-            "億": "(オ) (hundred million, 10**8)",
+            "億": "オ  hundred million, 10**8 ",
 
-            "圧": "(アツ エン オウ  お.す へ.す おさ.える お.さえる) (pressure, push, overwhelm, oppress, dominate)",
+            "圧": "アツ エン オウ  お.す へ.す おさ.える お.さえる  pressure, push, overwhelm, oppress, dominate ",
 
-            "芸": "(ゲイ ウン ワ  う.える のり) (technique, art, craft, performance, acting, trick, stunt)",
+            "芸": "ゲイ ウン ワ  う.える のり  technique, art, craft, performance, acting, trick, stunt ",
 
-            "署": "(ショ) (signature, govt office, police station)",
+            "署": "ショ  signature, govt office, police station ",
 
-            "伸": "(シン ノ.  の.びる の.ばす の.べる) (expand, stretch, extend, lengthen, increase)",
+            "伸": "シン ノ.  の.びる の.ばす の.べる  expand, stretch, extend, lengthen, increase ",
 
-            "停": "(テイ  と.める と.まる) (halt, stopping)",
+            "停": "テイ  と.める と.まる  halt, stopping ",
 
-            "爆": "(バク  は.ぜる) (bomb, burst open, pop, split)",
+            "爆": "バク  は.ぜる  bomb, burst open, pop, split ",
 
-            "陸": "(リク ロク オ) (land, six)",
+            "陸": "リク ロク オ  land, six ",
 
-            "玉": "(ギョク -ダ  たま たま-) (jewel, ball)",
+            "玉": "ギョク -ダ  たま たま-  jewel, ball ",
 
-            "波": "(ハ ナ) (waves, billows, Poland)",
+            "波": "ハ ナ  waves, billows, Poland ",
 
-            "帯": "(タイ オ  お.びる) (sash, belt, obi, zone, region)",
+            "帯": "タイ オ  お.びる  sash, belt, obi, zone, region ",
 
-            "延": "(エン ノ.バ  の.びる の.べる の.べ) (prolong, stretching)",
+            "延": "エン ノ.バ  の.びる の.べる の.べ  prolong, stretching ",
 
-            "羽": "(ウ ハ  は わ) (feathers, counter for birds, rabbits)",
+            "羽": "ウ ハ  は わ  feathers, counter for birds, rabbits ",
 
-            "固": "(コ  かた.める かた.まる かた.まり かた.い) (harden, set, clot, curdle)",
+            "固": "コ  かた.める かた.まる かた.まり かた.い  harden, set, clot, curdle ",
 
-            "則": "(ソク ノット) (rule, follow, based on, model after)",
+            "則": "ソク ノット  rule, follow, based on, model after ",
 
-            "乱": "(ラン ロン ワタ.  みだ.れる みだ.る みだ.す みだ おさ.める) (riot, war, disorder, disturb)",
+            "乱": "ラン ロン ワタ.  みだ.れる みだ.る みだ.す みだ おさ.める  riot, war, disorder, disturb ",
 
-            "普": "(フ アマネ  あまね.く) (universal, wide(ly), generally, Prussia)",
+            "普": "フ アマネ  あまね.く  universal, widely , generally, Prussia ",
 
-            "測": "(ソク  はか.る) (fathom, plan, scheme, measure)",
+            "測": "ソク  はか.る  fathom, plan, scheme, measure ",
 
-            "豊": "(ホウ ブ ト  ゆた.か) (bountiful, excellent, rich)",
+            "豊": "ホウ ブ ト  ゆた.か  bountiful, excellent, rich ",
 
-            "厚": "(コウ ア  あつ.い) (thick, heavy, rich, kind, cordial, brazen, shameless)",
+            "厚": "コウ ア  あつ.い  thick, heavy, rich, kind, cordial, brazen, shameless ",
 
-            "齢": "(レイ  よわ.い とし) (age)",
+            "齢": "レイ  よわ.い とし  age ",
 
-            "囲": "(イ  かこ.む かこ.う かこ.い) (surround, besiege, store, paling, enclosure, encircle, preserve, keep)",
+            "囲": "イ  かこ.む かこ.う かこ.い  surround, besiege, store, paling, enclosure, encircle, preserve, keep ",
 
-            "卒": "(ソツ シュツ  そっ.する お.える お.わる ついに にわか) (graduate, soldier, private, die)",
+            "卒": "ソツ シュツ  そっ.する お.える お.わる ついに にわか  graduate, soldier, private, die ",
 
-            "略": "(リャク ほぼ おか.す おさ.める はかりごと はか.る はぶ.く りゃく.す りゃく.する) (abbreviation, omission, outline, shorten, capture, plunder)",
+            "略": "リャク ほぼ おか.す おさ.める はかりごと はか.る はぶ.く りゃく.す りゃく.する  abbreviation, omission, outline, shorten, capture, plunder ",
 
-            "承": "(ショウ ウ.ケ  うけたまわ.る) (acquiesce, hear, listen to, be informed, receive)",
+            "承": "ショウ ウ.ケ  うけたまわ.る  acquiesce, hear, listen to, be informed, receive ",
 
-            "順": "(ジュ) (obey, order, turn, right, docility, occasion)",
+            "順": "ジュ  obey, order, turn, right, docility, occasion ",
 
-            "岩": "(ガン  いわ) (boulder, rock, cliff)",
+            "岩": "ガン  いわ  boulder, rock, cliff ",
 
-            "練": "(レン ネ.  ね.る) (practice, gloss, train, drill, polish, refine)",
+            "練": "レン ネ.  ね.る  practice, gloss, train, drill, polish, refine ",
 
-            "軽": "(ケイ  かる.い かろ.やか かろ.んじる) (lightly, trifling, unimportant)",
+            "軽": "ケイ  かる.い かろ.やか かろ.んじる  lightly, trifling, unimportant ",
 
-            "了": "(リョ) (complete, finish)",
+            "了": "リョ  complete, finish ",
 
-            "庁": "(チョウ テイ  やくしょ) (government office)",
+            "庁": "チョウ テイ  やくしょ  government office ",
 
-            "城": "(ジョウ シ) (castle)",
+            "城": "ジョウ シ  castle ",
 
-            "患": "(カン ワズラ) (afflicted, disease, suffer from, be ill)",
+            "患": "カン ワズラ  afflicted, disease, suffer from, be ill ",
 
-            "層": "(ソウ) (stratum, social class, layer, story, floor)",
+            "層": "ソウ  stratum, social class, layer, story, floor ",
 
-            "版": "(ハン) (printing block, printing plate, edition, impression, label)",
+            "版": "ハン  printing block, printing plate, edition, impression, label ",
 
-            "令": "(レ) (orders, ancient laws, command, decree)",
+            "令": "レ  orders, ancient laws, command, decree ",
 
-            "角": "(カク ツ  かど) (angle, corner, square, horn, antlers)",
+            "角": "カク ツ  かど  angle, corner, square, horn, antlers ",
 
-            "絡": "(ラク  から.む から.まる) (entwine, coil around, get caught in)",
+            "絡": "ラク  から.む から.まる  entwine, coil around, get caught in ",
 
-            "損": "(ソン そこ.なう そこな.う -そこ.なう そこ.ねる -そこ.ねる) (damage, loss, disadvantage, hurt, injure)",
+            "損": "ソン そこ.なう そこな.う -そこ.なう そこ.ねる -そこ.ねる  damage, loss, disadvantage, hurt, injure ",
 
-            "募": "(ボ  つの.る) (recruit, campaign, gather (contributions), enlist, grow violent)",
+            "募": "ボ  つの.る  recruit, campaign, gather contributions , enlist, grow violent ",
 
-            "裏": "(リ うら) (back, amidst, in, reverse, inside, palm, sole, rear, lining, wrong side)",
+            "裏": "リ うら  back, amidst, in, reverse, inside, palm, sole, rear, lining, wrong side ",
 
-            "仏": "(ブツ フツ ほとけ) (Buddha, the dead, France)",
+            "仏": "ブツ フツ ほとけ  Buddha, the dead, France ",
 
-            "績": "(セ) (exploits, unreeling cocoons)",
+            "績": "セ  exploits, unreeling cocoons ",
 
-            "築": "(チク キズ.) (fabricate, build, construct)",
+            "築": "チク キズ.  fabricate, build, construct ",
 
-            "貨": "(カ) (freight, goods, property)",
+            "貨": "カ  freight, goods, property ",
 
-            "混": "(コン  ま.じる -ま.じり ま.ざる ま.ぜる こ.む) (mix, blend, confuse)",
+            "混": "コン  ま.じる -ま.じり ま.ざる ま.ぜる こ.む  mix, blend, confuse ",
 
-            "昇": "(ショウ ノボ.) (rise up)",
+            "昇": "ショウ ノボ.  rise up ",
 
-            "池": "(チ  いけ) (pond, cistern, pool, reservoir)",
+            "池": "チ  いけ  pond, cistern, pool, reservoir ",
 
-            "血": "(ケツ  ち) (blood)",
+            "血": "ケツ  ち  blood ",
 
-            "温": "(オン ヌ  あたた.か あたた.かい あたた.まる あたた.める) (warm)",
+            "温": "オン ヌ  あたた.か あたた.かい あたた.まる あたた.める  warm ",
 
-            "季": "() (seasons)",
+            "季": "  seasons ",
 
-            "星": "(セイ ショウ  ほし -ぼし) (star, spot, dot, mark)",
+            "星": "セイ ショウ  ほし -ぼし  star, spot, dot, mark ",
 
-            "永": "(エイ ナガ.) (eternity, long, lengthy)",
+            "永": "エイ ナガ.  eternity, long, lengthy ",
 
-            "著": "(チョ チャク  あらわ.す いちじる.しい) (renowned, publish, write, remarkable, phenomenal, put on, don, wear, arrival, finish (race), counter for suit)",
+            "著": "チョ チャク  あらわ.す いちじる.しい  renowned, publish, write, remarkable, phenomenal, put on, don, wear, arrival, finish race , counter for suit ",
 
-            "誌": "(シ) (document, records)",
+            "誌": "シ  document, records ",
 
-            "庫": "(コ ク  くら) (warehouse, storehouse)",
+            "庫": "コ ク  くら  warehouse, storehouse ",
 
-            "刊": "(カン) (publish, carve, engrave)",
+            "刊": "カン  publish, carve, engrave ",
 
-            "像": "(ゾ) (statue, picture, image, figure, portrait)",
+            "像": "ゾ  statue, picture, image, figure, portrait ",
 
-            "香": "(コウ キョウ カオ.  か かお.り) (incense, smell, perfume)",
+            "香": "コウ キョウ カオ.  か かお.り  incense, smell, perfume ",
 
-            "坂": "(ハン サ) (slope, incline, hill)",
+            "坂": "ハン サ  slope, incline, hill ",
 
-            "底": "(テイ  そこ) (bottom, sole, depth, bottom price, base, kind, sort)",
+            "底": "テイ  そこ  bottom, sole, depth, bottom price, base, kind, sort ",
 
-            "布": "(フ ヌ) (linen, cloth)",
+            "布": "フ ヌ  linen, cloth ",
 
-            "寺": "(ジ てら) (Buddhist temple)",
+            "寺": "ジ てら  Buddhist temple ",
 
-            "宇": "() (leaves, roof, house, heaven)",
+            "宇": "  leaves, roof, house, heaven ",
 
-            "巨": "(キ) (gigantic, big, large, great)",
+            "巨": "キ  gigantic, big, large, great ",
 
-            "震": "(シン  ふる.う ふる.える) (quake, shake, tremble, quiver, shiver)",
+            "震": "シン  ふる.う ふる.える  quake, shake, tremble, quiver, shiver ",
 
-            "希": "(キ ケ マ) (hope, beg, request, pray, beseech, Greece, dilute (acid), rare, few, phenomenal)",
+            "希": "キ ケ マ  hope, beg, request, pray, beseech, Greece, dilute acid , rare, few, phenomenal ",
 
-            "触": "(ショク  ふ.れる さわ.る さわ) (contact, touch, feel, hit, proclaim, announce, conflict)",
+            "触": "ショク  ふ.れる さわ.る さわ  contact, touch, feel, hit, proclaim, announce, conflict ",
 
-            "依": "(イ エ ヨ.) (reliant, depend on, consequently, therefore, due to)",
+            "依": "イ エ ヨ.  reliant, depend on, consequently, therefore, due to ",
 
-            "籍": "(セキ) (enroll, domiciliary register, membership)",
+            "籍": "セキ  enroll, domiciliary register, membership ",
 
-            "汚": "(オ けが.す けが.れる けが.らわしい よご.す よご.れる きたな.い) (dirty, pollute, disgrace, rape, defile)",
+            "汚": "オ けが.す けが.れる けが.らわしい よご.す よご.れる きたな.い  dirty, pollute, disgrace, rape, defile ",
 
-            "枚": "(マイ バ) (sheet of..., counter for flat thin objects or sheets)",
+            "枚": "マイ バ  sheet of..., counter for flat thin objects or sheets ",
 
-            "複": "(フク) (duplicate, double, compound, multiple)",
+            "複": "フク  duplicate, double, compound, multiple ",
 
-            "郵": "(ユウ) (mail, stagecoach stop)",
+            "郵": "ユウ  mail, stagecoach stop ",
 
-            "仲": "(チュウ ナ) (go-between, relationship)",
+            "仲": "チュウ ナ  go-between, relationship ",
 
-            "栄": "(エイ ヨウ  さか.える は.え -ば.え は.える) (flourish, prosperity, honor, glory, splendor)",
+            "栄": "エイ ヨウ  さか.える は.え -ば.え は.える  flourish, prosperity, honor, glory, splendor ",
 
-            "札": "(サツ フ) (tag, paper money, counter for bonds, placard, bid)",
+            "札": "サツ フ  tag, paper money, counter for bonds, placard, bid ",
 
-            "板": "(ハン バン  いた) (plank, board, plate, stage)",
+            "板": "ハン バン  いた  plank, board, plate, stage ",
 
-            "骨": "(コツ  ほね) (skeleton, bone, remains, frame)",
+            "骨": "コツ  ほね  skeleton, bone, remains, frame ",
 
-            "傾": "(ケイ かたむ.く かたむ.ける かたぶ.く かた.げる かし.げる) (lean, incline, tilt, trend, wane, sink, ruin, bias)",
+            "傾": "ケイ かたむ.く かたむ.ける かたぶ.く かた.げる かし.げる  lean, incline, tilt, trend, wane, sink, ruin, bias ",
 
-            "届": "(カイ  とど.ける -とど.け とど.く) (deliver, reach, arrive, report, notify, forward)",
+            "届": "カイ  とど.ける -とど.け とど.く  deliver, reach, arrive, report, notify, forward ",
 
-            "巻": "(カン ケン  ま.く まき ま.き) (scroll, volume, book, part, roll up, wind up, tie, coil, counter for texts (or book scrolls))",
+            "巻": "カン ケン  ま.く まき ま.き  scroll, volume, book, part, roll up, wind up, tie, coil, counter for texts or book scrolls  ",
 
-            "燃": "(ネン  も.える も.やす も.す) (burn, blaze, glow)",
+            "燃": "ネン  も.える も.やす も.す  burn, blaze, glow ",
 
-            "跡": "(セキ  あと) (tracks, mark, print, impression)",
+            "跡": "セキ  あと  tracks, mark, print, impression ",
 
-            "包": "(ホウ クル.  つつ.む) (wrap, pack up, cover, conceal)",
+            "包": "ホウ クル.  つつ.む  wrap, pack up, cover, conceal ",
 
-            "駐": "(チュウ) (stop-over, reside in, resident)",
+            "駐": "チュウ  stop-over, reside in, resident ",
 
-            "弱": "(ジャク  よわ.い よわ.る よわ.まる よわ.める) (weak, frail)",
+            "弱": "ジャク  よわ.い よわ.る よわ.まる よわ.める  weak, frail ",
 
-            "紹": "(ショ) (introduce, inherit, help)",
+            "紹": "ショ  introduce, inherit, help ",
 
-            "雇": "(コ  やと.う) (employ, hire)",
+            "雇": "コ  やと.う  employ, hire ",
 
-            "替": "(タイ カ.ワ  か.える か.え-) (exchange, spare, substitute, per-)",
+            "替": "タイ カ.ワ  か.える か.え-  exchange, spare, substitute, per- ",
 
-            "預": "(ヨ  あず.ける あず.かる) (deposit, custody, leave with, entrust to)",
+            "預": "ヨ  あず.ける あず.かる  deposit, custody, leave with, entrust to ",
 
-            "焼": "(ショウ ヤ.ケ  や.く や.き や.き- -や.き) (bake, burning)",
+            "焼": "ショウ ヤ.ケ  や.く や.き や.き- -や.き  bake, burning ",
 
-            "簡": "(カン) (simplicity, brevity)",
+            "簡": "カン  simplicity, brevity ",
 
-            "章": "(ショ) (badge, chapter, composition, poem, design)",
+            "章": "ショ  badge, chapter, composition, poem, design ",
 
-            "臓": "(ゾウ  はらわた) (entrails, viscera, bowels)",
+            "臓": "ゾウ  はらわた  entrails, viscera, bowels ",
 
-            "律": "(リツ リチ レ) (rhythm, law, regulation, gauge, control)",
+            "律": "リツ リチ レ  rhythm, law, regulation, gauge, control ",
 
-            "贈": "(ゾウ ソウ  おく.る) (presents, send, give to, award to, confer on, presenting something)",
+            "贈": "ゾウ ソウ  おく.る  presents, send, give to, award to, confer on, presenting something ",
 
-            "照": "(ショウ テ.レ  て.る て.らす) (illuminate, shine, compare, bashful)",
+            "照": "ショウ テ.レ  て.る て.らす  illuminate, shine, compare, bashful ",
 
-            "薄": "(ハク うす.い うす- -うす うす.める うす.まる す.らぐ うす.ら- うす.れる すすき) (dilute, thin, weak (tea))",
+            "薄": "ハク うす.い うす- -うす うす.める うす.まる す.らぐ うす.ら- うす.れる すすき  dilute, thin, weak tea  ",
 
-            "群": "(グン ムラ.ガ  む.れる む.れ むら) (flock, group, crowd, herd, swarm, cluster)",
+            "群": "グン ムラ.ガ  む.れる む.れ むら  flock, group, crowd, herd, swarm, cluster ",
 
-            "秒": "(ビョウ) (second (1, 60 minute))",
+            "秒": "ビョウ  second 1, 60 minute  ",
 
-            "奥": "(オウ オク ク  おく.まる) (heart, interior)",
+            "奥": "オウ オク ク  おく.まる  heart, interior ",
 
-            "詰": "(キツ キチ ツ.  つ.める つ.め -づ.め つ.まる) (packed, close, pressed, reprove, rebuke, blame)",
+            "詰": "キツ キチ ツ.  つ.める つ.め -づ.め つ.まる  packed, close, pressed, reprove, rebuke, blame ",
 
-            "双": "(ソウ フタ  ふた たぐい ならぶ) (pair, set, comparison, counter for pairs)",
+            "双": "ソウ フタ  ふた たぐい ならぶ  pair, set, comparison, counter for pairs ",
 
-            "刺": "(シ  さ.す さ.さる さ.し さし とげ) (thorn, pierce, stab, prick, sting, calling card)",
+            "刺": "シ  さ.す さ.さる さ.し さし とげ  thorn, pierce, stab, prick, sting, calling card ",
 
-            "純": "(ジュ) (genuine, purity, innocence, net (profit))",
+            "純": "ジュ  genuine, purity, innocence, net profit  ",
 
-            "翌": "(ヨク) (the following, next)",
+            "翌": "ヨク  the following, next ",
 
-            "快": "(カイ) (cheerful, pleasant, agreeable, comfortable)",
+            "快": "カイ  cheerful, pleasant, agreeable, comfortable ",
 
-            "片": "(ヘン  かた- かた) (one-sided, leaf, sheet)",
+            "片": "ヘン  かた- かた  one-sided, leaf, sheet ",
 
-            "敬": "(ケイ キョウ ウヤマ.) (awe, respect, honor, revere)",
+            "敬": "ケイ キョウ ウヤマ.  awe, respect, honor, revere ",
 
-            "悩": "(ノウ  なや.む なや.ます なや.ましい なやみ) (trouble, worry, in pain, distress, illness)",
+            "悩": "ノウ  なや.む なや.ます なや.ましい なやみ  trouble, worry, in pain, distress, illness ",
 
-            "泉": "(セン イズ) (spring, fountain)",
+            "泉": "セン イズ  spring, fountain ",
 
-            "皮": "(けがわ) (pelt, skin, hide, leather)",
+            "皮": "けがわ  pelt, skin, hide, leather ",
 
-            "漁": "(ギョ リョウ  あさ.る) (fishing, fishery)",
+            "漁": "ギョ リョウ  あさ.る  fishing, fishery ",
 
-            "荒": "(コウ スサ.  あら.い あら- あ.れる あ.らす -あ.らし) (laid waste, rough, rude, wild)",
+            "荒": "コウ スサ.  あら.い あら- あ.れる あ.らす -あ.らし  laid waste, rough, rude, wild ",
 
-            "貯": "(チョ  た.める たくわ.える) (savings, store, lay in, keep, wear mustache)",
+            "貯": "チョ  た.める たくわ.える  savings, store, lay in, keep, wear mustache ",
 
-            "硬": "(コウ  かた.い) (stiff, hard)",
+            "硬": "コウ  かた.い  stiff, hard ",
 
-            "埋": "(マイ う.める う.まる う.もれる うず.める うず.まる い.ける) (bury, be filled up, embedded)",
+            "埋": "マイ う.める う.まる う.もれる うず.める うず.まる い.ける  bury, be filled up, embedded ",
 
-            "柱": "(チュウ  はしら) (pillar, post, cylinder, support)",
+            "柱": "チュウ  はしら  pillar, post, cylinder, support ",
 
-            "祭": "(サイ  まつ.る まつ.り まつり) (ritual, offer prayers, celebrate, deify, enshrine, worship)",
+            "祭": "サイ  まつ.る まつ.り まつり  ritual, offer prayers, celebrate, deify, enshrine, worship ",
 
-            "袋": "(タイ ダイ フク) (sack, bag, pouch)",
+            "袋": "タイ ダイ フク  sack, bag, pouch ",
 
-            "筆": "(ヒツ フ) (writing brush, writing, painting brush, handwriting)",
+            "筆": "ヒツ フ  writing brush, writing, painting brush, handwriting ",
 
-            "訓": "(クン キン クン.ズ  おし.える よ.む) (instruction, Japanese character reading, explanation, read)",
+            "訓": "クン キン クン.ズ  おし.える よ.む  instruction, Japanese character reading, explanation, read ",
 
-            "浴": "(ヨク ア.ビセ  あ.びる) (bathe, be favored with, bask in)",
+            "浴": "ヨク ア.ビセ  あ.びる  bathe, be favored with, bask in ",
 
-            "童": "(ドウ ワラ) (juvenile, child)",
+            "童": "ドウ ワラ  juvenile, child ",
 
-            "宝": "(ホウ タカ) (treasure, wealth, valuables)",
+            "宝": "ホウ タカ  treasure, wealth, valuables ",
 
-            "封": "(フウ ホウ) (seal, closing)",
+            "封": "フウ ホウ  seal, closing ",
 
-            "胸": "(キョウ  むね むな-) (bosom, breast, chest, heart, feelings)",
+            "胸": "キョウ  むね むな-  bosom, breast, chest, heart, feelings ",
 
-            "砂": "(サ シャ ス) (sand)",
+            "砂": "サ シャ ス  sand ",
 
-            "塩": "(エン しお) (salt)",
+            "塩": "エン しお  salt ",
 
-            "賢": "(ケン カシコ.) (intelligent, wise, wisdom, cleverness)",
+            "賢": "ケン カシコ.  intelligent, wise, wisdom, cleverness ",
 
-            "腕": "(ワン うで) (arm, ability, talent)",
+            "腕": "ワン うで  arm, ability, talent ",
 
-            "兆": "(チョウ きざ.す きざ.し) (portent, 10**12, trillion, sign, omen, symptoms)",
+            "兆": "チョウ きざ.す きざ.し  portent, 10**12, trillion, sign, omen, symptoms ",
 
-            "床": "(ショウ とこ ゆか) (bed, floor, padding, tatami)",
+            "床": "ショウ とこ ゆか  bed, floor, padding, tatami ",
 
-            "毛": "(モウ) (fur, hair, feather, down)",
+            "毛": "モウ  fur, hair, feather, down ",
 
-            "緑": "(リョク ロク  みどり) (green)",
+            "緑": "リョク ロク  みどり  green ",
 
-            "尊": "(ソン トウト.  たっと.い とうと.い たっと.ぶ) (revered, valuable, precious, noble, exalted)",
+            "尊": "ソン トウト.  たっと.い とうと.い たっと.ぶ  revered, valuable, precious, noble, exalted ",
 
-            "祝": "(シュク シュウ イワ.) (celebrate, congratulate)",
+            "祝": "シュク シュウ イワ.  celebrate, congratulate ",
 
-            "柔": "(ジュウ ニュウ ヤワ. やわ.らか やわ.らかい やわ) (tender, weakness, gentleness, softness)",
+            "柔": "ジュウ ニュウ ヤワ. やわ.らか やわ.らかい やわ  tender, weakness, gentleness, softness ",
 
-            "殿": "(デン テン -ド との) (Mr., hall, mansion, palace, temple, lord)",
+            "殿": "デン テン -ド との  Mr., hall, mansion, palace, temple, lord ",
 
-            "濃": "(ノウ コ.) (concentrated, thick, dark, undiluted)",
+            "濃": "ノウ コ.  concentrated, thick, dark, undiluted ",
 
-            "液": "(エキ) (fluid, liquid, juice, sap, secretion)",
+            "液": "エキ  fluid, liquid, juice, sap, secretion ",
 
-            "衣": "(イ エ ころも きぬ -ぎ) (garment, clothes, dressing)",
+            "衣": "イ エ ころも きぬ -ぎ  garment, clothes, dressing ",
 
-            "肩": "(ケン  かた) (shoulder)",
+            "肩": "ケン  かた  shoulder ",
 
-            "零": "(レイ ぜろ こぼ.す こぼ.れる) (zero, spill, overflow, nothing, cipher)",
+            "零": "レイ ぜろ こぼ.す こぼ.れる  zero, spill, overflow, nothing, cipher ",
 
-            "幼": "(ヨウ オサナ.) (infancy, childhood)",
+            "幼": "ヨウ オサナ.  infancy, childhood ",
 
-            "荷": "(カ) (baggage, shoulder-pole load, bear (a burden), shoulder (a gun), load, cargo, freight)",
+            "荷": "カ  baggage, shoulder-pole load, bear a burden , shoulder a gun , load, cargo, freight ",
 
-            "泊": "(ハク ト.メ  と.まる) (overnight, put up at, ride at anchor, 3-day stay)",
+            "泊": "ハク ト.メ  と.まる  overnight, put up at, ride at anchor, 3-day stay ",
 
-            "黄": "(コウ オウ き こ) (yellow)",
+            "黄": "コウ オウ き こ  yellow ",
 
-            "甘": "(カン ウマ.  あま.い あま.える あま.やかす) (sweet, coax, pamper, be content, sugary)",
+            "甘": "カン ウマ.  あま.い あま.える あま.やかす  sweet, coax, pamper, be content, sugary ",
 
-            "臣": "(シン ジ) (retainer, subject)",
+            "臣": "シン ジ  retainer, subject ",
 
-            "浅": "(セン アサ.) (shallow, superficial, frivolous, wretched, shameful)",
+            "浅": "セン アサ.  shallow, superficial, frivolous, wretched, shameful ",
 
-            "掃": "(ソウ シュ ハ.) (sweep, brush)",
+            "掃": "ソウ シュ ハ.  sweep, brush ",
 
-            "雲": "(ウン -グ くも) (cloud)",
+            "雲": "ウン -グ くも  cloud ",
 
-            "掘": "(クツ ホ.) (dig, delve, excavate)",
+            "掘": "クツ ホ.  dig, delve, excavate ",
 
-            "捨": "(シャ す.てる) (discard, throw away, abandon, resign, reject, sacrifice)",
+            "捨": "シャ す.てる  discard, throw away, abandon, resign, reject, sacrifice ",
 
-            "軟": "(ナン やわ.らか やわ.らかい) (soft)",
+            "軟": "ナン やわ.らか やわ.らかい  soft ",
 
-            "沈": "(チン ジン シズ.メ しず.む) (sink, be submerged, subside, be depressed, aloes)",
+            "沈": "チン ジン シズ.メ しず.む  sink, be submerged, subside, be depressed, aloes ",
 
-            "凍": "(トウ シ.ミ こお.る こご.える こご.る い.てる) (frozen, congeal, refrigerate)",
+            "凍": "トウ シ.ミ こお.る こご.える こご.る い.てる  frozen, congeal, refrigerate ",
 
-            "乳": "(ニュウ ちち ち) (milk, breasts)",
+            "乳": "ニュウ ちち ち  milk, breasts ",
 
-            "恋": "(レン こ.う こい こい.しい) (romance, in love, yearn for, miss, darling)",
+            "恋": "レン こ.う こい こい.しい  romance, in love, yearn for, miss, darling ",
 
-            "紅": "(コウ ク アカ. べに くれない) (crimson, deep red)",
+            "紅": "コウ ク アカ. べに くれない  crimson, deep red ",
 
-            "郊": "(コウ) (outskirts, suburbs, rural area)",
+            "郊": "コウ  outskirts, suburbs, rural area ",
 
-            "腰": "(ヨウ コ) (loins, hips, waist, low wainscoting)",
+            "腰": "ヨウ コ  loins, hips, waist, low wainscoting ",
 
-            "炭": "(タン すみ) (charcoal, coal)",
+            "炭": "タン すみ  charcoal, coal ",
 
-            "踊": "(ヨウ おど.る) (jump, dance, leap, skip)",
+            "踊": "ヨウ おど.る  jump, dance, leap, skip ",
 
-            "冊": "(サツ サク ふみ) (tome, counter for books, volume)",
+            "冊": "サツ サク ふみ  tome, counter for books, volume ",
 
-            "勇": "(ユウ イサ.) (courage, cheer up, be in high spirits, bravery, heroism)",
+            "勇": "ユウ イサ.  courage, cheer up, be in high spirits, bravery, heroism ",
 
-            "械": "(カイ かせ) (contraption, fetter, machine, instrument)",
+            "械": "カイ かせ  contraption, fetter, machine, instrument ",
 
-            "菜": "(サイ) (vegetable, side dish, greens)",
+            "菜": "サイ  vegetable, side dish, greens ",
 
-            "珍": "(チン タカ  めずら.しい) (rare, curious, strange)",
+            "珍": "チン タカ  めずら.しい  rare, curious, strange ",
 
-            "卵": "(ラン たまご) (egg, ovum, spawn, roe)",
+            "卵": "ラン たまご  egg, ovum, spawn, roe ",
 
-            "湖": "(コ ミズウ) (lake)",
+            "湖": "コ ミズウ  lake ",
 
-            "喫": "(キツ) (consume, eat, drink, smoke, receive (a blow))",
+            "喫": "キツ  consume, eat, drink, smoke, receive a blow  ",
 
-            "干": "(カン ヒ. ほ.す ほ.し- -ぼ.し) (dry, parch)",
+            "干": "カン ヒ. ほ.す ほ.し- -ぼ.し  dry, parch ",
 
-            "虫": "(チュウ キ ム) (insect, bug, temper)",
+            "虫": "チュウ キ ム  insect, bug, temper ",
 
-            "刷": "(サツ す.る -ず.り -ずり は.く) (printing, print)",
+            "刷": "サツ す.る -ず.り -ずり は.く  printing, print ",
 
-            "湯": "(トウ ゆ) (hot water, bath, hot spring)",
+            "湯": "トウ ゆ  hot water, bath, hot spring ",
 
-            "溶": "(ヨウ と.ける と.かす と.く) (melt, dissolve, thaw)",
+            "溶": "ヨウ と.ける と.かす と.く  melt, dissolve, thaw ",
 
-            "鉱": "(コウ あらがね) (mineral, ore)",
+            "鉱": "コウ あらがね  mineral, ore ",
 
-            "涙": "(ルイ レイ なみだ) (tears, sympathy)",
+            "涙": "ルイ レイ なみだ  tears, sympathy ",
 
-            "匹": "(ヒツ ひき) (equal, head, counter for small animals, roll of cloth)",
+            "匹": "ヒツ ひき  equal, head, counter for small animals, roll of cloth ",
 
-            "孫": "(ソン マ) (grandchild, descendants)",
+            "孫": "ソン マ  grandchild, descendants ",
 
-            "鋭": "(エイ スルド.) (pointed, sharpness, edge, weapon, sharp, violent)",
+            "鋭": "エイ スルド.  pointed, sharpness, edge, weapon, sharp, violent ",
 
-            "枝": "(シ) (bough, branch, twig, limb)",
+            "枝": "シ  bough, branch, twig, limb ",
 
-            "塗": "(ト) (ぬ.る ぬ.り まみ.れる) (paint, plaster, daub, smear, coating)",
+            "塗": "ト  ぬ.る ぬ.り まみ.れる  paint, plaster, daub, smear, coating ",
 
-            "軒": "(ケン のき) (flats, counter for houses, eaves)",
+            "軒": "ケン のき  flats, counter for houses, eaves ",
 
-            "毒": "(ドク) (poison, virus, venom, germ, harm, injury, spite)",
+            "毒": "ドク  poison, virus, venom, germ, harm, injury, spite ",
 
-            "叫": "(キョウ さけ.ぶ) (shout, exclaim, yell )",
+            "叫": "キョウ さけ.ぶ  shout, exclaim, yell  ",
 
-            "拝": "(ハイ おが.む おろが.む) (worship, adore, pray to )",
+            "拝": "ハイ おが.む おろが.む  worship, adore, pray to  ",
 
-            "氷": "(ヒョウ コオ. こおり ひ) (icicle, ice, hail, freeze, congeal)",
+            "氷": "ヒョウ コオ. こおり ひ  icicle, ice, hail, freeze, congeal ",
 
-            "乾": "(カン ケン かわ.く かわ.かす ほ.す ひ.る いぬい) (drought, dry, dessicate, drink up, heaven, emperor)",
+            "乾": "カン ケン かわ.く かわ.かす ほ.す ひ.る いぬい  drought, dry, dessicate, drink up, heaven, emperor ",
 
-            "棒": "(ボウ) (rod, stick, cane, pole, club, line)",
+            "棒": "ボウ  rod, stick, cane, pole, club, line ",
 
-            "祈": "(キ イノ.) (pray, wish)",
+            "祈": "キ イノ.  pray, wish ",
 
-            "拾": "(シュウ ジュウ ひろ.う) (pick up, gather, find, go on foot, ten)",
+            "拾": "シュウ ジュウ ひろ.う  pick up, gather, find, go on foot, ten ",
 
-            "粉": "(フン デシメートル こ こな) (flour, powder, dust)",
+            "粉": "フン デシメートル こ こな  flour, powder, dust ",
 
-            "糸": "(シ いと) (thread)",
+            "糸": "シ いと  thread ",
 
-            "綿": "(メン ワ) (cotton)",
+            "綿": "メン ワ  cotton ",
 
-            "汗": "(カン あせ) (sweat, perspire)",
+            "汗": "カン あせ  sweat, perspire ",
 
-            "銅": "(ドウ あかがね) (copper)",
+            "銅": "ドウ あかがね  copper ",
 
-            "湿": "(シツ シュウ しめ.る しめ.す うるお.う うるお.す) (damp, wet, moist)",
+            "湿": "シツ シュウ しめ.る しめ.す うるお.う うるお.す  damp, wet, moist ",
 
-            "瓶": "(ビン カ) (flower pot, bottle, vial, jar, jug, vat, urn)",
+            "瓶": "ビン カ  flower pot, bottle, vial, jar, jug, vat, urn ",
 
-            "咲": "(ショウ -ザ さ.く) (blossom, bloom)",
+            "咲": "ショウ -ザ さ.く  blossom, bloom ",
 
-            "召": "(ショウ め.す) (seduce, call, send for, wear, put on, ride in, buy, eat, drink, catch (cold))",
+            "召": "ショウ め.す  seduce, call, send for, wear, put on, ride in, buy, eat, drink, catch cold  ",
 
-            "缶": "(カン カ) (tin can, container)",
+            "缶": "カン カ  tin can, container ",
 
-            "隻": "(セキ) (vessels, counter for ships, fish, birds, arrows, one of a pair)",
+            "隻": "セキ  vessels, counter for ships, fish, birds, arrows, one of a pair ",
 
-            "脂": "(シ あぶら)  (fat, grease, tallow, lard, rosin, gum, tar)",
+            "脂": "シ あぶら   fat, grease, tallow, lard, rosin, gum, tar ",
 
-            "蒸": "(ジョウ セイ む.す む.れる む.らす) (steam, heat, sultry, foment, get musty)",
+            "蒸": "ジョウ セイ む.す む.れる む.らす  steam, heat, sultry, foment, get musty ",
 
-            "肌": "(キ はだ) (texture, skin, body, grain)",
+            "肌": "キ はだ  texture, skin, body, grain ",
 
-            "耕": "(コウ タガヤ.) (till, plow, cultivate)",
+            "耕": "コウ タガヤ.  till, plow, cultivate ",
 
-            "鈍": "(ドン にぶ.い にぶ.る にぶ- なま.る なまく.ら) (dull, slow, foolish, blunt)",
+            "鈍": "ドン にぶ.い にぶ.る にぶ- なま.る なまく.ら  dull, slow, foolish, blunt ",
 
-            "泥": "(デイ ナイ デ ニ ド) (mud, mire, adhere to, be attached to)",
+            "泥": "デイ ナイ デ ニ ド  mud, mire, adhere to, be attached to ",
 
-            "隅": "(グウ すみ) (corner, nook)",
+            "隅": "グウ すみ  corner, nook ",
 
-            "灯": "(トウ ひ ほ- ともしび とも.す あかり) (lamp, a light, light, counter for lights)",
+            "灯": "トウ ひ ほ- ともしび とも.す あかり  lamp, a light, light, counter for lights ",
 
-            "辛": "(シン から.い つら.い -づら.い かのと) (spicy, bitter, hot, acrid)",
+            "辛": "シン から.い つら.い -づら.い かのと  spicy, bitter, hot, acrid ",
 
-            "磨": "(マ ス. みが.く) (grind, polish, scour, improve, brush (teeth))",
+            "磨": "マ ス. みが.く  grind, polish, scour, improve, brush teeth  ",
 
-            "麦": "(バク むぎ) (barley, wheat)",
+            "麦": "バク むぎ  barley, wheat ",
 
-            "姓": "(セイ ショウ) (surname)",
+            "姓": "セイ ショウ  surname ",
 
-            "筒": "(トウ つつ) (cylinder, pipe, tube, gun barrel, sleeve)",
+            "筒": "トウ つつ  cylinder, pipe, tube, gun barrel, sleeve ",
 
-            "鼻": "(ビ はな) (nose, snout)",
+            "鼻": "ビ はな  nose, snout ",
 
-            "粒": "(リュウ つぶ)  (grains, drop, counter for tiny particles)",
+            "粒": "リュウ つぶ   grains, drop, counter for tiny particles ",
 
-            "詞": "(シ) (part of speech, words, poetry)",
+            "詞": "シ  part of speech, words, poetry ",
 
-            "胃": "(イ) (stomach, paunch, crop, craw)",
+            "胃": "イ  stomach, paunch, crop, craw ",
 
-            "畳": "(ジョウ チョウ たた.む たたみ かさ.なる) (tatami mat, counter for tatami mats, fold, shut up, do away with)",
+            "畳": "ジョウ チョウ たた.む たたみ かさ.なる  tatami mat, counter for tatami mats, fold, shut up, do away with ",
 
-            "机": "(キ つくえ) (desk, table)",
+            "机": "キ つくえ  desk, table ",
 
-            "膚": "(フ はだ) (skin, body, grain, texture, disposition)",
+            "膚": "フ はだ  skin, body, grain, texture, disposition ",
 
-            "濯": "(タク すす.ぐ ゆす.ぐ) (laundry, wash, pour on, rinse)",
+            "濯": "タク すす.ぐ ゆす.ぐ  laundry, wash, pour on, rinse ",
 
-            "塔": "(トウ) (pagoda, tower, steeple)",
+            "塔": "トウ  pagoda, tower, steeple ",
 
-            "沸": "(フツ わ.く わ.かす) (seethe, boil, ferment, uproar, breed)",
+            "沸": "フツ わ.く わ.かす  seethe, boil, ferment, uproar, breed ",
 
-            "灰": "(カイ はい) (ashes, puckery juice, cremate)",
+            "灰": "カイ はい  ashes, puckery juice, cremate ",
 
-            "菓": "(カ) (candy, cakes, fruit)",
+            "菓": "カ  candy, cakes, fruit ",
 
-            "帽": "(ボウ モウ ずきん おお.う) (cap, headgear)",
+            "帽": "ボウ モウ ずきん おお.う  cap, headgear ",
 
-            "枯": "(コ か.れる か.らす) (wither, die, dry up, be seasoned)",
+            "枯": "コ か.れる か.らす  wither, die, dry up, be seasoned ",
 
-            "涼": "(リョウ マコト すず.しい すず.む すず.やか うす.い ひや.す) (refreshing, nice and cool)",
+            "涼": "リョウ マコト すず.しい すず.む すず.やか うす.い ひや.す  refreshing, nice and cool ",
 
-            "舟": "(シュウ ふね ふな- -ぶね) (boat, ship)",
+            "舟": "シュウ ふね ふな- -ぶね  boat, ship ",
 
-            "貝": "(バイ かい) (shellfish)",
+            "貝": "バイ かい  shellfish ",
 
-            "符": "(フ) (token, sign, mark, tally, charm)",
+            "符": "フ  token, sign, mark, tally, charm ",
 
-            "憎": "(ゾウ にく.む にく.い にく.らしい にく.しみ) (hate, detest)",
+            "憎": "ゾウ にく.む にく.い にく.らしい にく.しみ  hate, detest ",
 
-            "皿": "(ベイ さら) (dish, a helping, plate)",
+            "皿": "ベイ さら  dish, a helping, plate ",
 
-            "肯": "(コウ がえんじ.る) (agreement, consent, comply with)",
+            "肯": "コウ がえんじ.る  agreement, consent, comply with ",
 
-            "燥": "(ソウ はしゃ.ぐ) (parch, dry up)",
+            "燥": "ソウ はしゃ.ぐ  parch, dry up ",
 
-            "畜": "(チク) (livestock, domestic fowl and animals)",
+            "畜": "チク  livestock, domestic fowl and animals ",
 
-            "挟": "(キョウ ショウ はさ.む はさ.まる わきばさ.む さしはさ.む) (pinch, between)",
+            "挟": "キョウ ショウ はさ.む はさ.まる わきばさ.む さしはさ.む  pinch, between ",
 
-            "曇": "(ドン クモ.) (cloudy weather, cloud up)",
+            "曇": "ドン クモ.  cloudy weather, cloud up ",
 
-            "滴": "(テキ しずく したた.る) (drip, drop)",
+            "滴": "テキ しずく したた.る  drip, drop ",
 
-            "伺": "(シ うかが.う) (pay respects, visit, ask, inquire, question, implore)"
+            "伺": "シ うかが.う  pay respects, visit, ask, inquire, question, implore "
 
 
 
@@ -1389,7 +1389,7 @@
             "派": "ハ faction, group, party, clique, sect, school ",
             "案": "アン つくえ plan, suggestion, draft, ponder, fear, proposition, idea, expectation, bill, worry ",
             "策": "サク scheme, plan, policy, step, means ",
-            "基": "キ モト もと fundamentals, radical (chem), counter for machines, foundation ",
+            "基": "キ モト もと fundamentals, radical chem , counter for machines, foundation ",
             "価": "カ ケあたい value, price ",
             "提": "テイ チョウ ダイ さ.げるpropose, take along, carry in hand ",
             "挙": "キョ コゾ. あ.げる あ.がるraise, plan, project, behavior, actions ",
@@ -1398,14 +1398,14 @@
             "検": "ケン しら.べる examination, investigate ",
             "藤": "トウ ドウ フ wisteria ",
             "沢": " タク ツ さわ うるお.い うるお.す swamp ",
-            "裁": "サイ た.つ さば.く tailor, judge, decision, cut out (pattern)",
+            "裁": "サイ た.つ さば.く tailor, judge, decision, cut out pattern ",
             "証": "ショウ あかし evidence, proof, certificate",
             "援": "エン abet, help, save ",
             "施": "シ セ ほどこ.す alms, apply bandages, administer first-aid",
             "井": "セイ ショウ well, well crib, town, community ",
             "護": "ゴ マモ. safeguard, protect",
             "展": "テ unfold, expand ",
-            "態": "タイ わざ.と attitude, condition, figure, appearance, voice (of verbs)",
+            "態": "タイ わざ.と attitude, condition, figure, appearance, voice of verbs ",
             "鮮": "セン あざ.やか fresh, vivid, clear, brilliant, Korea ",
             "視": "シ ミ. inspection, regard as, see, look at",
             "条": "ジョウ チョウ デキ えだ すじ article, clause, item, stripe, streak ",
@@ -1414,7 +1414,7 @@
             "宮": "キュウ グウ ク クウ ミ Shinto shrine, constellations, palace, princess ",
             "率": "ソツ リツ シュツ ひき.いる ratio, rate, proportion, %, coefficient, factor ",
             "衛": "エイ defense, protection ",
-            "張": "チョウ -バ. は.る -は.り lengthen, counter for bows & stringed instruments, stretch, spread, put up (tent) ",
+            "張": "チョウ -バ. は.る -は.り lengthen, counter for bows & stringed instruments, stretch, spread, put up tent  ",
             "監": "カ oversee, official, govt office, rule, administer ",
             "環": "カン ring, circle, link, wheel ",
             "審": "シン ツブサ. つまび.らか hearing, judge, trial ",
@@ -1430,7 +1430,7 @@
             "撃": "ゲキ う.つ beat, attack, defeat, conquer ",
             "佐": "assistant, help ",
             "核": "カク nucleus, core, kernel ",
-            "整": "セイ トトノ. ととの.える organize, arranging, tune, tone, meter, key (music) ",
+            "整": "セイ トトノ. ととの.える organize, arranging, tune, tone, meter, key music  ",
             "融": "ユウ ト.カ と.ける dissolve, melt ",
             "製": "セイ made in..., manufacture ",
             "票": "ヒョウ ballot, label, ticket, sign ",
@@ -1445,7 +1445,7 @@
             "崎": "キ さき さい みさき promontory, cape, spit ",
             "督": "ト coach, command, urge, lead, supervise ",
             "授": "ジュ さず.ける さず.かる impart, instruct, grant, confer ",
-            "催": "サイ もよう.す もよお.す sponsor, hold (a meeting), give (a dinner) ",
+            "催": "サイ もよう.す もよお.す sponsor, hold a meeting , give a dinner  ",
             "及": "キュウ オヨ.ボ およ.ぶ およ.び および reach out, exert, exercise, cause ",
             "憲": "ケ constitution, law ",
             "離": "リ はな.れる はな.す detach, separation, disjoin, digress ",
@@ -1471,7 +1471,7 @@
             "維": "fiber, tie, rope ",
             "浜": "ヒン はま seacoast, beach, seashore ",
             "遺": "イ ユイ bequeath, leave behind, reserve ",
-            "塁": "ルイ ライ スイ トリ bases, fort, rampart, walls, base(ball) ",
+            "塁": "ルイ ライ スイ トリ bases, fort, rampart, walls, baseball  ",
             "邦": "ホウくに home country, country, Japan ",
             "素": "ソ スもと elementary, principle, naked, uncovered ",
             "遣": "ケンつか.う -つか.い -づか.い つか.わす や.る despatch, send, give, donate, do, undertake ",
@@ -1499,7 +1499,7 @@
             "儀": "ceremony, rule, affair, case, a matter ",
             "創": "ソウ ショウ ケズ.シケ つく.る はじ.める きず genesis, wound, injury, hurt, start, originate ",
             "障": "ショウ さわ.る hinder, hurt, harm ",
-            "継": "ケイ つ.ぐ まま- inherit, succeed, patch, graft (tree) ",
+            "継": "ケイ つ.ぐ まま- inherit, succeed, patch, graft tree  ",
             "筋": "キン すじ muscle, sinew, tendon, fiber, plot, plan, descent ",
             "闘": "トウ アラソ. たたか.う fight, war ",
             "葬": "ソウ ホウム. interment, bury, shelve ",
@@ -1519,10 +1519,10 @@
             "締": "テイ し.まる し.まり し.める -し.め -じ.め tighten, tie, shut, lock, fasten ",
             "救": "キュウ すく.う salvation, save, help, rescue, reclaim ",
             "執": "シツ シュウ ト. tenacious, take hold, grasp, take to heart ",
-            "房": "ボウ フ tassel, tuft, fringe, bunch, lock (hair), segment (orange), house, room ",
+            "房": "ボウ フ tassel, tuft, fringe, bunch, lock hair , segment orange , house, room ",
             "撤": "テツ remove, withdraw, disarm, dismantle, reject, exclude ",
             "削": "サク ソ. けず.る はつ.る plane, sharpen, whittle, pare ",
-            "密": "ミツ ひそ.か secrecy, density (pop), minuteness, carefulness ",
+            "密": "ミツ ひそ.か secrecy, density pop , minuteness, carefulness ",
             "措": "ソお.く set aside, give up, suspend, discontinue, lay aside, except ",
             "志": "シ シリング ココロザ こころざ.す intention, plan, resolve, aspire, motive, hopes, shilling ",
             "載": "サイ ノ. の.せる ride, board, get on, place, spread, 10**44 ",
@@ -1546,19 +1546,19 @@
             "刑": "ケ punish, penalty, sentence, punishment ",
             "塚": "チョウ -ヅ つか hillock, mound ",
             "致": "チ いた.す doth, do, send, forward, cause, exert, incur, engage ",
-            "繰": "ソウ ク. winding, reel, spin, turn (pages), look up, refer to ",
+            "繰": "ソウ ク. winding, reel, spin, turn pages , look up, refer to ",
             "尾": "ビ お tail, end, counter for fish, lower slope of mountain ",
             "描": "ビョウ えが.く か.く sketch, compose, write, draw, paint ",
             "鈴": "レイ リン ス small bell, buzzer ",
             "盤": "バ tray, shallow bowl, platter, tub, board, phonograph record ",
-            "項": "コウ うなじ paragraph, nape of neck, clause, item, term (expression) ",
+            "項": "コウ うなじ paragraph, nape of neck, clause, item, term expression  ",
             "喪": "ソウ も miss, mourning ",
             "伴": "ハン バン トモナ. consort, accompany, bring with, companion ",
             "養": "ヨウ リョウ ヤシナ. foster, bring up, rear, develop, nurture ",
             "懸": "ケン ケ か.ける か.かる suspend, hang, 10%, install, depend, consult ",
             "街": "ガイ カイ マ boulevard, street, town ",
             "契": "ケイ ちぎ.る pledge, promise, vow ",
-            "掲": "ケイ かか.げる put up (a notice), put up, hoist, display, hang out, publish, describe ",
+            "掲": "ケイ かか.げる put up a notice , put up, hoist, display, hang out, publish, describe ",
             "躍": "ヤク オド. leap, dance, skip ",
             "棄": "キ す.てる abandon, throw away, discard, resign, reject, sacrifice ",
             "邸": "テイ ヤシ residence, mansion ",
@@ -1566,7 +1566,7 @@
             "還": "カン かえ.る send back, return ",
             "属": "ゾク ショク ヤカ さかん つく belong, genus, subordinate official, affiliated ",
             "慮": "リョ オモンパカ. おもんぱく.る prudence, thought, concern, consider, deliberate, fear ",
-            "枠": "わく frame, framework, spindle, spool, bounding-box, (kokuji) ",
+            "枠": "わく frame, framework, spindle, spool, bounding-box, kokuji  ",
             "恵": "ケイ エ メグ. めぐ.む favor, blessing, grace, kindness ",
             "露": "ロ ロウ ツ dew, tears, expose, Russia ",
             "沖": "チュウ おき おきつ ちゅう.する わく open sea, offing, rise high into sky ",
@@ -1585,9 +1585,9 @@
             "獲": "カク え.る seize, get, find, earn, acquire, can, may, able to ",
             "郡": "グン こうり county, district ",
             "併": "ヘイ あわ.せる join, get together, unite, collective ",
-            "徹": "テ penetrate, clear, pierce, strike home, sit up (all night) ",
+            "徹": "テ penetrate, clear, pierce, strike home, sit up all night  ",
             "貴": "キ トウト. たっと.い とうと.い たっと.ぶ precious, value, prize, esteem, honor ",
-            "衝": "ショウ つ.く collide, brunt, highway, opposition (astronomy), thrust, pierce, stab, prick ",
+            "衝": "ショウ つ.く collide, brunt, highway, opposition astronomy , thrust, pierce, stab, prick ",
             "焦": "ショウ こ.げる こ.がす こ.がれる あせ.る char, hurry, impatient, irritate, burn, scorch, singe ",
             "奪": "ダツ うば.う rob, take by force, snatch away, dispossess, plunder, usurp ",
             "災": "サイ わざわ.い disaster, calamity, woe, curse, evil ",
@@ -1613,7 +1613,7 @@
             "渋": "ジュウ シュウ しぶ しぶ.い しぶ.る astringent, hesitate, reluctant, have diarrhea ",
             "銃": "ジュウ gun, arms ",
             "操": "ソウ サン アヤツ. みさお maneuver, manipulate, operate, steer, chastity, virginity, fidelity ",
-            "携": "ケイ たずさ.える たずさ.わる portable, carry (in hand), armed with, bring along ",
+            "携": "ケイ たずさ.える たずさ.わる portable, carry in hand , armed with, bring along ",
             "診": "シン み.る checkup, seeing, diagnose, examine ",
             "託": "タク かこつ.ける かこ.つ かこ.つける consign, requesting, entrusting with, pretend, hint ",
             "撮": "サツ と.る つま.む -ど.り snapshot, take pictures ",
@@ -1624,9 +1624,9 @@
             "駆": "ク か.ける か.る drive, run, gallop, advance, inspire, impel ",
             "透": "トウ トウ. す.く す.かす す.ける とう.る transparent, permeate, filter, penetrate ",
             "津": "シン haven, port, harbor, ferry ",
-            "壁": "ヘキ かべ wall, lining (stomach), fence ",
+            "壁": "ヘキ かべ wall, lining stomach , fence ",
             "稲": "トウ テ いね いな rice plant ",
-            "仮": "カ ケ かり かり- sham, temporary, interim, assumed (name), informal ",
+            "仮": "カ ケ かり かり- sham, temporary, interim, assumed name , informal ",
             "裂": "レツ さ.く さ.ける -ぎ.れ split, rend, tear ",
             "敏": "ビン サト cleverness, agile, alert ",
             "是": "ゼ シ これ just so, this, right, justice ",
@@ -1635,7 +1635,7 @@
             "堅": "ケン -ガタ. かた.い strict, hard, solid, tough, tight, reliable ",
             "訳": "ヤク わけ translate, reason, circumstance, case ",
             "芝": "シ シ turf, lawn ",
-            "綱": "コウ つな hawser, class (genus), rope, cord, cable ",
+            "綱": "コウ つな hawser, class genus , rope, cord, cable ",
             "典": "テン デ code, ceremony, law, rule ",
             "賀": "congratulations, joy ",
             "扱": "ショウ あつか.る あつか.い あつか.う handle, entertain, thresh, strip ",
@@ -1651,7 +1651,7 @@
             "勧": "カン ケン すす.める persuade, recommend, advise, encourage, offer ",
             "騒": "ソウ さわ.ぐ うれい さわ.がしい boisterous, make noise, clamor, disturb, excite ",
             "閥": "バツ  clique, lineage, pedigree, faction, clan ",
-            "甲": "コウ カン カ キノ armor, high (voice), A grade, first class, former, instep, carapace ",
+            "甲": "コウ カン カ キノ armor, high voice , A grade, first class, former, instep, carapace ",
             "縄": "ジョウ なわ ただ.す straw rope, cord ",
             "郷": "キョウ ゴウ サ home town, village, native place, district ",
             "揺": "ヨウ ゆ.れる ゆ.る ゆ.らぐ ゆ.るぐ ゆ.する ゆ.さぶる ゆ.すぶる うご.く swing, shake, sway, rock, tremble, vibrate ",
@@ -1678,7 +1678,7 @@
             "暫": "ザン しばら.く temporarily, a while, moment, long time ",
             "忠": "チュ loyalty, fidelity, faithfulness ",
             "倉": "ソウ くら godown, warehouse, storehouse, cellar, treasury ",
-            "彦": "ゲン ヒ lad, boy (ancient) ",
+            "彦": "ゲン ヒ lad, boy ancient  ",
             "肝": "カン きも liver, pluck, nerve, chutzpah ",
             "喚": "カン わめ.く yell, cry, scream ",
             "沿": "エン そ.う -ぞ.い run alongside, follow along, run along, lie along ",
@@ -1698,13 +1698,13 @@
             "剤": "ザイ スイ セイ かる けず.る dose, medicine, drug ",
             "瀬": "ライ rapids, current, torrent, shallows, shoal ",
             "趣": "シュ おもむき おもむ.く gist, proceed to, tend, become ",
-            "陥": "カン おちい.る おとしい.れる collapse, fall into, cave in, fall (castle), slide into ",
+            "陥": "カン おちい.る おとしい.れる collapse, fall into, cave in, fall castle , slide into ",
             "斎": "サイ イ. とき つつし.む ものいみ purification, Buddhist food, room, worship, avoid, alike ",
             "貫": "カン ヌ つらぬ.く ぬ.く pierce, 8 1, 3lbs, penetrate, brace ",
             "仙": "セン セン hermit, wizard, cent ",
             "慰": "イ なぐさ.める なぐさ.む consolation, amusement, seduce, cheer, make sport of, comfort, console ",
             "序": "ジョ ツイ つい.で preface, beginning, order, precedence, occasion, chance, incidentally ",
-            "旬": "ジュン シュン decameron, 10day period, season (for specific products ",
+            "旬": "ジュン シュン decameron, 10day period, season for specific products ",
             "兼": "ケン -カ.ネ か.ねる concurrently, and ",
             "聖": "セイ ショウ ヒジ holy, saint, sage, master, priest ",
             "旨": "シ むね うま.い delicious, relish, show a liking for, purport, will, clever, expert ",
@@ -1744,7 +1744,7 @@
             "潮": "チョウ ウシ しお tide, salt water, opportunity ",
             "梅": "バイ うめ plum ",
             "尽": "ジン サン つ.くす -つ.くす -づ.くし -つ.く -づ.く -ず.く つ.きる exhaust, use up, run out of, befriend, serve ",
-            "僕": "ボク しもべ me, I (male) ",
+            "僕": "ボク しもべ me, I male  ",
             "桜": "オウ ヨウ サク cherry ",
             "滑": "カツ コツ ナメ.ラ すべ.る slippery, slide, slip, flunk ",
             "孤": "コ orphan, alone ",
@@ -1797,12 +1797,12 @@
             "丁": "チョウ テイ ひのと street, ward, town, counter for ",
             "恒": "コウ ツネ つね constancy, always ",
             "揚": "ヨウ ア.ガ あ.げる -あ.げ hoist, fry in deep fat ",
-            "冒": "ボウ おか.す risk, face, defy, dare, damage, assume (a name) ",
+            "冒": "ボウ おか.す risk, face, defy, dare, damage, assume a name  ",
             "之": "シ コ の これ おいて ゆく of, this ",
             "倫": "リ ethics, companion ",
             "陳": "チン ヒ.ネ exhibit, state, relate, explain ",
             "憶": "オク recollection, think, remember ",
-            "潜": "セン ひそ.む もぐ.る かく.れる くぐ.る ひそ.める submerge, conceal, hide, lower (voice), hush ",
+            "潜": "セン ひそ.む もぐ.る かく.れる くぐ.る ひそ.める submerge, conceal, hide, lower voice , hush ",
             "梨": "リ ナ pear tree ",
             "仁": "ジン ニ ニ humanity, virtue, benevolence, charity, man, kernel ",
             "克": "コク カ. overcome, kindly, skillfully ",
@@ -1834,7 +1834,7 @@
             "謀": "ボウ ム はか.る たばか.る はかりごと conspire, cheat, impose on, plan, devise, scheme, have in mind, deceive ",
             "暖": "ダン ノン あたた.か あたた.かい あたた.まる あたた.める warmth ",
             "昌": "ショウ サカ prosperous, bright, clear ",
-            "拍": "ハク ヒョウ clap, beat (music) ",
+            "拍": "ハク ヒョウ clap, beat music  ",
             "朗": "ロウ アキ.ラ ほが.らか melodious, clear, bright, serene, cheerful ",
             "寛": "カン ユル.ヤ くつろ.ぐ ひろ.い tolerant, leniency, generosity, relax, feel at home, be at ease, broadminded ",
             "覆": "フク おお.う くつがえ.す くつがえ.る capsize, cover, shade, mantle, be ruined ",
@@ -1850,14 +1850,14 @@
             "鑑": "カン カガ かんが.みる specimen, take warning from, learn from ",
             "飼": "シ カ. domesticate, raise, keep, feed ",
             "陰": "イン かげ かげ.る shade, yin, negative, sex organs, secret, shadow ",
-            "銘": "メ inscription, signature (of artisan) ",
-            "随": "ズイ まにまに したが.う follow, though, notwithstanding, while, during, both, all, obey, submit to, comply, at the mercy of (the wave ",
+            "銘": "メ inscription, signature of artisan  ",
+            "随": "ズイ まにまに したが.う follow, though, notwithstanding, while, during, both, all, obey, submit to, comply, at the mercy of the wave ",
             "烈": "レツ ハゲ.シ ardent, violent, vehement, furious, severe, extreme ",
             "尋": "ジン ヒ たず.ねる inquire, fathom, look for ",
             "稿": "コウ わら したがき draft, copy, manuscript, straw ",
             "丹": "タン rust-colored, red, red lead, pills ",
             "啓": "ケイ サト. ひら.く disclose, open, say ",
-            "也": "ヤ エ マ なり か to be (classical) ",
+            "也": "ヤ エ マ なり か to be classical  ",
             "丘": "キュウ オ hill, knoll ",
             "棟": "トウ むね むな- ridgepole, ridge ",
             "壌": "ジョウ つち lot, earth, soil ",
@@ -1873,10 +1873,10 @@
             "騰": "トウ inflation, advancing, going ",
             "往": "オウ ユ. い.く いにしえ さき.に journey, chase away, let go, going, travel ",
             "豆": "トウ ズ まめ まめ beans, pea, midget ",
-            "遂": "スイ と.げる つい.に consummate, accomplish, attain, commit (suicide) ",
+            "遂": "スイ と.げる つい.に consummate, accomplish, attain, commit suicide  ",
             "狂": "キョウ くる.う くる.おしい くるお.しい lunatic, insane, crazy, confuse ",
             "岐": "キ branch off, fork in road, scene, arena, theater ",
-            "陛": "ヘイ highness, steps (of throne) ",
+            "陛": "ヘイ highness, steps of throne  ",
             "緯": "イ よこいと ぬき horizontal, woof, left & right, latitude ",
             "培": "バイ つちか.う cultivate, foster ",
             "衰": "スイ おとろ.える decline, wane, weaken ",
@@ -1904,14 +1904,14 @@
             "諭": "ユ サト. rebuke, admonish, charge, warn, persuade ",
             "惨": "サン ザン みじ.め いた.む むご.い wretched, disaster, cruelty, harsh ",
             "虐": "ギャク しいた.げる tyrannize, oppress ",
-            "翻": "ホン ハン ひるがえ.る ひるがえ.す flip, turn over, wave, flutter, change (mind) ",
-            "墜": "ツイ crash, fall (down) ",
+            "翻": "ホン ハン ひるがえ.る ひるがえ.す flip, turn over, wave, flutter, change mind  ",
+            "墜": "ツイ crash, fall down  ",
             "沼": "ショウ ぬま marsh, lake, bog, swamp, pond ",
             "据": "キョ す.える す.わる set, lay a foundation, install, equip, squat down, sit down ",
             "肥": "ヒ フト. こ.える こえ こ.やす こ.やし fertilizer, get fat, fertile, manure, pamper ",
             "徐": "ジョ おもむ.ろに gradually, slowly, deliberately, gently ",
             "糖": "トウ sugar ",
-            "搭": "トウ board, load (a vehicle), ride ",
+            "搭": "トウ board, load a vehicle , ride ",
             "盾": "ジュン たて shield, escutcheon, pretext ",
             "脈": "ミャク すじ vein, pulse, hope ",
             "滝": "ロウ ソウ タ waterfall, rapids, cascade ",
@@ -1923,7 +1923,7 @@
             "荘": "ソウ ショウ チャン オゴソ. ほうき villa, inn, cottage, feudal manor ",
             "諾": "ダク consent, assent, agreement ",
             "雷": "ライ カミナ thunder, lightening bolt ",
-            "漂": "ヒョウ ただよ.う drift, float (on liquid) ",
+            "漂": "ヒョウ ただよ.う drift, float on liquid  ",
             "懐": "カイ エ オモ. ふところ なつ.かしい なつ.かしむ なつ.く なつ.ける なず.ける いだ.く pocket, feelings, heart, yearn, miss someone, become attached to, bosom, breast ",
             "勘": "カ intuition, perception ",
             "栽": "サイ plantation, planting ",
@@ -1950,7 +1950,7 @@
             "欄": "ラン てすり column, handrail, blank, space ",
             "逸": "イツ ハグ.レ そ.れる そ.らす deviate, idleness, leisure, miss the mark, evade, elude, parry, diverge ",
             "涯": "ガイ はて horizon, shore ",
-            "拓": "タク ヒラ. clear (the land), open, break up (land) ",
+            "拓": "タク ヒラ. clear the land , open, break up land  ",
             "眼": "ガン ゲン まなこ め eyeball ",
             "獄": "ゴク prison, jail ",
             "尚": "ショウ ナ esteem, furthermore, still, yet ",
@@ -2005,7 +2005,7 @@
             "寂": "ジャク セキ さび さび.しい さび.れる さみ.しい loneliness, quietly, mellow, mature, death of a priest ",
             "辰": "シン ジン タ sign of the dragon, 7-9AM, fifth sign of Chinese zodiac ",
             "霞": "カ ゲ かすみ かす.む be hazy, grow dim, blurred ",
-            "伏": "フク フ. ふ.せる prostrated, bend down, bow, cover, lay (pipes) ",
+            "伏": "フク フ. ふ.せる prostrated, bend down, bow, cover, lay pipes  ",
             "碁": "ゴ Go ",
             "俗": "ゾク vulgar, customs, manners, worldliness, mundane things ",
             "漠": "バク vague, obscure, desert, wide ",
@@ -2014,7 +2014,7 @@
             "墨": "ボク ス  black ink, India ink, ink stick, Mexico ",
             "鎮": "チン オサ しず.める しず.まる tranquilize, ancient peace-preservation centers ",
             "洞": "ドウ ホ den, cave, excavation ",
-            "履": "リ は.く footgear, shoes, boots, put on (the feet) ",
+            "履": "リ は.く footgear, shoes, boots, put on the feet  ",
             "劣": "レツ おと.る inferiority, be inferior to, be worse ",
             "那": "ナ ダ イカ なに なんぞ what? ",
             "殴": "オウ なぐ.る assault, hit, beat, thrash ",
@@ -2041,7 +2041,7 @@
             "虎": "コ ト tiger, drunkard ",
             "盆": "ボン basin, lantern festival, tray ",
             "晋": "シン スス. advance ",
-            "穂": "スイ ear, ear (grain), head, crest (wave) ",
+            "穂": "スイ ear, ear grain , head, crest wave  ",
             "壮": "サカ robust, manhood, prosperity ",
             "堤": "つつみ dike, bank, embankment ",
             "飢": "う.える hungry, starve ",
@@ -2051,13 +2051,13 @@
             "痴": "し.れる おろか stupid, foolish ",
             "搬": "ハン conveyor, carry, transport ",
             "晃": "コウ アキラ clear ",
-            "癒": "ユ い.える いや.す healing, cure, quench (thirst), ",
+            "癒": "ユ い.える いや.す healing, cure, quench thirst , ",
             "桐": "キ paulownia ",
             "寸": "ス measurement, foot, 10 ",
             "郭": "カク クル enclosure, quarters, fortification, red-light district ",
             "尿": "ニョウ urine ",
             "凶": "キョウ villain, evil, bad luck, disaster ",
-            "吐": "は.く つ.く spit, vomit, belch, confess, tell (lies) ",
+            "吐": "は.く つ.く spit, vomit, belch, confess, tell lies  ",
             "宴": "エン ウタ banquet, feast, party ",
             "鷹": "ヨウ オウ たか hawk ",
             "賓": "ヒン V.I.P., guest ",
@@ -2158,7 +2158,7 @@
             "猶": "なお furthermore, still, yet ",
             "塊": "カイ ケ かたまり つちくれ clod, lump, chink, clot, mass ",
             "旋": "セン rotation, go around ",
-            "弓": "キュウ ユ bow, bow (archery, violin) ",
+            "弓": "キュウ ユ bow, bow archery, violin  ",
             "幣": "ヘイ ヌ cash, bad habit, humble prefix, gift, Shinto offerings of cloth, rope",
             "膜": "マク membrane ",
             "扇": "セン オウ fan, folding fan ",
@@ -2191,7 +2191,7 @@
             "尼": "あま nun ",
             "遍": "あまね.く everywhere, times, widely, generally ",
             "衡": "コ equilibrium, measuring rod, scale ",
-            "薫": "カオ send forth fragrance, fragrant, be scented, smoke (tobacco) ",
+            "薫": "カオ send forth fragrance, fragrant, be scented, smoke tobacco  ",
             "猟": "かり か.る game-hunting, shooting, game, bag ",
             "癖": "くせ.に mannerism, habit, vice, trait, fault, kink ",
             "愉": "たの.しい pleasure, happy, rejoice ",
@@ -2204,8 +2204,8 @@
             "槙": "こずえ twig, ornamental evergreen ",
             "姻": "イン matrimony, marry ",
             "巌": "いわお rock, crag, boulder ",
-            "擬": "い もど.き mimic, aim (a gun) at, nominate, imitate ",
-            "塀": "ヘイ ベイ fence, wall, (kokuji) ",
+            "擬": "い もど.き mimic, aim a gun  at, nominate, imitate ",
+            "塀": "ヘイ ベイ fence, wall, kokuji  ",
             "唇": "くちびる lips ",
             "睦": "まじい むつ.む intimate, friendly, harmonious ",
             "閑": "カ leisure ",
@@ -2265,14 +2265,14 @@
             "忌": "い.む い.み mourning, abhor, detestable, death anniversary ",
             "濁": "にご.る voiced, uncleanness, wrong, nigori, impurity ",
             "奔": "ホン bustle, run ",
-            "斗": "ト ト Big Dipper, 10 sho (vol), sake dipper ",
+            "斗": "ト ト Big Dipper, 10 sho vol , sake dipper ",
             "蘭": "ラン orchid, Holland ",
             "迅": "ジン swift, fast ",
             "肖": "あやか.る resemblance ",
             "鉢": "ハツ bowl, rice tub, pot, crown ",
             "朽": "ク.チ decay, rot, remain in seclusion ",
             "殻": "から がら husk, nut shell ",
-            "享": "キョウ コウ ウ.ケ receive, undergo, answer (phone), take, get, catch ",
+            "享": "キョウ コウ ウ.ケ receive, undergo, answer phone , take, get, catch ",
             "秦": "シン ハ Manchu dynasty, name given to naturalized foreigners ",
             "茅": "かや miscanthus reed ",
             "藩": "ハン clan, enclosure ",
@@ -2282,9 +2282,9 @@
             "鶏": "にわとり chicken ",
             "禅": "しずか ゆず.る Zen, silent meditation ",
             "嘱": "しょく.する entrust, request, send a message ",
-            "胴": "ドウ trunk, torso, hull (ship), hub of wheel ",
+            "胴": "ドウ trunk, torso, hull ship , hub of wheel ",
             "迭": "テツ transfer, alternation ",
-            "挿": "さ.す はさ.む insert, put in, graft, wear (sword) ",
+            "挿": "さ.す はさ.む insert, put in, graft, wear sword  ",
             "嵐": "ラン アラ storm, tempest ",
             "椎": "ツイ スイ ウ. つち oak, mallet ",
             "絹": "きぬ silk ",
@@ -2315,7 +2315,7 @@
             "渇": "カツ かわ.く thirst, dry up, parch ",
             "叔": "シュ uncle, youth ",
             "雌": "めん feminine, female ",
-            "亨": "タテマツ. undergo, answer (phone), take, get, catch ",
+            "亨": "タテマツ. undergo, answer phone , take, get, catch ",
             "堪": "カン タン た.える たま.る こ.らえる こた.える withstand, endure, support, resist ",
             "叙": "ジョ つい.ず ついで confer, relate, narrate, describe ",
             "酢": "サク す vinegar, sour, acid, tart ",
@@ -2363,7 +2363,7 @@
             "堕": "れる degenerate, descend to, lapse into",
             "租": "ソ tariff, crop tax, borrowing ",
             "稜": "リョウ ロウ いつ かど angle, edge, corner, power, majesty ",
-            "桟": "カケハ scaffold, cleat, frame, jetty, bolt (door) ",
+            "桟": "カケハ scaffold, cleat, frame, jetty, bolt door  ",
             "倭": "ワ イ シタガ. Yamato, ancient Japan ",
             "婿": "セイ むこ bridegroom, son-in-law ",
             "慕": "ボ した.う pining, yearn for, love dearly, adore ",
@@ -2385,7 +2385,7 @@
             "藻": "ソウ も seaweed, duckweed ",
             "禄": "ロク フ さいわ.い fief, allowance, pension, grant, happiness ",
             "孟": "ミョウ カシ chief, beginning ",
-            "嫡": "チャク テキ legitimate wife, direct descent (non-bastard) ",
+            "嫡": "チャク テキ legitimate wife, direct descent non-bastard  ",
             "尭": "ギョウ タカ. high, far ",
             "嚇": "カク おど.かす menacing, dignity, majesty, threaten ",
             "巳": "シ み sign of the snake or serpent, 9-11AM, sixth sign of Chinese zodiac ",
@@ -2428,7 +2428,7 @@
             "衷": "チュウ inmost, heart, mind, inside ",
             "逐": "チク pursue, drive away, chase, accomplish, attain, commit ",
             "斥": "セキ しりぞ.ける reject, retreat, recede, withdraw, repel, repulse ",
-            "稀": "キ ケ まれ まばら rare, phenomenal, dilute (acid) ",
+            "稀": "キ ケ まれ まばら rare, phenomenal, dilute acid  ",
             "芙": "lotus, Mt Fuji ",
             "詔": "ショウ imperial edict ",
             "皐": "コウ サツ swamp, shore ",
@@ -2444,7 +2444,7 @@
             "惇": "シュン ジュン トン アツ. sincere, kind, considerate ",
             "脩": "シュウ ホジ おさ.める なが.い dried meat ",
             "甫": "ホ フ ハジ.メ for the first time, not until ",
-            "酌": "シャク く.む bar-tending, serving sake, the host, draw (water), ladle, ",
+            "酌": "シャク く.む bar-tending, serving sake, the host, draw water , ladle, ",
             "蚕": "サン テン かいこ こ silkworm ",
             "嬉": "キ タノ.シ うれ.しい glad, pleased, rejoice ",
             "蒼": "ソウ あお.い blue, pale ",
@@ -2462,7 +2462,7 @@
             "叶": "かな.える grant, answer ",
             "汐": "しお うしお eventide, tide, salt water, opportunity ",
             "絢": "ケ kimono design ",
-            "朔": "サク ツイタ conjunction (astronomy), first day of month ",
+            "朔": "サク ツイタ conjunction astronomy , first day of month ",
             "伽": "とぎ nursing, attending, entertainer ",
             "畝": "せ うね furrow, 30 tsubo, ridge, rib ",
             "抄": "ショ extract, selection, summary, copy, spread thin ",
@@ -2478,7 +2478,7 @@
             "瑠": "リュ lapis lazuli ",
             "允": "まこと.に license, sincerity, permit ",
             "侯": "コウ marquis, lord, daimyo ",
-            "蒔": "う.える sow (seeds) ",
+            "蒔": "う.える sow seeds  ",
             "鯉": "リ こい carp ",
             "弧": "コ arc, arch, bow ",
             "遥": "はる.か far off, distant, long ago ",
@@ -2491,7 +2491,7 @@
             "綺": "キ あや figured cloth, beautiful ",
             "芋": "ウ いも potato ",
             "茜": "あかね madder, red dye, Turkey red ",
-            "凌": "しの.ぐ endure, keep (rain)out, stave off, tide over, defy, slight",
+            "凌": "しの.ぐ endure, keep rain out, stave off, tide over, defy, slight",
             "皓": "しろ.い white, clear ",
             "洸": "コ sparkling water ",
             "毬": "いが まり burr, ball ",
@@ -2499,7 +2499,7 @@
             "緋": "ヒ あけ あか scarlet, cardinal ",
             "鯛": "チョウ たい sea bream, red snapper ",
             "怜": "あわ.れむ wise ",
-            "邑": "える くに village, rural community, right village radical (no. 163) ",
+            "邑": "える くに village, rural community, right village radical no. 163  ",
             "倣": "ホウ なら.う emulate, imitate ",
             "碧": "ヘキ ヒャ blue, green ",
             "啄": "ついば.む peck, pick up ",
@@ -2534,7 +2534,7 @@
             "碩": "きい large, great, eminent ",
             "宥": "ゆる.す soothe, calm, pacify ",
             "滉": "コウ ひろ.い deep and broad ",
-            "晏": "アン おそ.い late, quiet, sets (sun) ",
+            "晏": "アン おそ.い late, quiet, sets sun  ",
             "伎": "ギ キ わざ わざおぎ deed, skill ",
             "朕": "チン majestic plural, imperial we ",
             "迪": "びく すす.む edify, way, path ",
@@ -2544,18 +2544,18 @@
             "晨": "シン あした とき あさ morning, early ",
             "吏": "officer, an official ",
             "燦": "めく brilliant ",
-            "麿": "マ I, you, (kokuji) ",
+            "麿": "マ I, you, kokuji  ",
             "頌": "たた.える eulogy",
             "箇": "カ コ counters for things ",
             "楓": "フウ かえで maple ",
             "琳": "リン jewel, tinkling of jewelry ",
             "梧": "ゴ あおぎり Chinese parasol tree, phoenix tree ",
-            "哉": "サイ かな how, what, alas, (question mark) ",
+            "哉": "サイ かな how, what, alas, question mark  ",
             "澪": "レイ みお water route, shipping channel ",
-            "匁": "もんめ め ひゃくめ monme, 3.75 grams, (kokuji) ",
+            "匁": "もんめ め ひゃくめ monme, 3.75 grams, kokuji  ",
             "晟": "セイ ジョウ あきらか clear ",
             "衿": "キン コン えり neck, collar, lapel ",
-            "凪": "なぎ な. lull, calm, (kokuji) ",
+            "凪": "なぎ な. lull, calm, kokuji  ",
             "梢": "ショウ こずえ くすのき treetops, twig ",
             "丙": "ヘイ ひのえ third class, 3rd, 3rd calendar sign ",
             "颯": "サツ ソウ さっ.と suddenly, smoothly ",
@@ -2570,7 +2570,7 @@
             "虞": "おそれ uneasiness, fear, anxiety, concern ",
             "柊": "ひいらぎ holly ",
             "侑": "める urge to eat ",
-            "謁": "エツ audience, audience (with king) ",
+            "謁": "エツ audience, audience with king  ",
             "斤": "おの axe, 1.32 lb, catty, counter for loaves of bread ",
             "嵩": "かさ かさ.む be aggravated, grow worse, grow bulky, swell ",
             "捺": "ナツ ダツ さ.す お.す press, print, affix a seal, stamp ",
@@ -2587,7 +2587,7 @@
             "旦": "あした nightbreak, dawn, morning ",
             "椋": "リョウ ム type of deciduous tree, grey starling ",
             "叡": "エイ あき.らか intelligence, imperial ",
-            "紬": "チュウ つむぎ つむ.ぐ pongee (a knotted silk cloth) ",
+            "紬": "チュウ つむぎ つむ.ぐ pongee a knotted silk cloth  ",
             "胤": "イン タ descendent, issue, offspring ",
             "凜": "リン きびし.い cold, strict, severe ",
             "亥": "ガイ カイ sign of the hog, 9-11PM, twelfth sign of the Chinese zodiac ",
@@ -2606,7 +2606,7 @@
             "奎": "ケイ キ star, god of literature ",
             "塑": "ソ でく model, molding ",
             "昂": "がる たか rise ",
-            "柾": "まさき straight grain, spindle tree, (kokuji) ",
+            "柾": "まさき straight grain, spindle tree, kokuji ",
             "熙": "まる bright, sunny, prosperous, merry ",
             "菫": "すみれ the violet ",
             "諒": "あきら.か fact, reality, understand, appreciate ",
