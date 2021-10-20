@@ -1,6 +1,3 @@
-from re import search
-import re
-from typing import Coroutine
 from flask import Flask, render_template, request, abort,session
 import firebase_admin
 from firebase_admin import credentials
