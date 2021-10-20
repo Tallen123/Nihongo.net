@@ -46,6 +46,13 @@ def Phonetics():
     else:
         return render_template('Grammar.html',Color="#663399")
 
+class ErrorHandling:
+    @app.errorhandler(400)
+    def page_not_found(e):
+        if 'BackgroundColor' in session:
+            return render_template('LandingPage.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('LandingPage.html',Color="#663399")
 
 class HiraganaKatakana:
     @app.route('/Hiragana')
@@ -133,13 +140,6 @@ class Vocab:
             return render_template('VocabN1.html',Color=session['BackgroundColor'])
         else:
             return render_template('VocabN1.html',Color="#663399")
-
-    @app.errorhandler(400)
-    def page_not_found(e):
-        if 'BackgroundColor' in session:
-            return render_template('LandingPage.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('LandingPage.html',Color="#663399")
 
 class Settings:
     @app.route('/Settings', methods=['POST', 'GET'])#Settings Page Code
