@@ -5,8 +5,6 @@ from flask import Flask, render_template, request, abort,session
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
-from flask.sessions import NullSession
-from datetime import timedelta
 from werkzeug.utils import redirect
 
 textcolor = " "
@@ -41,12 +39,12 @@ def Numbers():
     else:
         return render_template('Numbers.html',Color="#663399")
 
-@app.route('/Phonetics')
+@app.route('/Grammar')
 def Phonetics():
     if 'BackgroundColor' in session:
-        return render_template('Phonetics.html',Color=session['BackgroundColor'])
+        return render_template('Grammar.html',Color=session['BackgroundColor'])
     else:
-        return render_template('Phonetics.html',Color="#663399")
+        return render_template('Grammar.html',Color="#663399")
 
 
 class HiraganaKatakana:

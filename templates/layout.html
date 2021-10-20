@@ -81,6 +81,17 @@
 
 
             var loc = document.location.toString();
+            if (loc.includes("Vocabulary")) {
+                Name.innerHTML = "Vocabulary";
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = "Active";
+                Settings.className = null;
+                Numbers.className = null;
+            }
             if (loc.includes("Hiragana")) {
                 Name.innerHTML = "Hiragana";
                 Home.className = null;
@@ -136,6 +147,18 @@
                 Grammer.className = null;
                 Vocabulary.className = null;
                 Numbers.className = "Active";
+            }
+            if (loc.includes("Grammar")) {
+                Settings.className = null;
+                Name.innerHTML = "Grammar";
+                Settings.className = null;
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                Grammer.className = "Active";
+                Vocabulary.className = null;
+                Numbers.className = null;
             }
             //Settings code
             Settings.onclick = function() {
@@ -221,6 +244,7 @@
                     Kanji.className = null;
                     Grammer.className = "Active";
                     Vocabulary.className = null;
+                    document.location = "/Grammar"
                 }
                 //Vocabulary Code
             Vocabulary.onclick = function() {
