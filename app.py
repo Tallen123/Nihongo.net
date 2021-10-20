@@ -11,7 +11,7 @@ Hovercolor = " "
 
 app = Flask(__name__)
 app.secret_key = "W7adY5qnOGl0yLHwXG4nlaIUxxQeayvB10jqpgziHFYxywjUip4UEYXGnMk92aMTnvFCU1YB7iMIRXll"
-cred = credentials.Certificate("nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json")
+cred = credentials.Certificate("nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json")#change to  before uploading /home/Tallen/Nihongonet/nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json
 firebase_admin.initialize_app(cred, {
   'projectId': "nihongonet-ee832",
 })
