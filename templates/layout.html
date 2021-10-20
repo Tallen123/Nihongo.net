@@ -41,7 +41,6 @@
                 <li><button id="Numbers">Numbers</button></li>
                 <li><button id="Vocabulary">Vocabulary</button></li>
                 <li><button id="Grammer">Grammer</button></li>
-                <li><button id="phonetics">phonetics</button></li>
             </ul>
             <div class="Kanji_Menu">
                 <ul class="Kanji_List" id="Kanji_List" style=" position:fixed;top:10%;left:1%;border-radius: 20px; pointer-events: none;">
@@ -69,7 +68,6 @@
             var Hiragana = document.getElementById("Hiragana");
             var Katakana = document.getElementById("Katakana");
             var Kanji = document.getElementById("Kanji");
-            var phonetics = document.getElementById("phonetics");
             var Grammer = document.getElementById("Grammer");
             var Vocabulary = document.getElementById("Vocabulary");
             var Name = document.getElementById("Name");
@@ -78,7 +76,6 @@
             var Numbers = document.getElementById("Numbers");
             var back = document.getElementById("Back");
             var Settings = document.getElementById("Settings");
-            var phonetics = document.getElementById("phonetics");
             var Vocabulary_List = document.getElementById("Vocabulary_List");
             var Vocab_Back = document.getElementById("Vocab_Back")
 
@@ -90,7 +87,6 @@
                 Hiragana.className = "Active";
                 Katakana.className = null;
                 Kanji.className = null;
-                phonetics.className = null;
                 Grammer.className = null;
                 Vocabulary.className = null;
                 Settings.className = null;
@@ -102,7 +98,6 @@
                 Hiragana.className = null;
                 Katakana.className = "Active";
                 Kanji.className = null;
-                phonetics.className = null;
                 Grammer.className = null;
                 Vocabulary.className = null;
                 Settings.className = null;
@@ -114,7 +109,6 @@
                 Hiragana.className = null;
                 Katakana.className = null;
                 Kanji.className = "Active";
-                phonetics.className = null;
                 Grammer.className = null;
                 Vocabulary.className = null;
                 Settings.className = null;
@@ -127,22 +121,9 @@
                 Hiragana.className = null;
                 Katakana.className = null;
                 Kanji.className = null;
-                phonetics.className = null;
                 Grammer.className = null;
                 Vocabulary.className = null;
                 Numbers.className = null;
-            }
-            if (loc.includes("Phonetics")) {
-                Settings.className = null;
-                Name.innerHTML = "Phonetics";
-                Settings.className = null;
-                Home.className = null;
-                Hiragana.className = null;
-                Katakana.className = null;
-                Kanji.className = null;
-                phonetics.className = "Active";
-                Grammer.className = null;
-                Vocabulary.className = null;
             }
             if (loc.includes("Numbers")) {
                 Settings.className = null;
@@ -152,7 +133,6 @@
                 Hiragana.className = null;
                 Katakana.className = null;
                 Kanji.className = null;
-                phonetics.className = null;
                 Grammer.className = null;
                 Vocabulary.className = null;
                 Numbers.className = "Active";
@@ -164,7 +144,6 @@
                     Hiragana.className = null;
                     Katakana.className = null;
                     Kanji.className = null;
-                    phonetics.className = null;
                     Grammer.className = null;
                     Vocabulary.className = null;
                     document.location = "/Settings";
@@ -177,7 +156,6 @@
                     Hiragana.className = null;
                     Katakana.className = null;
                     Kanji.className = null;
-                    phonetics.className = null;
                     Grammer.className = null;
                     Vocabulary.className = null;
                     document.location = "/"
@@ -190,7 +168,6 @@
                     Hiragana.className = "Active";
                     Katakana.className = null;
                     Kanji.className = null;
-                    phonetics.className = null;
                     Grammer.className = null;
                     Vocabulary.className = null;
                     document.location = "/Hiragana"
@@ -203,7 +180,6 @@
                     Hiragana.className = null;
                     Katakana.className = "Active";
                     Kanji.className = null;
-                    phonetics.className = null;
                     Grammer.className = null;
                     Vocabulary.className = null;
                     document.location = "/Katakana"
@@ -224,8 +200,7 @@
                     Settings.className = null;
                     Hiragana.className = null;
                     Katakana.className = null;
-                    Kanji.className = "Active";
-                    phonetics.className = null;
+                    Kanji.className = "Active"
                     Grammer.className = null;
                     Vocabulary.className = null;
                     Numbers.className = null;
@@ -237,19 +212,6 @@
                     Kanji_List.style.pointerEvents = "auto"
                     List.style.opacity = "0%"
                 }
-                //Phonetics code
-            phonetics.onclick = function() {
-                    Home.className = null;
-                    Hiragana.className = null;
-                    Settings.className = null;
-                    Katakana.className = null;
-                    Kanji.className = null;
-                    phonetics.className = "Active";
-                    Grammer.className = null;
-                    Vocabulary.className = null;
-                    Numbers.className = null;
-                    document.location = "/Phonetics"
-                }
                 //Grammar code
             Grammer.onclick = function() {
                     Home.className = null;
@@ -257,7 +219,6 @@
                     Settings.className = null;
                     Katakana.className = null;
                     Kanji.className = null;
-                    phonetics.className = null;
                     Grammer.className = "Active";
                     Vocabulary.className = null;
                 }
@@ -268,7 +229,6 @@
                 Katakana.className = null;
                 Settings.className = null;
                 Kanji.className = null;
-                phonetics.className = null;
                 Grammer.className = null;
                 Vocabulary.className = "Active";
                 Numbers.className = null;
@@ -297,7 +257,6 @@
                 Katakana.className = null;
                 Settings.className = null;
                 Kanji.className = null;
-                phonetics.className = null;
                 Grammer.className = null;
                 Vocabulary.className = null;
                 document.location = "/Numbers"

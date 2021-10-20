@@ -178,9 +178,9 @@ class AccountStuff:
                     session['username'] = username
                     session['BackgroundColor'] = doc.to_dict()['BackgroundColor']
                     if 'BackgroundColor' in session:
-                        return render_template('LandingPage.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
+                        return render_template('Settings.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
                     else:
-                        return render_template('LandingPage.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color="#663399")
+                        return render_template('Settings.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color="#663399")
                 if 'BackgroundColor' in session:
                     return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
         else:
