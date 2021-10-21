@@ -2,13 +2,14 @@
 <div>
     <div class="Pannel">
         <h2>Settings</h2>
+        <br>
+        <h3>Welcome Back {{name}}</h3>
     </div>
     <div class="Pannel" id="Pannel" style="height: 32rem;">
         <div style="text-align: center;">
             <h3 style="position:sticky;">Status: </h3>
-            <br>
             <h3 style="color: red;padding: 0%;margin: 0%;" id="Status">Not Signed in</h3>
-            <br><br>
+            <br>
             <button style="width: 8rem;font-size: 100%;" onclick="document.location = '/Account/Logout'"><b>Log Out</b></button>
             <script>
                 var Status = document.getElementById("Status");
@@ -28,15 +29,16 @@
         </div>
         <br><br>
         <form method="post">
-            <div style="user-select: none;">
-                <label style="position: absolute; left: 30%;" id="ColorLabel" for="Color">Background Color</label>
-                <input type="color" name="Color" id="Color" style="position: absolute;left: 48.5%;">
-                <button type="button" style="width: 5rem;position:absolute; left: 60%;" class="SettingsButton" id="ColorReset">Reset</button>
-                <br><br><br>
-                <button type="submit" id="Save" style="position: absolute;width: 5rem;font-size: 100%;left: 48%;"><b>Save</b></button>
+            <div style="user-select: none;text-align: center;">
+                <label id="ColorLabel" for="Color">Background Color</label>
                 <br><br>
-                <h3 style="position: absolute; width: 100%;left: -1%" id="Msg">More Coming Soon</h3>
+                <input type="color" name="Color" id="Color">
+                <br><br>
+                <button type="button" style="width: 5rem;" class="SettingsButton" id="ColorReset">Reset</button>
             </div>
+            <br>
+            <button type="submit" id="Save" style="width: 5rem;font-size: 100%;"><b>Save</b></button>
+            <h3 style="width: 100%;" id="Msg ">More Coming Soon</h3>
         </form>
         <script>
             var ColorReset = document.getElementById("ColorReset")
