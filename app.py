@@ -22,6 +22,14 @@ db = firestore.client()
 def make_session_permanent():
     session.permanent = True
 
+
+@app.route('/Community')
+def community():
+    if 'BackgroundColor' in session:
+        return render_template('community.html',Color=session['BackgroundColor'])
+    else:
+        return render_template('community.html',Color="#663399")
+
 @app.route('/')
 def landing_page():
     if 'BackgroundColor' in session:

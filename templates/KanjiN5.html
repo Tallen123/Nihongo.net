@@ -22,10 +22,6 @@
                     letter.style.color = "white";
                     letter.style.cursor = "pointer"
                     letter.style.margin = "1rem"
-                    const isMobile = ('ontouchstart' in document.documentElement && navigator.userAgent.match(/Mobi/));
-                    if (isMobile) {
-                        letter.style.fontSize = "1rem"
-                    }
                     cell.appendChild(letter)
                     pannel.appendChild(cell);
                     letter.onmouseenter = function() {
