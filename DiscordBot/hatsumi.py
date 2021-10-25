@@ -11,7 +11,12 @@ url = "static\Alphabet.json".lower()
 
 AlphabetData = open(url, encoding="utf8")
 Kanji = json.load(AlphabetData)['Kanji']
-
+kanjilist = Kanji['N1']
+dict.update(kanjilist,Kanji['N2'])
+dict.update(kanjilist,Kanji['N3'])
+dict.update(kanjilist,Kanji['N4'])
+dict.update(kanjilist,Kanji['N5'])
+print(kanjilist)
 Configdata = open('DiscordBot\Config.json')
 token = json.load(Configdata)['BOT_TOKEN']
 
@@ -22,40 +27,15 @@ PREFIX = "!"
 @client.event
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
-    activity = discord.Game(name="Being a weeb!")
+    activity = discord.Game(name="!help | Being a weeb!")
     await client.change_presence(status=discord.Status.online, activity=activity)
     
 @client.event
 async def on_message(message):
-    if message.author == client.user:
+    if message.author == client.user:#checks the message auther
         return
 
-    if message.content == PREFIX + 'KanjiN5':#Start of kanji section
-        kanjilist = Kanji['N5']
-        rand = random.choice(list(kanjilist))
-        response = rand,kanjilist[rand]
-        await message.channel.send(response)
-
-    if message.content == PREFIX + 'KanjiN4':
-        kanjilist = Kanji['N4']
-        rand = random.choice(list(kanjilist))
-        response = rand,kanjilist[rand]
-        await message.channel.send(response)
-    
-    if message.content == PREFIX + 'KanjiN3':
-        kanjilist = Kanji['N3']
-        rand = random.choice(list(kanjilist))
-        response = rand,kanjilist[rand]
-        await message.channel.send(response)
-    
-    if message.content == PREFIX + 'KanjiN2':
-        kanjilist = Kanji['N2']
-        rand = random.choice(list(kanjilist))
-        response = rand,kanjilist[rand]
-        await message.channel.send(response)
-
-    if message.content == PREFIX + 'KanjiN1':#End of kanji section
-        kanjilist = Kanji['N1']
+    if message.content == PREFIX + 'Kanji':#kanji Command
         rand = random.choice(list(kanjilist))
         response = rand,kanjilist[rand]
         await message.channel.send(response)
@@ -67,11 +47,7 @@ async def on_message(message):
             color=discord.Color.blue(),
         )
         Embed.set_footer(self=embed,text='Nihongo.net')
-        Embed.add_field(self=embed,name='KanjiN5',value='- Random Kanji from N5',inline=True),
-        Embed.add_field(self=embed,name='KanjiN4',value='- Random Kanji from N4',inline=True),
-        Embed.add_field(self=embed,name='KanjiN3',value='- Random Kanji from N3',inline=True),
-        Embed.add_field(self=embed,name='KanjiN2',value='- Random Kanji from N2',inline=True),
-        Embed.add_field(self=embed,name='KanjiN1',value='- Random Kanji from N1',inline=True),
+        Embed.add_field(self=embed,name='Kanji',value='- Random Kanji from N5,N4,N3,N2 and N1 collectivly',inline=True),
         Embed.add_field(self=embed,name='meme',value='- Random Meme',inline=True),
         await message.channel.send(embed=embed)
 
@@ -89,19 +65,11 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 @client.event
-async def New_Member(member):
+async def New_Member(member):#New Member code (Untested)
     new_member = member.name
     random_msg = {
         "Nihongo.net へ ようこそ":"",
         "Welcome To Nihongo.net":"",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
     }
     await client.get_channel(902144083001212938).send(new_member + random.choice(random_msg))
 client.run(token)
