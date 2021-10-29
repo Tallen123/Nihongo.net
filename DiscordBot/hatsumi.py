@@ -15,7 +15,7 @@ client=discord.Client(intents=intents)
 url = "static\Alphabet.json".lower()
 
 AlphabetData = open(url, encoding="utf8")
-Kanji = json.load(AlphabetData)['Kanji']
+Kanji = json.load(AlphabetData)[0]['Kanji']
 kanjilist = Kanji['N1']
 dict.update(kanjilist,Kanji['N2'])
 dict.update(kanjilist,Kanji['N3'])
