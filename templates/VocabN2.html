@@ -11,7 +11,7 @@
     <script>
         $.getJSON("{{ url_for('static', filename='Vocabulary.json') }}", function(data) {
             $.each(data, function(key, val) {
-                var x = Object.entries(data[0].Vocabulary.N2);
+                var x = Object.entries(data.Vocabulary.N2);
                 var pannel = document.getElementById("Pannel");
                 for (var index in x) {
                     var letter = document.createElement("h2");
