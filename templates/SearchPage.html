@@ -92,8 +92,14 @@
                         Grade.innerHTML = " "
                         Name_Readings.innerHTML = " "
                     }
-                });
+                });                
             }
+            var char = "{{Kanji}}";
+            console.log(char.toString().charAt(char.length-1));
+            var nest = char.toString().charAt(char.length-1);
+            SearchData.value = nest;
+            SearchSubmit.click();
+
         </script>
     </div>
 
