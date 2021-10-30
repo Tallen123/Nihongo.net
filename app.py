@@ -83,11 +83,18 @@ class Kanji:
             return render_template('KanjiN5.html',Color="#663399")
 
     @app.route('/SearchPage/<string:Kanji>')
-    def SearchPage(kanji):
+    def SearchPageK(kanji):
         if 'BackgroundColor' in session:
             return render_template('SearchPage.html',Color=session['BackgroundColor'],Kanji=kanji)
         else:
             return render_template('SearchPage.html',Color="#663399",Kanji=kanji)
+
+    @app.route('/SearchPage')
+    def SearchPage():
+        if 'BackgroundColor' in session:
+            return render_template('SearchPage.html',Color=session['BackgroundColor'])
+        else:
+            return render_template('SearchPage.html',Color="#663399")
 
     @app.route('/Kanji/N4')
     def Kanji_N4():
