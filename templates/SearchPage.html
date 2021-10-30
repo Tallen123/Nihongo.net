@@ -6,51 +6,43 @@
     </div>
 
     <div class="Pannel" style="padding: 1%;">
+        <h6>Powered by
+            <a href="https://kanjiapi.dev/">kanjiapi.dev</a>
+        </h6>
         <p id="Error"></p>
         <label for="Search">Search</label>
         <br>
         <input type="text" name="Search" id="Search" placeholder="Search">
         <br><br>
-        <button style="width: 10%;" type="button" id="SearchSubmit">Search</button>
+        <button type="button" class="SearchSubmit" id="SearchSubmit">Search</button>
     </div>
     <div class="Pannel">
         <h2>Search Results</h2>
-        <table style="padding: 5%;" width=100%>
-            <tbody>
-                <tr>
-                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
-                        <label for="Meanings"><b>Meanings</b></label>
-                        <br>
-                        <p id="Meanings"></p>
-                    </td>
-                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
-                        <label for="Stroke_Count"><b>Stroke Count</b></label>
-                        <br>
-                        <p id="Stroke_Count"></p>
-                    </td>
-                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
-                        <label for="hiragana"><b>hiragana</b></label>
-                        <br>
-                        <p id="Hiragana_Table"></p>
-                    </td>
-                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
-                        <label for="katakana"><b>katakana</b></label>
-                        <br>
-                        <p id="Katakana_Table"></p>
-                    </td>
-                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
-                        <label for="Grade"><b>Grade</b></label>
-                        <br>
-                        <p id="Grade"></p>
-                    </td>
-                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
-                        <label for="Name_Readings"><b>Name Readings</b></label>
-                        <br>
-                        <p id="Name_Readings"></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+
+        <label for="Meanings"><b>Meanings</b></label>
+        <br>
+        <p id="Meanings"></p>
+
+        <label for="Stroke_Count"><b>Stroke Count</b></label>
+        <br>
+        <p id="Stroke_Count"></p>
+
+        <label for="hiragana"><b>hiragana</b></label>
+        <br>
+        <p id="Hiragana_Table"></p>
+
+        <label for="katakana"><b>katakana</b></label>
+        <br>
+        <p id="Katakana_Table"></p>
+
+        <label for="Grade"><b>Grade</b></label>
+        <br>
+        <p id="Grade"></p>
+
+
+        <label for="Name_Readings"><b>Name Readings</b></label>
+        <br>
+        <p id="Name_Readings"></p>
         <script>
             // https://kanjiapi.dev/v1/kanji/
             //Table Vars
@@ -71,6 +63,7 @@
                     url: "https://kanjiapi.dev/v1/kanji/" + SearchData.value,
                     dataType: "json",
                     success: function(result, status, xhr) {
+                        errormsg.innerHTML = " "
                         Meanings.innerHTML = result['meanings']
                         Stroke_Count.innerHTML = result['stroke_count']
                         Hiragana_Table.innerHTML = result['kun_readings']
