@@ -1,0 +1,39 @@
+{% extends "layout.html" %} {% block content %}
+<div>
+    <div class="Pannel">
+        <h2>Search Page</h2>
+    </div>
+
+    <div class="Pannel" style="padding: 1%;">
+        <p id="Error"></p>
+        <label for="Search">Search</label>
+        <br><br>
+        <input type="text" name="Search" id="Search" placeholder="Search">
+        <br><br>
+        <button style="width: 10%;" type="button" id="SearchSubmit">Search</button>
+        <script>
+            $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
+                $.each(data, function(key, val) { //Object.entries(data[0].Kanji.N4)
+                    var Kanji = {};
+                    Kanji = Object.assign(data[0].Kanji.N5, data[0].Kanji.N4, data[0].Kanji.N3, data[0].Kanji.N2, data[0].Kanji.N1)
+                    console.log(Kanji);
+
+
+                    var SearchData = document.getElementById("Search");
+                    var SearchSubmit = document.getElementById("SearchSubmit");
+                    var Error = document.getElementById("Error");
+                    SearchSubmit.onclick = function() {
+                        console.log(SearchData.value)
+                        if (Kanji[SearchData.value]) {
+                            console.log("True")
+                            Error.innerHTML = " "
+                        } else {
+                            Error.innerHTML = "The Kanji You have entered is not recognised, Check Input"
+                        }
+                    }
+                });
+            });
+        </script>
+    </div>
+</div>
+{% endblock %}

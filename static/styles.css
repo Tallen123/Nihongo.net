@@ -95,7 +95,6 @@ button {
 h2,
 h3 {
     margin: 1%;
-    user-select: none;
     padding-left: 0.5%;
     padding-right: 0.5%;
     padding-top: .2%;
