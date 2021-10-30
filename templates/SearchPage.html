@@ -73,6 +73,12 @@
                     },
                     error: function(xhr, status, error) {
                         errormsg.innerHTML = "The Kanji you have inputed is not recognised."
+                        Meanings.innerHTML = " "
+                        Stroke_Count.innerHTML = " "
+                        Hiragana_Table.innerHTML = " "
+                        Katakana_Table.innerHTML = " "
+                        Grade.innerHTML = " "
+                        Name_Readings.innerHTML = " "
                     }
                 });
             }
