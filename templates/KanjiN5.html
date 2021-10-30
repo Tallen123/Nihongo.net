@@ -30,9 +30,16 @@
                     letter.onmouseleave = function() {
                         this.style.color = "white"
                     }
+                    letter.onclick = function(){
+                    var kanji = this.innerHTML.toString().charAt(0);
+                    document.location = '/SearchPage' + "/Kanji=" + kanji;    
+                    }
                 }
+
+                
             });
         });
+        
     </script>
 </div>
 {% endblock %}
