@@ -40,16 +40,22 @@
             <button type="submit" id="Save" style="width: 5rem;font-size: 100%;"><b>Save</b></button>
             <h3 style="width: 100%;" id="Msg ">More Coming Soon</h3>
         </form>
+        <style id="style">
+
+        </style>
         <script>
+            var style = document.getElementById("style")
             var ColorReset = document.getElementById("ColorReset")
             var body = document.getElementById("body");
             var Color = document.getElementById("Color");
             Color.onchange = function() {
                 body.style.backgroundColor = Color.value;
+                style.innerHTML = "button:hover{background:" + Color.value + "}" + "\n" + ".Active{background:" + Color.value + "}"
             }
             ColorReset.onclick = function() {
                 Color.value = "#663399"
                 body.style.backgroundColor = "rebeccapurple";
+                style.innerHTML = "button:hover{background:rebeccapurple}" + "\n" + ".Active{background:rebeccapurple}"
             }
         </script>
     </div>

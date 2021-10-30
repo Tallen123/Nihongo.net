@@ -20,11 +20,16 @@
 </head>
 
 <body id="body">
+    <style id="style">
+
+    </style>
     <script>
         var body = document.getElementById("body");
+        var style = document.getElementById("style")
         var Color = "{{Color}}"
         if (Color != 'purple') {
             body.style.backgroundColor = Color;
+            style.innerHTML = "button:hover{background:" + Color + "}" + "\n" + ".Active{background:" + Color + "}"
         }
     </script>
     <header>
