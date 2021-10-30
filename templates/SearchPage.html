@@ -2,38 +2,89 @@
 <div>
     <div class="Pannel">
         <h2>Search Page</h2>
+        <h3>This page allows you to search for a specific kanji across N5-N1</h3>
     </div>
 
     <div class="Pannel" style="padding: 1%;">
         <p id="Error"></p>
         <label for="Search">Search</label>
-        <br><br>
+        <br>
         <input type="text" name="Search" id="Search" placeholder="Search">
         <br><br>
         <button style="width: 10%;" type="button" id="SearchSubmit">Search</button>
+    </div>
+    <div class="Pannel">
+        <h2>Search Results</h2>
+        <table style="padding: 5%;" width=100%>
+            <tbody>
+                <tr>
+                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
+                        <label for="Meanings"><b>Meanings</b></label>
+                        <br>
+                        <p id="Meanings"></p>
+                    </td>
+                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
+                        <label for="Stroke_Count"><b>Stroke Count</b></label>
+                        <br>
+                        <p id="Stroke_Count"></p>
+                    </td>
+                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
+                        <label for="hiragana"><b>hiragana</b></label>
+                        <br>
+                        <p id="Hiragana_Table"></p>
+                    </td>
+                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
+                        <label for="katakana"><b>katakana</b></label>
+                        <br>
+                        <p id="Katakana_Table"></p>
+                    </td>
+                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
+                        <label for="Grade"><b>Grade</b></label>
+                        <br>
+                        <p id="Grade"></p>
+                    </td>
+                    <td style="border-color: white;border-radius: 10px;border-style: solid;">
+                        <label for="Name_Readings"><b>Name Readings</b></label>
+                        <br>
+                        <p id="Name_Readings"></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <script>
-            $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
-                $.each(data, function(key, val) { //Object.entries(data[0].Kanji.N4)
-                    var Kanji = {};
-                    Kanji = Object.assign(data[0].Kanji.N5, data[0].Kanji.N4, data[0].Kanji.N3, data[0].Kanji.N2, data[0].Kanji.N1)
-                    console.log(Kanji);
+            // https://kanjiapi.dev/v1/kanji/
+            //Table Vars
+            var Meanings = document.getElementById("Meanings");
+            var Stroke_Count = document.getElementById("Stroke_Count");
+            var Hiragana_Table = document.getElementById("Hiragana_Table");
+            var Katakana_Table = document.getElementById("Katakana_Table");
+            var Grade = document.getElementById("Grade");
+            var Name_Readings = document.getElementById("Name_Readings")
 
 
-                    var SearchData = document.getElementById("Search");
-                    var SearchSubmit = document.getElementById("SearchSubmit");
-                    var Error = document.getElementById("Error");
-                    SearchSubmit.onclick = function() {
-                        console.log(SearchData.value)
-                        if (Kanji[SearchData.value]) {
-                            console.log("True")
-                            Error.innerHTML = " "
-                        } else {
-                            Error.innerHTML = "The Kanji You have entered is not recognised, Check Input"
-                        }
+            var SearchData = document.getElementById("Search");
+            var SearchSubmit = document.getElementById("SearchSubmit");
+            var errormsg = document.getElementById("Error");
+            SearchSubmit.onclick = function() {
+                $.ajax({
+                    type: "GET",
+                    url: "https://kanjiapi.dev/v1/kanji/" + SearchData.value,
+                    dataType: "json",
+                    success: function(result, status, xhr) {
+                        Meanings.innerHTML = result['meanings']
+                        Stroke_Count.innerHTML = result['stroke_count']
+                        Hiragana_Table.innerHTML = result['kun_readings']
+                        Katakana_Table.innerHTML = result['on_readings']
+                        Grade.innerHTML = result['grade']
+                        Name_Readings.innerHTML = result['name_readings']
+                    },
+                    error: function(xhr, status, error) {
+                        errormsg.innerHTML = "The Kanji you have inputed is not recognised."
                     }
                 });
-            });
+            }
         </script>
     </div>
+
 </div>
 {% endblock %}
