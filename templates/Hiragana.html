@@ -3,11 +3,13 @@
     <div class="Pannel">
         <h2>Hiragana</h2>
         <h3>Click a character to hear its pronunciation</h3>
+        <audio src="" id="HiraganaAudio"></audio>
     </div>
     <div class="Pannel" id="Pannel">
     </div>
-
     <script>
+        var HiraganaAudio = document.getElementById("HiraganaAudio");
+        var playing = false
         $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
             $.each(data, function(key, val) {
                 var x = Object.entries(data[0].Hiragana);
@@ -33,8 +35,15 @@
                     letter.onmouseleave = function() {
                         this.style.color = "white"
                     }
+                    letter.onclick = function() {
+                        var dur = HiraganaAudio.duration
+                        var char = this.innerHTML.toString().charAt(0)
+                        var URL = "static/AudioFiles/hiragana/"
+                        HiraganaAudio.src = URL + char + '.wav '
+                        HiraganaAudio.play()
+                    }
                 }
-            });
+            })
         });
     </script>
 </div>
