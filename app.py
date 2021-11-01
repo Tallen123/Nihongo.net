@@ -4,10 +4,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 from werkzeug.utils import redirect
 
-textcolor = " "
-PannelColor = " "
 Color = " "
-Hovercolor = " "
 
 app = Flask(__name__)
 app.secret_key = "W7adY5qnOGl0yLHwXG4nlaIUxxQeayvB10jqpgziHFYxywjUip4UEYXGnMk92aMTnvFCU1YB7iMIRXll"
