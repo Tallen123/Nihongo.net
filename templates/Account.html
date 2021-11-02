@@ -5,20 +5,37 @@
     </div>
     <div class="Pannel" id="Pannel">
         <form autocomplete="off" method="POST">
-            <h3>{{error}}</h3>
+            <h3>{{Err}}</h3>
             <br>
             <label style="font-size: 1.5rem;" for="Username" style="color: white;">Username</label>
             <br>
-            <input style="font-size: large;" type="text" name="Username" id="Username">
-            <br><br>
+            <input style="font-size: large;" type="text" class="AccountText" name="Username" id="Username">
+            <br>
+            <br>
             <label style="font-size: 1.5rem;" for="Password" style="color: white;">Password</label>
             <br>
-            <input style="font-size: large;" type="password" name="Password" id="Password">
+            <input style="font-size: large;" class="AccountText" type="password" name="Password" id="Password">
+            <br>
+            <input type="checkbox" name="ShowPSW" id="ShowPSW">
+            <label for="ShowPSW">Show Password</label>
             <br><br>
-            <button id="LoginSignupButton" style="width: 20%;font-size: 1.5rem;" type="button" class="Loginbtn"><b>{{Page_oposite}}</b></button>
+            <button id="LoginSignupButton" type="button" class="AccountButtons"><b>{{Page_oposite}}</b></button>
             <br><br>
-            <button style="width: 20%; font-size: 1.5rem;" id="Submit" type="submit" onclick="return empty()"><b>Submit</b></button>
+            <button class="AccountButtons" id="Submit" type="submit" onclick="return empty()"><b>{{Page_Name}}</b></button>
             <br><br>
+
+            <script>
+                // Show Password script
+                var ShowPSW = document.getElementById("ShowPSW");
+                var Password = document.getElementById("Password");
+                ShowPSW.onchange = function() {
+                    if (ShowPSW.checked) {
+                        Password.type = "text"
+                    } else {
+                        Password.type = "password"
+                    };
+                }
+            </script>
             <script>
                 var LoginSignupButton = document.getElementById("LoginSignupButton");
                 var loc = document.location.toString();

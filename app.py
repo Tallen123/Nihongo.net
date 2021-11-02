@@ -191,10 +191,7 @@ class AccountStuff:
                 if password == dbpass:
                     session['username'] = username
                     session['BackgroundColor'] = doc.to_dict()['BackgroundColor']
-                    if 'BackgroundColor' in session:
-                        return render_template('Settings.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
-                    else:
-                        return render_template('Settings.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color="#663399")
+                    return redirect('/Settings')
                 if 'BackgroundColor' in session:
                     return render_template('Account.html',Page_Name="Login",Page_oposite = "Sign Up Page",Color=session['BackgroundColor'])
         else:
@@ -215,6 +212,12 @@ class AccountStuff:
                 })
                 session['username'] = username
                 session['BackgroundColor'] = Color
+                if 'BackgroundColor' in session:
+                    return render_template('Settings.html',Color=session['BackgroundColor'],name = session['username'])
+                else:
+                    return render_template('Settings.html',Color="#663399",name = session['username'])
+            else:
+                return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",Color="#663399",Err="Username is already Taken!")
         if 'BackgroundColor' in session:
             return render_template('Account.html',Page_Name="Sign Up",Page_oposite = "Login page",Color=session['BackgroundColor'])
         else:

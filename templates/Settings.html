@@ -2,37 +2,18 @@
 <div>
     <div class="Pannel">
         <h2>Settings</h2>
-        <br>
-        <h3>Welcome back {{name}}</h3>
     </div>
     <div class="Pannel" id="Pannel" style="height: 32rem;">
         <div style="text-align: center;">
-            <h3 style="position:sticky;">Status: </h3>
-            <h3 style="color: red;padding: 0%;margin: 0%;" id="Status">Not Signed in</h3>
-            <br>
+            <h3>Welcome back <br>{{name}}</h3>
             <button style="width: 8rem;font-size: 100%;" onclick="document.location = '/Account/Logout'"><b>Log Out</b></button>
-            <script>
-                var Status = document.getElementById("Status");
-                var name = String("{{name}}");
-                if (name != null) {
-                    Status.style.color = "#00ff00";
-                    Status.innerHTML = "Signed In";
-                } else {
-                    Status.style.color = "red";
-                    Status.innerHTML = "Not Signed In";
-                    Status.style.cursor = "pointer"
-                    Status.onclick = function() {
-                        document.location = '/Account/SignUp';
-                    }
-                }
-            </script>
         </div>
-        <br><br>
+        <br>
         <form method="post">
             <div style="user-select: none;text-align: center;">
-                <label id="ColorLabel" for="Color">Button <br> & <br> Background Color</label>
+                <label id="ColorLabel" class="" for="Color">Button <br> & <br> Background Color</label>
                 <br><br>
-                <input type="color" name="Color" style="background-color: white;height: 1.7rem;text-decoration-style: none;" id="Color">
+                <input type="color" value="{{Color}}" name="Color" id="Color">
                 <br><br>
                 <button type="button" style="width: 5.5rem;font-size: 100%;" class="SettingsButton" id="ColorReset"><b>Reset</b></button>
             </div>
