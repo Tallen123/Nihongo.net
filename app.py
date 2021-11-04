@@ -3,9 +3,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 from werkzeug.utils import redirect
-
 Color = " "
-
 app = Flask(__name__)
 app.secret_key = "W7adY5qnOGl0yLHwXG4nlaIUxxQeayvB10jqpgziHFYxywjUip4UEYXGnMk92aMTnvFCU1YB7iMIRXll"
 cred = credentials.Certificate("nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json")#change to  before uploading /home/Tallen/Nihongonet/nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json
