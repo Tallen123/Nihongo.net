@@ -321,6 +321,10 @@ h3 {
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    .Name {
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
     .SearchSubmit {
         width: 10%;
     }
