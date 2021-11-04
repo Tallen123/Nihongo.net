@@ -12,7 +12,6 @@
 body {
     background: rebeccapurple;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: var(--normal-font-size);
     word-wrap: break-word;
     word-break: normal;
 }
@@ -49,11 +48,11 @@ button {
 
 .Pannel {
     border-radius: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
     text-align: center;
     background: black;
     margin-top: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
     padding: 0.2%;
 }
 
@@ -176,10 +175,62 @@ h3 {
 
 /*==================small screens=========================*/
 
+@media screen and (min-width:0px) {
+    .Pannel {
+        margin-left: 120px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+    h3 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 2%;
+    }
+    .Name {
+        font-size: 1.5rem;
+    }
+    .SearchSubmit {
+        width: 40%;
+    }
+    .AccountText {
+        width: 85%;
+    }
+    .AccountButtons {
+        width: 90%;
+        font-size: medium;
+    }
+}
+
 @media screen and (max-width:320px) {
     .Pannel {
-        margin-left: 40%;
-        margin-right: 0%;
+        margin-left: 120px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+    h3 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 2%;
+    }
+    .Name {
+        font-size: 1.5rem;
+    }
+    .SearchSubmit {
+        width: 40%;
+    }
+    .AccountText {
+        width: 85%;
+    }
+    .AccountButtons {
+        width: 90%;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .Pannel {
+        margin-left: 120px;
+        margin-right: 0px;
         font-size: smaller;
     }
     h3 {
@@ -205,10 +256,10 @@ h3 {
 
 /*==================medium screens=========================*/
 
-@media screen and (min-width:576px) {
+@media screen and (max-width:576px) {
     .Pannel {
-        margin-left: 25%;
-        margin-right: 1%;
+        margin-left: 120px;
+        margin-right: 0px;
         font-size: smaller;
     }
     .SearchSubmit {
@@ -223,10 +274,36 @@ h3 {
     }
 }
 
+@media screen and (min-width:576px) {
+    .Pannel {
+        margin-left: 120px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+    .SearchSubmit {
+        width: 40%;
+    }
+    .AccountText {
+        width: 85%;
+    }
+    .AccountButtons {
+        width: 90%;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .Pannel {
+        margin-left: 125px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+}
+
 @media screen and (min-width:767px) {
     .Pannel {
-        margin-left: 25%;
-        margin-right: 1%;
+        margin-left: 125px;
+        margin-right: 0px;
         font-size: smaller;
     }
 }
@@ -236,8 +313,8 @@ h3 {
 
 @media screen and (min-width:992px) {
     .Pannel {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 190px;
+        margin-right: 190px;
         font-size: 1.2rem;
     }
     h2 {
