@@ -1,0 +1,116 @@
+{% extends "layout.html" %} {% block content %}
+<div>
+    <div class="Pannel">
+        <h2>Kanji</h2>
+        <br>
+        <div style="margin: auto;">
+            <div style=" display: grid; padding: 0%; width: 22%; height: auto; grid-template-columns: 1fr 1fr 1fr;margin: auto;">
+                <div>
+                    <h3>JLPT</h3>
+                </div>
+                <div>
+                    <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+              </label>
+                </div>
+                <div>
+                    <h3>Grades</h3>
+                </div>
+            </div>
+        </div>
+        <h3>all kanji are made up of Hirigana and katakana.</h3>
+        <br>
+    </div>
+    <div class="Pannel">
+        <div id="JLPT" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div>
+                <h3>N1</h3>
+                <div id="N1">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>N2</h3>
+                <div id="N2">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>N3</h3>
+                <div id="N3">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>N4</h3>
+                <div id="N4">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>N5</h3>
+                <div id="N5">
+                    <h4>Test</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Pannel">
+        <div id="Grades" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+            <div>
+                <h3>Grade 1</h3>
+                <div id="Grade1">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>Grade 2</h3>
+                <div id="Grade2">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>Grade 3</h3>
+                <div id="Grade3">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>Grade 4</h3>
+                <div id="Grade4">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>Grade 5</h3>
+                <div id="Grade5">
+                    <h4>Test</h4>
+                </div>
+            </div>
+            <div>
+                <h3>Grade 6</h3>
+                <div id="Grade6">
+                    <h4>Test</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
+            $.each(data, function(key, val) {
+                var x = Object.entries(data[0].Kanji.N5);
+                var pannel = document.getElementById("Pannel");
+                for (var index in x) {
+
+                }
+            });
+        });
+        //letter.onclick = function() {
+        //var kanji = this.innerHTML.toString().charAt(0);
+        //document.location = '/SearchPageK' + "/Kanji" + kanji;
+        //}
+    </script>
+</div>
+{% endblock %}

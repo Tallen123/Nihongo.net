@@ -84,85 +84,12 @@ class Kanji:
             return render_template('SearchPage.html',Color=session['BackgroundColor'])
         else:
             return render_template('SearchPage.html',Color="#663399")
-
-class KanjiJLPT:
-    @app.route('/Kanji/N5')
-    def Kanji_N5():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiN5.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiN5.html',Color="#663399")
-
-    @app.route('/Kanji/N4')
-    def Kanji_N4():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiN4.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiN4.html',Color="#663399")
-
-    @app.route('/Kanji/N3')
-    def Kanji_N3():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiN3.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiN3.html',Color="#663399")
-
-    @app.route('/Kanji/N2')
-    def Kanji_N2():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiN2.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiN2.html',Color="#663399")
-
-    @app.route('/Kanji/N1')
+    @app.route('/Kanji')
     def Kanji_N1():
         if 'BackgroundColor' in session:
-            return render_template('KanjiN1.html',Color=session['BackgroundColor'])
+            return render_template('Kanji.html',Color=session['BackgroundColor'])
         else:
-            return render_template('KanjiN1.html',Color="#663399")
-
-class KanjiGrade:
-    @app.route('/Kanji/G5')
-    def Kanji_G6():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiGrade6.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiGrade6.html',Color="#663399")
-
-    @app.route('/Kanji/G5')
-    def Kanji_G5():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiGrade5.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiGrade5.html',Color="#663399")
-
-    @app.route('/Kanji/G4')
-    def Kanji_G4():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiGrade4.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiGrade4.html',Color="#663399")
-
-    @app.route('/Kanji/G3')
-    def Kanji_G3():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiGrade3.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiGrade3.html',Color="#663399")
-
-    @app.route('/Kanji/G2')
-    def Kanji_G2():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiGrade2.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiGrade2.html',Color="#663399")
-
-    @app.route('/Kanji/G1')
-    def Kanji_G1():
-        if 'BackgroundColor' in session:
-            return render_template('KanjiGrade1.html',Color=session['BackgroundColor'])
-        else:
-            return render_template('KanjiGrade1.html',Color="#663399")
+            return render_template('Kanji.html',Color="#663399")
 
 class Vocab:
     @app.route('/Vocabulary/N5')
