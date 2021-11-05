@@ -76,9 +76,10 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: white;
     -webkit-transition: .1s;
     transition: .1s;
+    border-radius: 20px;
 }
 
 .slider:before {
@@ -88,9 +89,10 @@ button {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: black;
     -webkit-transition: .1s;
     transition: .1s;
+    border-radius: 20px;
 }
 
 input:checked+.slider {
