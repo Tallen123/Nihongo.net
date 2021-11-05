@@ -10,7 +10,7 @@
                 </div>
                 <div>
                     <label class="switch">
-                <input type="checkbox">
+                <input type="checkbox"id="CheckBox">
                 <span class="slider"></span>
               </label>
                 </div>
@@ -22,8 +22,8 @@
         <h3>all kanji are made up of Hirigana and katakana.</h3>
         <br>
     </div>
-    <div class="Pannel">
-        <div id="JLPT" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+    <div class="Pannel" id="JLPT">
+        <div style=" display: grid; height: auto; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
             <div>
                 <h3>N1</h3>
                 <div id="N1">
@@ -57,8 +57,8 @@
         </div>
     </div>
 
-    <div class="Pannel">
-        <div id="Grades" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;">
+    <div hidden class="Pannel" id="Grades">
+        <div style=" display: grid; height: auto; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; ">
             <div>
                 <h3>Grade 1</h3>
                 <div id="Grade1">
@@ -98,19 +98,22 @@
         </div>
     </div>
     <script>
-        $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
-            $.each(data, function(key, val) {
-                var x = Object.entries(data[0].Kanji.N5);
-                var pannel = document.getElementById("Pannel");
-                for (var index in x) {
-
+        var JLPT = document.getElementById("JLPT");
+        var Grades = document.getElementById("Grades");
+        var CheckBox = document.getElementById("CheckBox");
+        CheckBox.onclick = function() {
+                if (CheckBox.checked) {
+                    Grades.hidden = false
+                    JLPT.hidden = true
+                } else {
+                    Grades.hidden = true
+                    JLPT.hidden = false
                 }
-            });
-        });
-        //letter.onclick = function() {
-        //var kanji = this.innerHTML.toString().charAt(0);
-        //document.location = '/SearchPageK' + "/Kanji" + kanji;
-        //}
+            }
+            //letter.onclick = function() {
+            //var kanji = this.innerHTML.toString().charAt(0);
+            //document.location = '/SearchPageK' + "/Kanji" + kanji;
+            //}
     </script>
 </div>
 {% endblock %}
