@@ -6,8 +6,8 @@ from werkzeug.utils import redirect
 Color = " "
 app = Flask(__name__)
 app.secret_key = "W7adY5qnOGl0yLHwXG4nlaIUxxQeayvB10jqpgziHFYxywjUip4UEYXGnMk92aMTnvFCU1YB7iMIRXll"
-#cred = credentials.Certificate("nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json")#Local Build Code
-cred = credentials.Certificate("/home/Tallen/Nihongonet/nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json")#Live Build Code
+cred = credentials.Certificate("nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json")#Local Build Code
+#cred = credentials.Certificate("/home/Tallen/Nihongonet/nihongonet-ee832-firebase-adminsdk-nstiq-c19391f2d6.json")#Live Build Code
 firebase_admin.initialize_app(cred, {
   'projectId': "nihongonet-ee832",
 })

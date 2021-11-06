@@ -82,6 +82,24 @@ button {
     border-radius: 20px;
 }
 
+#Grade1K,
+#Grade2K,
+#Grade3K,
+#Grade4K,
+#Grade5K,
+#Grade6K {
+    cursor: pointer;
+}
+
+#Grade1K:hover,
+#Grade2K:hover,
+#Grade3K:hover,
+#Grade4K:hover,
+#Grade5K:hover,
+#Grade6K:hover {
+    color: red;
+}
+
 .slider:before {
     position: absolute;
     content: "";

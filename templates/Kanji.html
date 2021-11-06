@@ -97,7 +97,7 @@
 
             <div>
                 <div>
-                    <h3>Grade 1</h3>
+                    <h3>GRADE 1</h3>
                     <div id="Grade1" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade1Kanji">
 
@@ -107,7 +107,7 @@
             </div>
             <div>
                 <div>
-                    <h3>Grade 2</h3>
+                    <h3>GRADE 2</h3>
                     <div id="Grade2" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade2Kanji">
 
@@ -117,7 +117,7 @@
             </div>
             <div>
                 <div>
-                    <h3>Grade 3</h3>
+                    <h3>GRADE 3</h3>
                     <div id="Grade3" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade3Kanji">
 
@@ -127,7 +127,7 @@
             </div>
             <div>
                 <div>
-                    <h3>Grade 4</h3>
+                    <h3>GRADE 4</h3>
                     <div id="Grade4" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade4Kanji">
 
@@ -137,7 +137,7 @@
             </div>
             <div>
                 <div>
-                    <h3>Grade 5</h3>
+                    <h3>GRADE 5</h3>
                     <div id="Grade5" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade5Kanji">
 
@@ -147,7 +147,7 @@
             </div>
             <div>
                 <div>
-                    <h3>Grade 6</h3>
+                    <h3>GRADE 6</h3>
                     <div id="Grade6" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade6Kanji">
 
@@ -163,55 +163,90 @@
         var CheckBox = document.getElementById("CheckBox");
 
         var Grade1 = document.getElementById("Grade1")
+        var Grade2 = document.getElementById("Grade2")
+        var Grade3 = document.getElementById("Grade3")
+        var Grade4 = document.getElementById("Grade4")
+        var Grade5 = document.getElementById("Grade5")
+        var Grade6 = document.getElementById("Grade6")
         $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
             $.each(data, function(key, val) {
                 var GradesKanji1 = Object.entries(data[0].Kanji.GRADES.Grade1);
-                console.log(GradesKanji1)
                 for (var index in GradesKanji1) { //Kanji Grade 1 code
                     var Grade1K = document.createElement("h3");
                     Grade1K.innerHTML = GradesKanji1[index];
+                    Grade1K.id = "Grade1K"
+                    Grade1K.style.paddingBottom = "1rem"
+                    Grade1K.onclick = function() {
+                        var kanji = this.innerHTML.toString().charAt(0);
+                        document.location = '/SearchPageK' + "/Kanji" + kanji;
+                    }
                     Grade1.appendChild(Grade1K)
                 }
 
                 var GradesKanji2 = Object.entries(data[0].Kanji.GRADES.Grade2);
-                console.log(GradesKanji2)
                 for (var index in GradesKanji2) { //Kanji Grade 2 code
                     var Grade2K = document.createElement("h3");
                     Grade2K.style.wordBreak = "break-all"
-                    Grade2K.style.breakAfter = ","
                     Grade2K.innerHTML = GradesKanji2[index];
+                    Grade2K.id = "Grade2K"
+                    Grade2K.style.paddingBottom = "1rem"
+                    Grade2K.onclick = function() {
+                        var kanji = this.innerHTML.toString().charAt(0);
+                        document.location = '/SearchPageK' + "/Kanji" + kanji;
+                    }
                     Grade2.appendChild(Grade2K)
                 }
 
                 var GradesKanji3 = Object.entries(data[0].Kanji.GRADES.Grade3);
-                console.log(GradesKanji3)
                 for (var index in GradesKanji3) { //Kanji Grade 3 code
                     var Grade3K = document.createElement("h3");
                     Grade3K.innerHTML = GradesKanji3[index];
+                    Grade3K.id = "Grade3K"
+                    Grade3K.style.paddingBottom = "1rem"
+                    Grade3K.onclick = function() {
+                        var kanji = this.innerHTML.toString().charAt(0);
+                        document.location = '/SearchPageK' + "/Kanji" + kanji;
+                    }
                     Grade3.appendChild(Grade3K)
                 }
 
                 var GradesKanji4 = Object.entries(data[0].Kanji.GRADES.Grade4);
-                console.log(GradesKanji4)
+
                 for (var index in GradesKanji4) { //Kanji Grade 4 code
                     var Grade4K = document.createElement("h3");
                     Grade4K.innerHTML = GradesKanji4[index];
+                    Grade4K.id = "Grade4K"
+                    Grade4K.style.paddingBottom = "1rem"
+                    Grade4K.onclick = function() {
+                        var kanji = this.innerHTML.toString().charAt(0);
+                        document.location = '/SearchPageK' + "/Kanji" + kanji;
+                    }
                     Grade4.appendChild(Grade4K)
                 }
 
                 var GradesKanji5 = Object.entries(data[0].Kanji.GRADES.Grade5);
-                console.log(GradesKanji5)
                 for (var index in GradesKanji5) { //Kanji Grade 5 code
                     var Grade5K = document.createElement("h3");
                     Grade5K.innerHTML = GradesKanji5[index];
+                    Grade5K.id = "Grade5K"
+                    Grade5K.style.paddingBottom = "1rem"
+                    Grade5K.onclick = function() {
+                        var kanji = this.innerHTML.toString().charAt(0);
+                        document.location = '/SearchPageK' + "/Kanji" + kanji;
+                    }
                     Grade5.appendChild(Grade5K)
                 }
 
                 var GradesKanji6 = Object.entries(data[0].Kanji.GRADES.Grade6);
-                console.log(GradesKanji6)
                 for (var index in GradesKanji6) { //Kanji Grade 6 code
                     var Grade6K = document.createElement("h3");
                     Grade6K.innerHTML = GradesKanji6[index];
+                    Grade6K.id = "Grade6K"
+                    Grade6K.style.paddingBottom = "1rem"
+                    Grade6K.onclick = function() {
+                        var kanji = this.innerHTML.toString().charAt(0);
+                        document.location = '/SearchPageK' + "/Kanji" + kanji;
+                    }
                     Grade6.appendChild(Grade6K)
                 }
             });
@@ -226,12 +261,8 @@
             }
         }
         document.onload = function() {
-                $("#CheckBox").removeAttr("checked");
-            }
-            //letter.onclick = function() {
-            //var kanji = this.innerHTML.toString().charAt(0);
-            //document.location = '/SearchPageK' + "/Kanji" + kanji;
-            //}
+            $("#CheckBox").removeAttr("checked");
+        }
     </script>
 </div>
 {% endblock %}

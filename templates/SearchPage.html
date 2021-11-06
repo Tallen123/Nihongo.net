@@ -85,7 +85,6 @@
                     "x-rapidapi-key": "f63b1552a6msh5c92b36f426e39fp1dfdcfjsn43b574ea21ae"
                 },
                 success: function(result, status, xhr) {
-                    console.log(result)
                     Meaning.innerHTML = result['kanji']['meaning']['english'];
                     Hiragana_Table.innerHTML = result['kanji']['kunyomi']['hiragana'];
                     Katakana_Table.innerHTML = result['kanji']['onyomi']['katakana'];
