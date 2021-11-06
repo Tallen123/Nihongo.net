@@ -2971,7 +2971,7 @@
             }
         },
         "GRADES": {
-            "Grade 1": {
+            "Grade1": {
                 "一": "いち one ",
                 "十": "じゅう ten ",
                 "手": "て hand",
@@ -3032,7 +3032,7 @@
                 "花": "はな flower",
                 "田": "た rice field"
             },
-            "Grade 2": {
+            "Grade2": {
                 "話": "はなし tale,  talk ",
                 "書": "しょ write ",
                 "秋": "あき autumn ",
@@ -3152,7 +3152,7 @@
                 "牛": "うし cow ",
                 "店": "みせ store,  shop "
             },
-            "Grade 3": {
+            "Grade3": {
                 "待": "まち wait,  depend on ",
                 "開": "かい open,  unfold,  unseal ",
                 "業": "ごう work,  business,  study ",
@@ -3301,7 +3301,7 @@
                 "想": "おもう ソウ ソ Concept, think, idea, thought ",
                 "平": "たいら ビョウ Even, flat, peace "
             },
-            "Grade 4": {
+            "Grade4": {
                 "借": "かり borrow,  rent ",
                 "治": "おさ、なお ジ、チ govern, cure, heal",
                 "英": "えい England,  English ",
@@ -3450,7 +3450,7 @@
                 "囲": "イ  かこ.む かこ.う かこ.い  surround,  besiege,  store,  paling,  enclosure,  encircle,  preserve,  keep ",
                 "焼": "ショウ ヤ.ケ  や.く や.き や.き- -や.き  bake,  burning "
             },
-            "Grade 5": {
+            "Grade5": {
                 "述": "ジュツ  の.べる  mention,  state,  speak,  relate ",
                 "序": "ジョ ツイ つい.で preface,  beginning,  order,  precedence,  occasion,  chance,  incidentally ",
                 "織": "ショク シキ - オ. お.る お.り おり -おり weave,  fabric ",
@@ -3588,7 +3588,7 @@
                 "険": "しい  precipitous,  inaccessible place,  impregnable position,  steep,  place,  sharp eyes ",
                 "状": "ジョウ form, condition, letter, circumstances"
             },
-            "Grade 6": {
+            "Grade6": {
                 "宇": "  leaves,  roof,  house,  heaven ",
                 "沿": "エン そ.う -ぞ.い run alongside,  follow along,  run along,  lie along ",
                 "閣": "カク tower,  tall building,  palace ",

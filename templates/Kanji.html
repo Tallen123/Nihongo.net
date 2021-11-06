@@ -29,10 +29,10 @@
                     <h3>N1</h3>
                     <div id="N1" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
                         <div id="N1Kanji">
-                            <h3>test</h3>
+
                         </div>
                         <div id="N1other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -42,10 +42,10 @@
                     <h3>N2</h3>
                     <div id="N2" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
                         <div id="N2Kanji">
-                            <h3>test</h3>
+
                         </div>
                         <div id="N2other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -55,23 +55,23 @@
                     <h3>N3</h3>
                     <div id="N3" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
                         <div id="N3Kanji">
-                            <h3>test</h3>
+
                         </div>
                         <div id="N3other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
             </div>
             <div>
                 <div>
-                    <h3>Grade 4</h3>
+                    <h3>N4</h3>
                     <div id="N4" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
                         <div id="N4Kanji">
-                            <h3>test</h3>
+
                         </div>
                         <div id="N4other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -81,10 +81,10 @@
                     <h3>N5</h3>
                     <div id="N5" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
                         <div id="N5Kanji">
-                            <h3>test</h3>
+
                         </div>
                         <div id="N5other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -98,12 +98,9 @@
             <div>
                 <div>
                     <h3>Grade 1</h3>
-                    <div id="Grade1" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
+                    <div id="Grade1" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade1Kanji">
-                            <h3>test</h3>
-                        </div>
-                        <div id="Grade1other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -111,12 +108,9 @@
             <div>
                 <div>
                     <h3>Grade 2</h3>
-                    <div id="Grade2" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
+                    <div id="Grade2" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade2Kanji">
-                            <h3>test</h3>
-                        </div>
-                        <div id="Grade2other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -124,12 +118,9 @@
             <div>
                 <div>
                     <h3>Grade 3</h3>
-                    <div id="Grade3" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
+                    <div id="Grade3" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade3Kanji">
-                            <h3>test</h3>
-                        </div>
-                        <div id="Grade3other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -137,12 +128,9 @@
             <div>
                 <div>
                     <h3>Grade 4</h3>
-                    <div id="Grade4" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
+                    <div id="Grade4" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade4Kanji">
-                            <h3>test</h3>
-                        </div>
-                        <div id="Grade4other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -150,12 +138,9 @@
             <div>
                 <div>
                     <h3>Grade 5</h3>
-                    <div id="Grade5" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
+                    <div id="Grade5" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade5Kanji">
-                            <h3>test</h3>
-                        </div>
-                        <div id="Grade5other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -163,12 +148,9 @@
             <div>
                 <div>
                     <h3>Grade 6</h3>
-                    <div id="Grade6" style=" display: grid; height: auto; grid-template-columns: 1fr 1fr; ">
+                    <div id="Grade6" style=" display: grid; height: auto; grid-template-columns: 1fr; ">
                         <div id="Grade6Kanji">
-                            <h3>test</h3>
-                        </div>
-                        <div id="Grade6other">
-                            <h3>test</h3>
+
                         </div>
                     </div>
                 </div>
@@ -179,6 +161,61 @@
         var JLPT = document.getElementById("JLPT");
         var Grades = document.getElementById("Grades");
         var CheckBox = document.getElementById("CheckBox");
+
+        var Grade1 = document.getElementById("Grade1")
+        $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
+            $.each(data, function(key, val) {
+                var GradesKanji1 = Object.entries(data[0].Kanji.GRADES.Grade1);
+                console.log(GradesKanji1)
+                for (var index in GradesKanji1) { //Kanji Grade 1 code
+                    var Grade1K = document.createElement("h3");
+                    Grade1K.innerHTML = GradesKanji1[index];
+                    Grade1.appendChild(Grade1K)
+                }
+
+                var GradesKanji2 = Object.entries(data[0].Kanji.GRADES.Grade2);
+                console.log(GradesKanji2)
+                for (var index in GradesKanji2) { //Kanji Grade 2 code
+                    var Grade2K = document.createElement("h3");
+                    Grade2K.style.wordBreak = "break-all"
+                    Grade2K.style.breakAfter = ","
+                    Grade2K.innerHTML = GradesKanji2[index];
+                    Grade2.appendChild(Grade2K)
+                }
+
+                var GradesKanji3 = Object.entries(data[0].Kanji.GRADES.Grade3);
+                console.log(GradesKanji3)
+                for (var index in GradesKanji3) { //Kanji Grade 3 code
+                    var Grade3K = document.createElement("h3");
+                    Grade3K.innerHTML = GradesKanji3[index];
+                    Grade3.appendChild(Grade3K)
+                }
+
+                var GradesKanji4 = Object.entries(data[0].Kanji.GRADES.Grade4);
+                console.log(GradesKanji4)
+                for (var index in GradesKanji4) { //Kanji Grade 4 code
+                    var Grade4K = document.createElement("h3");
+                    Grade4K.innerHTML = GradesKanji4[index];
+                    Grade4.appendChild(Grade4K)
+                }
+
+                var GradesKanji5 = Object.entries(data[0].Kanji.GRADES.Grade5);
+                console.log(GradesKanji5)
+                for (var index in GradesKanji5) { //Kanji Grade 5 code
+                    var Grade5K = document.createElement("h3");
+                    Grade5K.innerHTML = GradesKanji5[index];
+                    Grade5.appendChild(Grade5K)
+                }
+
+                var GradesKanji6 = Object.entries(data[0].Kanji.GRADES.Grade6);
+                console.log(GradesKanji6)
+                for (var index in GradesKanji6) { //Kanji Grade 6 code
+                    var Grade6K = document.createElement("h3");
+                    Grade6K.innerHTML = GradesKanji6[index];
+                    Grade6.appendChild(Grade6K)
+                }
+            });
+        });
         CheckBox.onclick = function() {
             if (CheckBox.checked) {
                 Grades.hidden = false
