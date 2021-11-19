@@ -60,3 +60,19 @@ html {
     padding: .5rem;
     margin-bottom: 5px;
 }
+
+.AlphabetMenu {
+    position: absolute;
+    width: 200px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--light);
+    box-shadow: black 0px 10px 10px;
+}
+
+.AlphabetMenu button {
+    margin-top: 10px;
+    width: 90%;
+}
