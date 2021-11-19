@@ -5,13 +5,17 @@ function Navbar() {
     <div>
         <div >
             <div className='inline m-3'>
-                <button className='hover:bg-red-800 rounded p-1'>Home</button>
+                <button className='btn'>Home</button>
             </div>
             <div className='inline m-3'>
-                <button className='hover:bg-red-800 rounded p-1' >Alphabet</button>
-            </div>
-            <div className='inline m-3'>
-                <button className='hover:bg-red-800 rounded p-1'>Placeholder</button>
+                <button id='Alphabetbtn' className='btn' >Alphabet</button>
+                <div hidden id='AlphabetMenu'>
+                    <ul>
+                        <li>Hiragana</li>
+                        <li>Katakana</li>
+                        <li>Kanji</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
