@@ -1,6 +1,18 @@
 import React from 'react'
+import $ from 'jquery'
 
 function Navbar() {
+    $(document).ready(function(){
+        $(document).mousemove(function(){
+             if($("#Alphabetbtn:hover").length != 0){
+                $('#AlphabetMenu').show()
+            }
+            if($("body:hover").length == 0){
+                $('#AlphabetMenu').hide()
+            }
+        })
+    })
+
     return (
     <div>
         <div >
@@ -11,9 +23,9 @@ function Navbar() {
                 <button id='Alphabetbtn' className='btn' >Alphabet</button>
                 <div hidden id='AlphabetMenu'>
                     <ul>
-                        <li>Hiragana</li>
-                        <li>Katakana</li>
-                        <li>Kanji</li>
+                        <li><button className='btn'>Hiragana</button></li>
+                        <li><button className='btn'>Katakana</button></li>
+                        <li><button className='btn'>Kanji</button></li>
                     </ul>
                 </div>
             </div>
@@ -21,5 +33,4 @@ function Navbar() {
     </div>
     )
 }
-
 export default Navbar
