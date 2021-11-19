@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <Header text={"Why you do dis?"}/>
+        <Header text={"Nihongo.net"}/>
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Navbar from './Navbar'
 function Header({text}) {
     return (
-        <div>
-            <h1 style={{backgroundColor:"red"}} className="rounded">{text}</h1>
+        <div id='NameDiv'>
+            <h1 className="Name">{text}</h1>
+            <Navbar/>
         </div>
     )
 }
