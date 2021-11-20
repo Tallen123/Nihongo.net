@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/Style.css') }}">
+
+    <title>{% block title %} {% endblock %}</title>
+</head>
+
+<body>
+    <nav class="BackGround">
+        <h2 style="font-size: 2rem;text-transform: uppercase;">Nihongo.net</h2>
+        <div class="navdiv">
+            <button class="navbtn">Home</button>
+        </div>
+
+        <div class="navdiv">
+            <button class="navbtn">Alphabet</button>
+        </div>
+
+        <div class="navdiv">
+            <button class="navbtn">Lessons</button>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function() {
+            $(document).mousemove(function(e) {
+                var element = e.target
+                if (element.localName == "button") {
+                    console.log(element.innerHTML)
+                } else {
+
+                }
+            })
+        })
+    </script>
+    <div class="container">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+
+</html>
