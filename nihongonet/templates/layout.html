@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="font-weight:900;" class="bg-gray-800">
 
 <head>
 
@@ -8,35 +8,88 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style/Style.css') }}">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
     <title>{% block title %} {% endblock %}</title>
 </head>
+<style>
+    .AlphabetMenu {
+        text-align: center;
+        position: absolute;
+        width: 145px;
+        height: 210px;
+        opacity: 100%;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        box-shadow: black 2px 14px 10px .1px;
+        animation-name: AlphabetMenuAnim;
+        animation-duration: 500ms;
+    }
+    
+    .AlphabetMenu button {
+        margin-top: 10px;
+        width: 90%;
+    }
+    
+    @keyframes AlphabetMenuAnim {
+        100% {}
+        50% {
+            color: transparent;
+        }
+        0% {
+            height: 0px;
+            color: transparent;
+        }
+    }
+</style>
 
-<body>
-    <nav class="BackGround">
-        <h2 style="font-size: 2rem;text-transform: uppercase;">Nihongo.net</h2>
-        <div class="navdiv">
-            <button class="navbtn">Home</button>
+<body style="font-family: monospace;">
+    <div>
+        <div style="box-shadow: black 0px 10px 10px;" class="pb-2 bg-white rounded-2xl ml-10 mr-10 mt-5 text-center">
+            <h2 style="font-size: 2rem;text-transform: uppercase;">Nihongo.net</h2>
+            <div className='p-1.5' style="display: grid; grid-template-columns: 10fr 10fr 10fr;">
+                <div className='m-3'>
+                    <a id="homebtn" style="cursor: pointer; font-size: 1.5rem;" class="  hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Home</a>
+                </div>
+                <div className='m-3'>
+                    <a id="Alphabetbtn" style="cursor: pointer; font-size: 1.5rem;" class=" hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Alphabet</a>
+                </div>
+                <div className='m-3'>
+                    <a id="lessonsbtn" style="cursor: pointer; font-size: 1.5rem;" class=" hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">lessons</a>
+                </div>
+            </div>
         </div>
-
-        <div class="navdiv">
-            <button class="navbtn">Alphabet</button>
+        <div hidden id='AlphabetMenu' class="AlphabetMenu bg-white">
+            <ul>
+                <li><button style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Hiragana</button></li>
+                <li><button style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Katakana</button></li>
+                <li><button style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Kanji</button></li>
+            </ul>
         </div>
-
-        <div class="navdiv">
-            <button class="navbtn">Lessons</button>
-        </div>
-    </nav>
+    </div>
     <script>
+        var anim = false
         $(document).ready(function() {
-            $(document).mousemove(function(e) {
-                var element = e.target
-                if (element.localName == "button") {
-                    console.log(element.innerHTML)
-                } else {
+            $(document).mousemove(function() {
+                if ($("#Alphabetbtn:hover").length !== 0) {
 
+                    var Alphabetbtn = $("#Alphabetbtn:hover")
+                    var AlphabetMenu = document.getElementById("AlphabetMenu")
+
+                    AlphabetMenu.style.left = Alphabetbtn.position().left - 5 + "px"
+                    $('#AlphabetMenu').show()
+                    if (anim === false) {
+                        AlphabetMenu.style.animationPlayState = 'runnning'
+                        anim = true
+                    }
+                }
+                if ($("body:hover").length === 0) {
+                    $('#AlphabetMenu').hide()
+                }
+                if ($("#homebtn:hover").length === 1) {
+                    $('#AlphabetMenu').hide()
                 }
             })
         })

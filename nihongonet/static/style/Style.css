@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -40,23 +43,4 @@ body {
     margin: 10px;
     border-radius: 20px;
     box-shadow: black 0px 10px 10px;
-}
-
-.navbtn {
-    background-color: var(--light);
-    border-radius: 10px;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-    font-weight: bolder;
-}
-
-.navdiv {
-    display: inline;
-}
-
-.navbtn:hover {
-    background-color: var(--gray-dark);
 }
