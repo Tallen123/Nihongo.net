@@ -24,8 +24,12 @@
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         box-shadow: black 2px 14px 10px .1px;
+    }
+    
+    .AlphabetMenuAnimplay {
         animation-name: AlphabetMenuAnim;
         animation-duration: 500ms;
+        animation-play-state: running;
     }
     
     .AlphabetMenu button {
@@ -47,7 +51,7 @@
 
 <body style="font-family: monospace;">
     <div>
-        <div style="box-shadow: black 0px 10px 10px;" class="pb-2 bg-white rounded-2xl ml-10 mr-10 mt-5 text-center">
+        <div id="MenuDiv" style="box-shadow: black 0px 10px 10px;" class="pb-2 bg-white rounded-2xl ml-10 mr-10 mt-5 text-center">
             <h2 style="font-size: 2rem;text-transform: uppercase;">Nihongo.net</h2>
             <div className='p-1.5' style="display: grid; grid-template-columns: 10fr 10fr 10fr;">
                 <div className='m-3'>
@@ -61,35 +65,52 @@
                 </div>
             </div>
         </div>
-        <div hidden id='AlphabetMenu' class="AlphabetMenu bg-white">
-            <ul>
-                <li><button style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Hiragana</button></li>
-                <li><button style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Katakana</button></li>
-                <li><button style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Kanji</button></li>
+        <div hidden id='Menu' class="AlphabetMenu bg-white">
+            <ul class="keep">
+                <li class="keep"><button id="Button1" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Hiragana</button></li>
+                <li class="keep"><button id="Button2" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Katakana</button></li>
+                <li class="keep"><button id="Button3" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Kanji</button></li>
             </ul>
         </div>
     </div>
     <script>
         var anim = false
         $(document).ready(function() {
-            $(document).mousemove(function() {
-                if ($("#Alphabetbtn:hover").length !== 0) {
-
-                    var Alphabetbtn = $("#Alphabetbtn:hover")
-                    var AlphabetMenu = document.getElementById("AlphabetMenu")
-
-                    AlphabetMenu.style.left = Alphabetbtn.position().left - 5 + "px"
-                    $('#AlphabetMenu').show()
-                    if (anim === false) {
-                        AlphabetMenu.style.animationPlayState = 'runnning'
-                        anim = true
-                    }
+            $(document).mousemove(function(e) {
+                var element = e.target.className
+                var innerHTML = e.target.innerHTML
+                var elembtn = document.getElementById(e.target.id)
+                var Menu = document.getElementById("Menu")
+                var Button1 = document.getElementById("Button1")
+                var Button2 = document.getElementById("Button2")
+                var Button3 = document.getElementById("Button3")
+                if (innerHTML == "Home") {
+                    Menu.hidden = true
+                    Menu.classList.remove('AlphabetMenuAnimplay')
                 }
-                if ($("body:hover").length === 0) {
-                    $('#AlphabetMenu').hide()
+                if (innerHTML == "Alphabet") {
+                    Button1.innerHTML = "Hiragana"
+                    Button2.innerHTML = "Katakana"
+                    Button3.innerHTML = "Kanji"
+                    Menu.style.left = $('#' + elembtn.id).position().left - 10 + 'px'
+                    Menu.hidden = false
+                    Menu.classList.add('AlphabetMenuAnimplay')
                 }
-                if ($("#homebtn:hover").length === 1) {
-                    $('#AlphabetMenu').hide()
+                if (innerHTML == "lessons") {
+                    Button1.innerHTML = "Beginner"
+                    Button2.innerHTML = "adept"
+                    Button3.innerHTML = "Veteran"
+                    Menu.style.left = $('#' + elembtn.id).position().left - 10 + 'px'
+                    Menu.hidden = false
+                    Menu.classList.add('AlphabetMenuAnimplay')
+                }
+                if (element == "bg-gray-800") {
+                    Menu.hidden = true
+                    Menu.classList.remove('AlphabetMenuAnimplay')
+                }
+                if (element == "") {
+                    Menu.hidden = true
+                    Menu.classList.remove('AlphabetMenuAnimplay')
                 }
             })
         })
