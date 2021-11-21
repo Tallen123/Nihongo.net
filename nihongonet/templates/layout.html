@@ -10,7 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-    <title>{% block title %} {% endblock %}</title>
+    <title>NIHONGO.NET</title>
 </head>
 <style>
     .AlphabetMenu {
@@ -55,7 +55,7 @@
             <h2 style="font-size: 2rem;text-transform: uppercase;">Nihongo.net</h2>
             <div className='p-1.5' style="display: grid; grid-template-columns: 10fr 10fr 10fr;">
                 <div className='m-3'>
-                    <a id="homebtn" style="cursor: pointer; font-size: 1.5rem;" class="  hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Home</a>
+                    <a id="homebtn" style="cursor: pointer; font-size: 1.5rem;" onclick="document.location='/'" class="  hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Home</a>
                 </div>
                 <div className='m-3'>
                     <a id="Alphabetbtn" style="cursor: pointer; font-size: 1.5rem;" class=" hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Alphabet</a>
@@ -112,10 +112,18 @@
                     Menu.hidden = true
                     Menu.classList.remove('AlphabetMenuAnimplay')
                 }
+                Button1.onclick = function() {
+                    if (Button1.innerHTML == "Beginner") {
+                        document.location = "/beginnerOverview"
+                    }
+                    if (Button1.innerHTML == "Hiragana") {
+                        document.location = "/Hiragana"
+                    }
+                }
             })
         })
     </script>
-    <div class="container">
+    <div style="text-align: center;">
         {% block content %} {% endblock %}
     </div>
 </body>
