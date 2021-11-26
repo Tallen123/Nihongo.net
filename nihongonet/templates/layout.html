@@ -53,23 +53,26 @@
     <div>
         <div id="MenuDiv" style="box-shadow: black 0px 10px 10px;" class="pb-2 bg-white rounded-2xl ml-10 mr-10 mt-5 text-center">
             <h2 style="font-size: 2rem;text-transform: uppercase;">Nihongo.net</h2>
-            <div className='p-1.5' style="display: grid; grid-template-columns: 10fr 10fr 10fr;">
+            <div className='p-1.5' style="display: grid; grid-template-columns: 10fr 10fr 10fr 10fr;">
                 <div className='m-3'>
-                    <a id="homebtn" style="cursor: pointer; font-size: 1.5rem;" onclick="document.location='/'" class="  hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Home</a>
+                    <a id="homebtn" style="cursor: pointer; font-size: 1.5rem;" onclick="document.location='/'" class="  hover:bg-gray-800 hover:text-white text-3xl rounded-lg p-2 mb-2">Home</a>
                 </div>
                 <div className='m-3'>
-                    <a id="Alphabetbtn" style="cursor: pointer; font-size: 1.5rem;" class=" hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Alphabet</a>
+                    <a id="Alphabetbtn" style="cursor: pointer; font-size: 1.5rem;" class=" hover:bg-gray-800 hover:text-white text-3xl rounded-lg p-2 mb-2">Alphabet</a>
                 </div>
                 <div className='m-3'>
-                    <a id="lessonsbtn" style="cursor: pointer; font-size: 1.5rem;" class=" hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">lessons</a>
+                    <a id="lessonsbtn" style="cursor: pointer; font-size: 1.5rem;" class=" hover:bg-gray-800 hover:text-white text-3xl rounded-lg p-2 mb-2">lessons</a>
+                </div>
+                <div className='m-3'>
+                    <a id="lessonsbtn" style="cursor: pointer; font-size: 1.5rem;" onclick="document.location = '/Index'" class=" hover:bg-gray-800 hover:text-white text-3xl rounded-lg p-2 mb-2">Index</a>
                 </div>
             </div>
         </div>
         <div hidden id='Menu' class="AlphabetMenu bg-white">
             <ul class="keep">
-                <li class="keep"><button id="Button1" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Hiragana</button></li>
-                <li class="keep"><button id="Button2" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Katakana</button></li>
-                <li class="keep"><button id="Button3" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 text-3xl rounded-lg p-2 mb-2">Kanji</button></li>
+                <li class="keep"><button id="Button1" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 hover:text-white text-3xl rounded-lg p-2 mb-2">Hiragana</button></li>
+                <li class="keep"><button id="Button2" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 hover:text-white text-3xl rounded-lg p-2 mb-2">Katakana</button></li>
+                <li class="keep"><button id="Button3" style="cursor: pointer; font-size: 1.5rem;" class="hover:bg-gray-800 hover:text-white text-3xl rounded-lg p-2 mb-2">Kanji</button></li>
             </ul>
         </div>
     </div>
