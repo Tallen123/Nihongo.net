@@ -1,8 +1,16 @@
 {% extends "layout.html" %} {% block content %}
 <div style="box-shadow: black 0px 10px 10px;" class="pb-2 bg-white rounded-2xl ml-10 mr-10 mt-5 mt-5 text-center">
-    <div class="inline">
-        <p>test</p>
-        <img src="https://media.discordapp.net/attachments/793248870469337140/911999143348670494/hiragana_dakutenhanakutencombo.jpeg?width=522&height=676" alt="">
+    <h1 style="font-size: 2rem;">Hiragana</h1>
+    <div style="display: grid; grid-template-columns: 1fr 1fr;">
+        <div class="mr-28 ml-28 text-justify mt-28" style="font-size:1.3rem; text-align: center;">
+            <p>This is a hiragana Chart it contains the basic Hiragana, Romaji and stroke order for writing said hiragana, Hiragana is used for all japanese words, Romaji is the convertion of Hiragana into roman characters (English letters) but this should
+                not be taken as pronunciation guid as some are pronounced different to how you would think, Due to this many learners fail to pronounce some characters properly, Note the small numbers next to the Hiragana characters is the stroke order
+                this pertain to the order in which said character is written but does not pertain to the direction of the stroke.
+            </p>
+        </div>
+        <div>
+            <img src="{{url_for('static', filename='Hiragana.PNG')}}" alt="">
+        </div>
     </div>
 </div>
 {% endblock %}
