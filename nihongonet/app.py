@@ -22,8 +22,8 @@ def Hiragana():
 @app.route('/Index')
 def Index():
     pages = {#add each page after they have been made
-        'Beginner1Lesson1':'/Beginner1Lesson1',
-        'Hiragana':'/Hiragana'
+        '1':'/Beginner1Lesson1',
+        '2':'/Hiragana',
     }
     PageAmount= 2#add 1 per page added
     return render_template('/Index.html', pages=pages,PageAmount=PageAmount)
