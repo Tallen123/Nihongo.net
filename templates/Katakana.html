@@ -1,0 +1,41 @@
+{% extends "layout.html" %} {% block content %}
+<div>
+    <div class="Pannel">
+        <h2>katakana</h2>
+        <h3>Click a character to hear its pronunciation</h3>
+    </div>
+    <div class="Pannel" id="Pannel">
+    </div>
+
+    <script>
+        $.getJSON("{{ url_for('static', filename='alphabet.json') }}", function(data) {
+            $.each(data, function(key, val) {
+                var x = Object.entries(data[0].Katakana);
+                var pannel = document.getElementById("Pannel");
+                for (var index in x) {
+                    var letter = document.createElement("h2");
+                    var cell = document.createElement("div")
+                    cell.style.display = "inline-grid"
+                    letter.innerHTML = x[index];
+                    letter.style.color = "white";
+                    letter.style.cursor = "pointer"
+                    letter.style.margin = "1rem"
+                    const isMobile = ('ontouchstart' in document.documentElement && navigator.userAgent.match(/Mobi/));
+                    if (isMobile) {
+                        letter.style.paddingLeft = "6px"
+                        letter.style.paddingRight = "6px"
+                    }
+                    cell.appendChild(letter)
+                    pannel.appendChild(cell);
+                    letter.onmouseenter = function() {
+                        this.style.color = "red"
+                    }
+                    letter.onmouseleave = function() {
+                        this.style.color = "white"
+                    }
+                }
+            });
+        });
+    </script>
+</div>
+{% endblock %}

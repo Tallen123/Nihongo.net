@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en" id="html">
+
+<head>
+    <script>
+        //Amazing website's
+        //format PDF to JSON website https://txtformat.com/
+        //Credit this site http://www.tanos.co.uk/
+        //Amazing website for japanese stuff http://www.tanos.co.uk/jlpt/jlpt4/
+        //Url for Kanji to Hiragana site https://j-talk.com/convert
+    </script>
+    <meta charset="utf-8">
+    <meta name="description" content="Nihongo.net">
+    <meta name="author" content="Nihongo.net">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <title>Nihongo.net</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body id="body">
+    <style id="style">
+
+    </style>
+    <script>
+        var body = document.getElementById("body");
+        var style = document.getElementById("style")
+        var Color = "{{Color}}"
+        if (Color != 'purple') {
+            body.style.backgroundColor = Color;
+            style.innerHTML = "button:hover{background:" + Color + "}" + "\n" + ".Active{background:" + Color + "}" + "\n" + ".input:focus+.slider{box-shadow:" + Color + "}" +
+                "\n" + "input:checked+.slider{background-color:" + Color + "}"
+        }
+    </script>
+    <header>
+        <div>
+        </div>
+        <h1 style="font-weight: bolder;" class="Name" id="Name">Nihongo.net</h1>
+        <div class="Menu">
+            <ul class="List" id="List" style=" position:fixed;top:10%;left: 1%;border-radius: 20px;">
+                <li><button id="Home" class="Active">Home</button></li>
+                <li><button id="Settings">Settings</button></li>
+                <li><button id="Hiragana">Hiragana</button></li>
+                <li><button id="Katakana">Katakana</button></li>
+                <li><button id="Kanji">Kanji</button></li>
+                <li><button id="Numbers">Numbers</button></li>
+                <li><button id="Vocabulary">Vocabulary</button></li>
+                <li><button id="Grammer">Grammer</button></li>
+                <li><button id="Community">Community</button></li>
+            </ul>
+            <div class="Vocabulary_Menu">
+                <ul class="Vocabulary_List" id="Vocabulary_List" style=" position:fixed;top:10%;left:1%;border-radius: 20px; pointer-events: none;">
+                    <li><button id="Vocab_Back">Back</button></li>
+                    <li><button id="N5" onclick="document.location='/Vocabulary/N5'">N5 (Easy)</button></li>
+                    <li><button id="N4" onclick="document.location='/Vocabulary/N4'">N4</button></li>
+                    <li><button id="N3" onclick="document.location='/Vocabulary/N3'">N3</button></li>
+                    <li><button id="N2" onclick="document.location='/Vocabulary/N2'">N2</button></li>
+                    <li><button id="N1" onclick="document.location='/Vocabulary/N1'">N1 (Hard)</button></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            var Home = document.getElementById("Home");
+            var Hiragana = document.getElementById("Hiragana");
+            var Katakana = document.getElementById("Katakana");
+            var Kanji = document.getElementById("Kanji");
+            var Grammer = document.getElementById("Grammer");
+            var Vocabulary = document.getElementById("Vocabulary");
+            var Name = document.getElementById("Name");
+            var Kanji_List = document.getElementById("Kanji_List");
+            var List = document.getElementById("List");
+            var Numbers = document.getElementById("Numbers");
+            var back = document.getElementById("Back");
+            var Settings = document.getElementById("Settings");
+            var Vocabulary_List = document.getElementById("Vocabulary_List");
+            var Vocab_Back = document.getElementById("Vocab_Back")
+            var Community = document.getElementById("Community")
+
+
+            var loc = document.location.toString();
+            if (loc.includes("Vocabulary")) {
+                Name.innerHTML = "Vocabulary";
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = "Active";
+                Settings.className = null;
+                Numbers.className = null;
+                Community.className = null
+            }
+            if (loc.includes("SearchPage")) {
+                Name.innerHTML = "Search Page";
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = 'Active';
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Settings.className = null;
+                Numbers.className = null;
+                Community.className = null
+            }
+            if (loc.includes("Hiragana")) {
+                Name.innerHTML = "Hiragana";
+                Home.className = null;
+                Hiragana.className = "Active";
+                Katakana.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Settings.className = null;
+                Numbers.className = null;
+                Community.className = null
+            }
+            if (loc.includes("Katakana")) {
+                Name.innerHTML = "Katakana";
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = "Active";
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Settings.className = null;
+                Community.className = null
+                Numbers.className = null;
+            }
+            if (loc.includes("Kanji")) {
+                Name.innerHTML = "Kanji";
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = "Active";
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Settings.className = null;
+                Numbers.className = null;
+                Community.className = null
+            }
+            if (loc.includes("Settings")) {
+                Settings.className = "Active";
+                Name.innerHTML = "Settings";
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Numbers.className = null;
+                Community.className = null
+            }
+            if (loc.includes("Numbers")) {
+                Settings.className = null;
+                Name.innerHTML = "Numbers";
+                Settings.className = null;
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Numbers.className = "Active";
+                Community.className = null
+            }
+            if (loc.includes("Grammar")) {
+                Settings.className = null;
+                Name.innerHTML = "Grammar";
+                Settings.className = null;
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                Grammer.className = "Active";
+                Vocabulary.className = null;
+                Numbers.className = null;
+                Community.className = null
+            }
+            if (loc.includes("Community")) {
+                Settings.className = null;
+                Name.innerHTML = "Community";
+                Settings.className = null;
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                Numbers.className = null;
+                Community.className = "Active"
+            }
+            //Settings code
+            Settings.onclick = function() {
+                    Settings.className = "Active";
+                    Home.className = null;
+                    Hiragana.className = null;
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    document.location = "/Settings";
+                    Numbers.className = null;
+                    Community.className = null
+                }
+                //Home Code
+            Home.onclick = function() {
+                    Home.className = "Active"
+                    Settings.className = null;
+                    Hiragana.className = null;
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    document.location = "/"
+                    Numbers.className = null;
+                    Community.className = null
+                }
+                //Hiragana code
+            Hiragana.onclick = function() {
+                    Home.className = null;
+                    Settings.className = null;
+                    Hiragana.className = "Active";
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    document.location = "/Hiragana"
+                    Numbers.className = null;
+                    Community.className = null
+                }
+                //Katakana code
+            Katakana.onclick = function() {
+                Home.className = null;
+                Settings.className = null;
+                Hiragana.className = null;
+                Katakana.className = "Active";
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                document.location = "/Katakana"
+                Numbers.className = null;
+                Community.className = null
+            }
+            Kanji.onclick = function() {
+                    Home.className = null;
+                    Settings.className = null;
+                    Hiragana.className = null;
+                    Katakana.className = null;
+                    Kanji.className = "Active"
+                    Grammer.className = null;
+                    Vocabulary.className = null;
+                    Numbers.className = null;
+                    Community.className = null
+                    document.location = "/Kanji"
+                }
+                //Grammar code
+            Grammer.onclick = function() {
+                    Home.className = null;
+                    Hiragana.className = null;
+                    Settings.className = null;
+                    Katakana.className = null;
+                    Kanji.className = null;
+                    Grammer.className = "Active";
+                    Vocabulary.className = null;
+                    document.location = "/Grammar"
+                    Community.className = null
+                }
+                //Vocabulary Code
+            Vocabulary.onclick = function() {
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Settings.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = "Active";
+                Numbers.className = null;
+                Community.className = null
+
+                Vocabulary_List.style.animationName = "Klist"
+                List.style.animationName = null
+                Vocabulary_List.style.animationDuration = "1s"
+                Vocabulary_List.style.opacity = "100%"
+                Vocabulary_List.style.pointerEvents = "auto"
+                List.hidden = true
+            }
+            Vocab_Back.onclick = function() {
+                    Vocabulary_List.style.opacity = "0%"
+                    List.style.animationName = "Klist"
+                    Vocabulary_List.style.animationName = null
+                    List.style.animationDuration = "1s"
+                    List.hidden = false
+                    Vocabulary_List.style.pointerEvents = "none"
+                    List.style.pointerEvents = "auto"
+                }
+                //Numbers code
+            Numbers.onclick = function() {
+                Numbers.className = "Active";
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Settings.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                document.location = "/Numbers"
+                Community.className = null
+            }
+            Community.onclick = function() {
+                Numbers.className = null;
+                Home.className = null;
+                Hiragana.className = null;
+                Katakana.className = null;
+                Settings.className = null;
+                Kanji.className = null;
+                Grammer.className = null;
+                Vocabulary.className = null;
+                document.location = "/Community"
+                Community.className = "Active"
+            }
+        </script>
+    </header>
+    <div class="body-container" style="width: 100%; padding: 0%;margin-left: 0%; margin-right: 0%;" id="body-container">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+
+</html>

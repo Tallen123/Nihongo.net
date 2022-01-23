@@ -1,0 +1,65 @@
+{% extends "layout.html" %} {% block content %}
+<div style="user-select: none;">
+    <div class="Pannel">
+        <h2 id="name">{{Page_Name}}</h2>
+    </div>
+    <div class="Pannel" id="Pannel">
+        <form autocomplete="off" method="POST">
+            <h3>{{Err}}</h3>
+            <br>
+            <label style="font-size: 1.5rem;" for="Username" style="color: white;">Username</label>
+            <br>
+            <input style="font-size: large;" type="text" class="AccountText" name="Username" id="Username">
+            <br>
+            <br>
+            <label style="font-size: 1.5rem;" for="Password" style="color: white;">Password</label>
+            <br>
+            <input style="font-size: large;" class="AccountText" type="password" name="Password" id="Password">
+            <br>
+            <input type="checkbox" name="ShowPSW" id="ShowPSW">
+            <label for="ShowPSW">Show Password</label>
+            <br><br>
+            <button id="LoginSignupButton" type="button" class="AccountButtons"><b>{{Page_oposite}}</b></button>
+            <br><br>
+            <button class="AccountButtons" id="Submit" type="submit" onclick="return empty()"><b>{{Page_Name}}</b></button>
+            <br><br>
+
+            <script>
+                // Show Password script
+                var ShowPSW = document.getElementById("ShowPSW");
+                var Password = document.getElementById("Password");
+                ShowPSW.onchange = function() {
+                    if (ShowPSW.checked) {
+                        Password.type = "text"
+                    } else {
+                        Password.type = "password"
+                    };
+                }
+            </script>
+            <script>
+                var LoginSignupButton = document.getElementById("LoginSignupButton");
+                var loc = document.location.toString();
+                LoginSignupButton.onclick = function() {
+                    if (loc.includes("/Account/SignUp")) {
+                        document.location = "/Account/Login"
+
+                    } else if (loc.includes("/Account/Login")) {
+                        document.location = "/Account/SignUp"
+                    }
+                }
+            </script>
+            <script>
+                function empty() {
+                    var Username = document.getElementById("Username");
+                    var Password = document.getElementById("Password")
+                    if (Username.value.length > 2 && Password.value.length > 2) {
+                        return true
+                    } else {
+                        return false
+                    }
+                }
+            </script>
+        </form>
+    </div>
+</div>
+{% endblock %}

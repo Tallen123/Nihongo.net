@@ -1,0 +1,415 @@
+:root {
+    /*==================margins Botom=========================*/
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-0-1: 1rem;
+    --mb-0-1-5: 1.5rem;
+    --mb-0-2: 2rem;
+    --mb-0-2-5: 2.5rem;
+}
+
+body {
+    background: rebeccapurple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.Name {
+    margin: 2%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    user-select: none;
+    animation-name: nameanim;
+    animation-duration: 1s;
+}
+
+@keyframes nameanim {
+    0% {
+        margin-left: -50%;
+        color: black;
+    }
+    100% {}
+}
+
+html {
+    user-select: none;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body,
+button {
+    color: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.Pannel {
+    border-radius: 20px;
+    margin-left: 190px;
+    margin-right: 190px;
+    text-align: center;
+    background: black;
+    margin-top: 1%;
+    padding: 0.2%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .1s;
+    transition: .1s;
+    border-radius: 20px;
+}
+
+#Grade1K,
+#Grade2K,
+#Grade3K,
+#Grade4K,
+#Grade5K,
+#Grade6K {
+    cursor: pointer;
+}
+
+#Grade1K:hover,
+#Grade2K:hover,
+#Grade3K:hover,
+#Grade4K:hover,
+#Grade5K:hover,
+#Grade6K:hover {
+    color: red;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: black;
+    -webkit-transition: .1s;
+    transition: .1s;
+    border-radius: 20px;
+}
+
+input:checked+.slider {
+    background-color: rebeccapurple;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px rebeccapurple;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.Active {
+    background: rebeccapurple;
+}
+
+.List {
+    background: black;
+    margin-top: 2.3%;
+    outline: none;
+    text-decoration: none;
+    padding: 6px;
+    list-style: none;
+}
+
+.List li {
+    padding: 6px;
+}
+
+button:hover {
+    background: rebeccapurple;
+}
+
+button {
+    outline: none;
+    background: none;
+    border-radius: 10px;
+    border: 0;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    background: #000;
+    z-index: 2;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    margin: 1%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: .2%;
+    padding-bottom: .2%;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.grid-container {
+    display: inline-grid;
+}
+
+.Vocabulary_List {
+    background: black;
+    margin-top: 1.9%;
+    outline: none;
+    text-decoration: none;
+    padding: 6px;
+    list-style: none;
+    opacity: 0%;
+}
+
+.Vocabulary_List li {
+    padding: 6px;
+}
+
+.Kanji_List {
+    background: black;
+    margin-top: 1.9%;
+    outline: none;
+    text-decoration: none;
+    padding: 6px;
+    list-style: none;
+    opacity: 0%;
+}
+
+.Kanji_List li {
+    padding: 6px;
+}
+
+@keyframes Klist {
+    0% {
+        pointer-events: none;
+        opacity: 0%;
+        left: -10%;
+        color: black;
+    }
+    100% {}
+}
+
+@keyframes KlistC {
+    0% {}
+    100% {
+        pointer-events: none;
+        opacity: 0%;
+        margin-left: -5%;
+        color: black;
+    }
+}
+
+.SearchSubmit {
+    width: 10%;
+    margin-bottom: 2px;
+}
+
+.AccountButtons {
+    width: 20%;
+    margin-bottom: 2px;
+    font-size: larger;
+}
+
+
+/*==================small screens=========================*/
+
+@media screen and (min-width:0px) {
+    .DiscordWidget {
+        width: 100%;
+    }
+    .Pannel {
+        margin-left: 120px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+    h3 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 2%;
+    }
+    .Name {
+        font-size: 1.5rem;
+    }
+    .SearchSubmit {
+        width: 40%;
+    }
+    .AccountText {
+        width: 85%;
+    }
+    .AccountButtons {
+        width: 90%;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .Pannel {
+        margin-left: 120px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+    h3 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 2%;
+    }
+    .Name {
+        font-size: 1.5rem;
+    }
+    .SearchSubmit {
+        width: 40%;
+    }
+    .AccountText {
+        width: 85%;
+    }
+    .AccountButtons {
+        width: 90%;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:320px) {
+    .Pannel {
+        margin-left: 120px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+    h3 {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom: 2%;
+    }
+    .Name {
+        font-size: 1.5rem;
+    }
+    .SearchSubmit {
+        width: 40%;
+    }
+    .AccountText {
+        width: 85%;
+    }
+    .AccountButtons {
+        width: 90%;
+        font-size: medium;
+    }
+}
+
+
+/*==================medium screens=========================*/
+
+@media screen and (max-width:576px) {
+    .Pannel {
+        margin-left: 120px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+    .SearchSubmit {
+        width: 40%;
+    }
+    .AccountText {
+        width: 85%;
+    }
+    .AccountButtons {
+        width: 90%;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .Pannel {
+        margin-left: 120px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+    .SearchSubmit {
+        width: 40%;
+    }
+    .AccountText {
+        width: 85%;
+    }
+    .AccountButtons {
+        width: 90%;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .Pannel {
+        margin-left: 125px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .Pannel {
+        margin-left: 125px;
+        margin-right: 0px;
+        font-size: smaller;
+    }
+}
+
+
+/*==================big screens=========================*/
+
+@media screen and (min-width:992px) {
+    .DiscordWidget {
+        width: 50%;
+    }
+    .Pannel {
+        margin-left: 190px;
+        margin-right: 190px;
+        font-size: 1.2rem;
+    }
+    h2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .Name {
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+    .SearchSubmit {
+        width: 10%;
+    }
+    .AccountText {
+        width: 20%;
+    }
+    .AccountButtons {
+        width: 20%;
+        font-size: larger;
+    }
+}
