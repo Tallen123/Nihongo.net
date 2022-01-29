@@ -32,7 +32,7 @@ function Settings() {
         <br /><br />
 
         <input type="color" name="" onChange={ChangeBackGround} id="Color" />
-        <h1>BackGround & button Color</h1>
+        <h1>BackGround & buttonColor</h1>
         <p>Refresh page to see full results</p>
 
         <br />
