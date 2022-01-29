@@ -7,6 +7,8 @@ function Katakana() {
 
     <div className='Pannel'>
         <h1>Katakana / カタカナ</h1>
+        <h3>Click on a card to hear the character.</h3>
+        <h3>some characters may be quiter than others due to the speech Synthesis we are using.</h3>
     </div>
     <div className="Pannel">{/*Basic Katakana*/}
         <h1>Basic Katakana</h1>

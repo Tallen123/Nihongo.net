@@ -12,7 +12,6 @@ function Settings() {
     Style.innerHTML =  + btn + active
   }
 
-
   function ChangeBackGround()
   {
     var col = document.getElementById("Color")
