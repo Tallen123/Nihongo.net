@@ -14,7 +14,21 @@
     padding: 6px;
     position: fixed;
     top: 15%;
-    left: 1%;
+    left: .4%;
+}
+
+.KanjiNavBar {
+    margin: 0%;
+    color: white;
+    padding: 0%;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: black;
+    padding: 6px;
+    position: fixed;
+    top: 15%;
+    left: 8.5em;
+    text-align: center;
 }
 
 .NavBar li {
@@ -43,7 +57,7 @@ button:hover {
 }
 
 .Pannel {
-    width: 80%;
+    width: 70%;
     margin: 0% auto;
     background-color: black;
     border-radius: 10px;

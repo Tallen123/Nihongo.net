@@ -14,7 +14,7 @@ function App() {
         ReactDOM.render(
             <div>
                 <React.StrictMode>
-                <Header Name={"Nihongo.net"} HomeClass={"Active"} SettingsClick={SettingsPage}  HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
+                <Header Name={"Nihongo.net"} Hidden={true} HomeClass={"Active"} SettingsClick={SettingsPage}  HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
                 <Home/>
                 </React.StrictMode>
             </div>,
@@ -28,7 +28,7 @@ function App() {
         ReactDOM.render(
             <div>
                 <React.StrictMode>
-                <Header Name={"Hiragana"} HiraganaClass={"Active"}  SettingsClick={SettingsPage} HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
+                <Header Name={"Hiragana"} Hidden={true} HiraganaClass={"Active"}  SettingsClick={SettingsPage} HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
                 <Hiragana/>
                 </React.StrictMode>
             </div>,
@@ -40,7 +40,7 @@ function App() {
         ReactDOM.render(
             <div>
                 <React.StrictMode>
-                <Header Name={"Katakana"} KatakanaClass={"Active"} SettingsClick={SettingsPage}  HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
+                <Header Name={"Katakana"} Hidden={true} KatakanaClass={"Active"} SettingsClick={SettingsPage}  HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
                 <Katakana/>
                 </React.StrictMode>
             </div>,
@@ -52,7 +52,7 @@ function App() {
         ReactDOM.render(
             <div>
                 <React.StrictMode>
-                <Header Name={"Kanji"} KanjiClass={"Active"} SettingsClick={SettingsPage}  HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
+                <Header Name={"Kanji"} KanjiClass={"Active"} Hidden={false} SettingsClick={SettingsPage}  HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
                 <Kanji/>
                 </React.StrictMode>
             </div>,
@@ -64,7 +64,7 @@ function App() {
         ReactDOM.render(
             <div>
                 <React.StrictMode>
-                <Header Name={"Settings"} SettingsClass={"Active"} SettingsClick={SettingsPage} HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
+                <Header Name={"Settings"} Hidden={true} SettingsClass={"Active"} SettingsClick={SettingsPage} HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
                 <Settings/>
                 </React.StrictMode>
             </div>,
@@ -85,7 +85,7 @@ function App() {
     return ( 
         <div className = "App">
             <React.StrictMode>
-            <Header Name={"Nihongo.net"} HomeClass={"Active"} SettingsClick={SettingsPage}  HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
+            <Header Name={"Nihongo.net"} Hidden={true} HomeClass={"Active"} SettingsClick={SettingsPage}  HomeClick={HomePage} HiraganaClick={HiraganaPage} KatakanaClick={KatakanaPage} KanjiClick={KanjiPage}/>
             <Home/>
             </React.StrictMode>
         </div>
